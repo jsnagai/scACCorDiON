@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "accordion"
-version = "0.1.0"
+version = "0.1.3"
 description = ""
 authors = ["James Nagai <james.nagai@gmail.com>"]
 readme = "README.md"
+include = [
+    { path = "data/"},
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"

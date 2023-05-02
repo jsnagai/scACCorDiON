@@ -10,7 +10,6 @@ from scipy import stats
 from scipy import interpolate
 from scipy.spatial.distance import pdist,squareform
 import scipy.linalg as slg
-import umap
 import sklearn.metrics as measu
 from sklearn import covariance
 from sklearn.preprocessing import MinMaxScaler

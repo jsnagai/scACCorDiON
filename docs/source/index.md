@@ -13,8 +13,8 @@ Global_Local_Comparison
 
 ```{toctree}
 ---
-maxdepth: 2
 caption: Single Cell RNAseq Derived  Cell Cell Communication Networks
+maxdepth: 2
 ---
 Run_scACCorDiON
 ```

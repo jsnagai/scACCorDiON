@@ -38,9 +38,9 @@ nx.draw(g1,
 ```
 
 
-    
-![png](output_2_0.png)
-    
+​    
+![png](./Global_Local_Comparison/output_2_0.png)
+​    
 
 
 ### Adding the Local and Global perturbations
@@ -82,8 +82,7 @@ plt.savefig("ICASSP_example_fig1.pdf")
 ```
 
 
-    
-![png](output_6_0.png)
+![png](./Global_Local_Comparison/output_6_0.png)
     
 
 
@@ -142,8 +141,7 @@ for i in range(Syn.Cs['PCA'].shape[0]):
 ```
 
 
-    
-![png](output_12_0.png)
+![png](./Global_Local_Comparison/output_12_0.png)
     
 
 
@@ -328,7 +326,6 @@ sns.clustermap(distfrG,
 
 
 
-    
-![png](output_24_1.png)
+![png](./Global_Local_Comparison/output_24_1.png)
     
 

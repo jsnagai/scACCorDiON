@@ -12,7 +12,7 @@ author = 'James S. Nagai'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-# -- General configuration
+version = '0.1.8.8'
 
 extensions = [
     'sphinx.ext.duration',

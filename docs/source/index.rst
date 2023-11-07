@@ -10,11 +10,14 @@ Welcome to AccORdiON's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+---
+maxdepth: 2
+caption: Synthetic Data
+---
+Global_Local_Comparison
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+---
+maxdepth: 2
+caption: Single Cell Derived Cell-Cell Communication Networks
+---
+Run_scACCorDiON

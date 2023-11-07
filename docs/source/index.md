@@ -16,5 +16,5 @@ Global_Local_Comparison
 caption: Single Cell RNAseq Derived  Cell Cell Communication Networks
 maxdepth: 2
 ---
-Run_scACCorDiON
+SingleCellDemo
 ```

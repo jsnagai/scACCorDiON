@@ -13,8 +13,9 @@ Global_Local_Comparison
 
 ```{toctree}
 ---
-caption: Single Cell RNAseq Derived  Cell Cell Communication Networks
+caption: Synthetic Data
 maxdepth: 2
 ---
 SingleCellDemo
 ```
+

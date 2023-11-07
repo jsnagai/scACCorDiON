@@ -201,7 +201,7 @@ plt.show()
 
 
 
-![png](./Run_scACCorDiON/output_3_1.png)
+![png](./SingleCellDemo/output_3_1.png)
     
 
 

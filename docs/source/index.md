@@ -13,7 +13,7 @@ Global_Local_Comparison
 
 ```{toctree}
 ---
-caption: Synthetic Data
+caption: Real World Data Benchmark
 maxdepth: 2
 ---
 SingleCellDemo

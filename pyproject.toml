@@ -20,6 +20,9 @@ pydiffmap = "0.2.0.1"
 networkx = "2.8.8"
 tqdm = "4.64.1"
 tables = "^3.9.1"
+skimpy = "^0.0.14"
+phate = "^1.0.11"
+conorm = "^1.2.0"
 
 
 [build-system]

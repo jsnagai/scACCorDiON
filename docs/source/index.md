@@ -1,5 +1,5 @@
 
-Welcome to AccORdiON's documentation!
+Welcome to scACCorDiON's documentation!
 =====================================
 
 
@@ -19,3 +19,10 @@ maxdepth: 2
 SingleCellDemo
 ```
 
+```{toctree}
+---
+caption: Full Tutorial of PDAC data
+maxdepth: 3
+---
+PDAC_FullTutorial
+```

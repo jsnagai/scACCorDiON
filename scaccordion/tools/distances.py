@@ -12,15 +12,18 @@ from scipy.linalg import  norm
 from sklearn import manifold
 
 
-def directed_res(G,weight='weight'):
+def directed_res(G,weight='weight',normalize=False, axis=1):
     I=np.matrix(np.eye(len(G.nodes())))
-    A = nx.adjacency_matrix(G,weight=weight).todense()
+    if normalize:
+        A = nx.to_pandas_adjacency(G).apply(lambda x:x/(sum(x)+1e-5),axis=axis).to_numpy()
+    else:
+        A = nx.to_numpy_array(G,weight=weight)
     n = A.shape[0]
-    D = list(dict(G.out_degree()).values())*np.eye(n)
+    D = A.sum(axis=axis).tolist()*np.eye(n)
     L = D-A
     Pi =  np.eye(n) - (1/n)*np.ones([n,n])
     # Here we can use hermitian, once Pi will be hermitian A = A^{T}
-    eigPi = np.linalg.eigh(Pi) 
+    eigPi = slg.eigh(Pi) 
     eigRes=eigPi[1][:,np.argsort(eigPi[0])]
     Qi = eigRes[:,1:Pi.shape[1]].T
     rL = Qi @ L @ Qi.T
@@ -30,11 +33,9 @@ def directed_res(G,weight='weight'):
 
 
 
-def ctd_dist(G,weight='weight'):
+def ctd_dist(G,weight='weight',normalize=False, axis=1):
     """
         Compute the Commute Time Distance   
-    
-
     Parameters
     ----------
     G : NetworkX DiGraph
@@ -54,6 +55,10 @@ def ctd_dist(G,weight='weight'):
         Weights stored as floating point values can lead to small round-off
         errors in distances. Use integer weights to avoid this.
         Weights should be positive, since they are distances.
+    normalize: bool
+        Edge weight normalization
+    axis: int
+        Row or column normalization 
     Returns
     -------
     matrix : node to node distance matrix
@@ -75,7 +80,7 @@ def ctd_dist(G,weight='weight'):
        IEEE Transactions on Automatic Control, 2016
        https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7276998
     """
-    X = directed_res(G,weight)[0]
+    X = directed_res(G,weight,normalize,axis)[0]
     d = np.zeros(X.shape)
     for i in range(d.shape[0]):
         for j in range(i,d.shape[0]):
@@ -101,7 +106,7 @@ def get_Q_matrix(M):
     detCj = ((1 + np.diagonal(M)) * (1 - M[0, 0])) + np.multiply(M[:, 0],M[0, :].transpose()).reshape(N,)
     CjInv = np.zeros((2, 2, N))
     CjInv[0, 0, :] = (1 - M[0, 0]) / detCj
-    CjInv[0, 1, :] = M[:, 0].reshape(N,) / detCj # WAS WRONG INDEX HERE
+    CjInv[0, 1, :] = M[:, 0].reshape(N,) / detCj 
     CjInv[1, 0, :] = -M[0, :].transpose().reshape(N,) / detCj
     CjInv[1, 1, :] = (1 + np.diagonal(M)) / detCj
     M1 = np.zeros((N, 2, N),dtype='double')
@@ -144,4 +149,4 @@ def get_dhp(P, beta=0.5):
     # Compute the hitting probability distance
     dhp = -np.log10(Aht,where=Aht != 0)
     np.fill_diagonal(dhp,0)
-    return(np.round(dhp,5)) 
+    return(dhp) 

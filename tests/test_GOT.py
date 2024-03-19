@@ -1,4 +1,4 @@
-import scaccordion.tl as actl
+import scaccordion as actl
 import pytest
 import pandas as pd
 import networkx as nx
@@ -19,5 +19,5 @@ def test_got():
 	g3.remove_edge(8,9)
 	l3 = nx.laplacian_matrix(g3,range(n))
 	l3 = l3.todense()
-	res = [actl.GOT.wass_dist_(l1,l2),actl.GOT.wass_dist_(l1,l3)]
+	res = [actl.tl.GOT.wass_dist_(l1,l2),actl.tl.GOT.wass_dist_(l1,l3)]
 	assert pytest.approx(res,0.005) == [0.9123,0.0134]

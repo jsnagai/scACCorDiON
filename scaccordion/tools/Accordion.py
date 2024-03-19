@@ -23,7 +23,7 @@ from .distances import *
 
 
 class Accordion():
-	def __init__(self,tbls,weight='lr_means',filter=0.2,filter_mode='edge'):
+	def __init__(self,tbls,weight='lr_means',filter=0.2,filter_mode='edge', normf=None, pseudo=1e-5,cost_new=False):
 		"""
 		Build tCrossTalkeR Object
 
@@ -54,6 +54,9 @@ class Accordion():
 		               							create_using=nx.DiGraph)
 			self.nodes.update(list(self.graphs[k].nodes()))
 		self.p = graphs_to_pmat(self.nodes,self.graphs,weight)
+		self.p.sort_index(inplace=True)
+		if normf != None:
+			self.p = normf(self.p)
 		# Filtering steps if needed
 		if filter and filter_mode=='edge':
 			self.p=self.p.loc[self.p.T.var() > np.quantile(self.p.T.var(),q=filter),:]
@@ -63,23 +66,45 @@ class Accordion():
 			self.p=self.p.loc[self.p.T.var() > np.quantile(self.p.T.var(),q=filter),:]
 			self.p=self.p.loc[:,self.p.var() > np.quantile(self.p.var(),q=filter)]
 		# Creating common grounded graph
-		self.expgraph = nx.DiGraph()
-		self.p = self.p.loc[self.p.sum(axis=1)!=0,:]
-		for i in self.p.index:
-			tmpi = i.split("$")
-			for j in  self.p.index:
-				tmpj = j.split("$")
-				if tmpi[1] == tmpj[0]:
-					score = sum(( self.p.loc[i,] != 0) & ( self.p.loc[j,] != 0))
-					score=((len(( self.p.loc[i,]))+1) - score)
-					self.expgraph.add_edge(i,j,weight=score/len(self.p.columns))
-				elif tmpi[0] == tmpi[1]:
-					score = sum(( self.p.loc[i,] != 0) & ( self.p.loc[j,] != 0))
-					score=((len(( self.p.loc[i,]))+1) - score)
-					self.expgraph.add_edge(j,i,weight=score/len(self.p.columns))
-		tmpdf=nx.to_pandas_adjacency(self.expgraph).apply(lambda x: x/(sum(x)+1e-10),axis=1) 
-		self.expgraph = nx.from_pandas_adjacency(tmpdf,create_using=nx.DiGraph)
-		self.history['Step1:']='Networkx build with success'
+		if cost_new:
+			self.p[self.p<pseudo]=0
+			self.p = self.p.loc[self.p.sum(axis=1)!=0,:]
+			esize = len(self.p.index)
+			tmpmat = (esize+1)*np.ones((esize,esize))
+			lmax = 0
+			for i in enumerate(self.p.index):
+				tmpi = i[1].split("$")
+				for j in  enumerate(self.p.index):
+					tmpj = j[1].split("$")
+					if i!=j:
+						if tmpi[1] == tmpj[0] or tmpi[0] == tmpj[1]:  #give u,v edges check tail u is head v
+							score = sum(( self.p.iloc[i[0],:] != 0) & ( self.p.iloc[j[0],:] != 0))
+							score=((len(( self.p.iloc[i[0],:]))+1) - score)
+							tmpmat[i[0]][j[0]]=score
+							if score != esize+1 and score>lmax:
+								lmax=score
+			self.expgraph = pd.DataFrame(tmpmat,index=self.p.index,columns=self.p.index)
+			#self.expgraph.replace(to_replace=esize+1,value=0,inplace=True)
+			self.e = self.expgraph 
+			self.expgraph = nx.from_pandas_adjacency(1-self.expgraph.apply(lambda x:x/(sum(x)+1e-6),axis=1) ,create_using=nx.DiGraph)
+			self.history['Step1:']='Networkx build with success'
+		else:
+			# Creating common grounded graph
+			self.expgraph = nx.DiGraph()
+			self.p = self.p.loc[self.p.sum(axis=1)!=0,:]
+			for i in self.p.index:
+				tmpi = i.split("$")
+				for j in  self.p.index:
+					tmpj = j.split("$")
+					if i!=j:
+						if tmpi[1] == tmpj[0] or tmpi[0] == tmpj[1]:  #give u,v edges check tail u is head v
+							score = sum(( self.p.loc[i,] != 0) & ( self.p.loc[j,] != 0))
+							score=((len(( self.p.loc[i,]))+1) - score)
+							self.expgraph.add_edge(i,j,weight=score/len(self.p.columns))
+			self.e = nx.to_pandas_adjacency(self.expgraph) 
+			tmpdf=nx.to_pandas_adjacency(self.expgraph).apply(lambda x:x/(sum(x)+pseudo),axis=1) 
+			self.expgraph = nx.from_pandas_adjacency(tmpdf,create_using=nx.DiGraph)
+			self.history['Step1:']='Networkx build with success'
 
 
 	def make_pca(self):
@@ -111,7 +136,7 @@ class Accordion():
 				self.compute_cost(mode=i)
 		self.history['Step3:']='Cost Computed'
 
-	def compute_cost(self,mode='GRD',metric=None,beta=0.5):
+	def compute_cost(self,mode='GRD',metric=None,beta=0.5,d=1e-10):
 		"""
 		Compute costs for the optimal transport
 
@@ -143,6 +168,7 @@ class Accordion():
 			self.Cs['glasso'] = non_zero
 		elif mode == 'HTD':
 			tmp = nx.to_numpy_array(self.expgraph)
+			tmp += d*np.ones(tmp.shape)
 			self.Cs[f'HTD_{beta}'] = get_dhp(tmp,beta=beta)
 		else: 
 			print('option not found')
@@ -165,9 +191,9 @@ class Accordion():
 			for i in tqdm(self.p.columns):
 				self.wdist[lab][i]={}
 				for j in self.p.columns:
-					self.wdist[lab][i][j] = ot.emd2(self.p[i].to_numpy()/self.p[i].sum(), 
-													self.p[j].to_numpy()/self.p[j].sum(), 
-													self.Cs[cost])
+					self.wdist[lab][i][j] = ot.emd2(a=self.p[i].to_numpy()/self.p[i].sum(), 
+													b=self.p[j].to_numpy()/self.p[j].sum(), 
+													M=self.Cs[cost])
 			self.wdist[lab] = pd.DataFrame.from_dict(self.wdist[lab])
 		elif algorithm=='sinkhorn':
 			for i in tqdm(self.p.columns):
@@ -183,6 +209,3 @@ class Accordion():
 		for lab in self.wdist.keys():
 			tmpeval[lab]=performance_eval(self.wdist[lab],y)
 		return tmpeval
-
-
-

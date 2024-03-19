@@ -4,4 +4,4 @@ from .datasets import *
 from .utils import *
 from .GWOT import *
 from .GOT import *
-
+from .KBarycenters import *

@@ -2,4 +2,7 @@
 poetry.lock
 tox.ini
  .python-version
+tutorial/.ipynb_checkpoints
+tutorial/__pycache__
+tests/__pycache___
 

@@ -12,7 +12,7 @@ from scipy.linalg import  norm
 from sklearn import manifold
 
 
-def directed_res(G,weight='weight',normalize=False, axis=1):
+def directed_res(G,weight='weight',normalize=False, axis=1,degnorm=False):
     I=np.matrix(np.eye(len(G.nodes())))
     if normalize:
         A = nx.to_pandas_adjacency(G).apply(lambda x:x/(sum(x)+1e-5),axis=axis).to_numpy()
@@ -21,6 +21,9 @@ def directed_res(G,weight='weight',normalize=False, axis=1):
     n = A.shape[0]
     D = A.sum(axis=axis).tolist()*np.eye(n)
     L = D-A
+    if degnorm:
+        Dinv = np.diag(1.0 / np.sqrt(np.array(A.sum(axis=1)).flatten()))
+        L = np.eye(n) - Dinv @ A @Dinv 
     Pi =  np.eye(n) - (1/n)*np.ones([n,n])
     # Here we can use hermitian, once Pi will be hermitian A = A^{T}
     eigPi = slg.eigh(Pi) 
@@ -33,7 +36,7 @@ def directed_res(G,weight='weight',normalize=False, axis=1):
 
 
 
-def ctd_dist(G,weight='weight',normalize=False, axis=1):
+def ctd_dist(G,weight='weight',normalize=False, degnorm=False, axis=1):
     """
         Compute the Commute Time Distance   
     Parameters

@@ -49,12 +49,18 @@ class Accordion():
 		# Convert graphs to vectors
 		for k,v in self.tbls.items():
 			tmpvar = v.loc[:,tmpcols].groupby(['source','target']).sum().reset_index()
+			prop = v.loc[:,tmpcols].groupby(['source','target']).size().reset_index()
+			prop[0]=prop[0]/prop[0].sum()
+			tmpvar['prop'] =  prop[0]
 			self.graphs[k]=nx.from_pandas_edgelist(tmpvar,
-		               							edge_attr=weight,
+		               							edge_attr=[weight,'prop'],
 		               							create_using=nx.DiGraph)
 			self.nodes.update(list(self.graphs[k].nodes()))
 		self.p = graphs_to_pmat(self.nodes,self.graphs,weight)
 		self.p.sort_index(inplace=True)
+		
+		self.c = graphs_to_pmat(self.nodes,self.graphs,'prop')
+		
 		if normf != None:
 			self.p = normf(self.p)
 		# Filtering steps if needed
@@ -78,7 +84,7 @@ class Accordion():
 					tmpj = j[1].split("$")
 					if i!=j:
 						if tmpi[1] == tmpj[0] or tmpi[0] == tmpj[1]:  #give u,v edges check tail u is head v
-							score = sum(( self.p.iloc[i[0],:] != 0) & ( self.p.iloc[j[0],:] != 0))
+							score = sum(( self.p.iloc[i[0],:] <=pseudo) & ( self.p.iloc[j[0],:] != pseudo))
 							score=((len(( self.p.iloc[i[0],:]))+1) - score)
 							tmpmat[i[0]][j[0]]=score
 							if score != esize+1 and score>lmax:
@@ -98,7 +104,7 @@ class Accordion():
 					tmpj = j.split("$")
 					if i!=j:
 						if tmpi[1] == tmpj[0] or tmpi[0] == tmpj[1]:  #give u,v edges check tail u is head v
-							score = sum(( self.p.loc[i,] != 0) & ( self.p.loc[j,] != 0))
+							score = sum(( self.p.loc[i,] > pseudo) & ( self.p.loc[j,] > pseudo))
 							score=((len(( self.p.loc[i,]))+1) - score)
 							self.expgraph.add_edge(i,j,weight=score/len(self.p.columns))
 			self.e = nx.to_pandas_adjacency(self.expgraph) 
@@ -114,7 +120,7 @@ class Accordion():
         Parameters
         ----------
         """
-		pca = PCA()
+		pca = PCA(svd_solver='full')
 		pca = pca.fit(self.p)
 		pcawdist= pd.DataFrame.from_records(pca.components_).T
 		pcawdist.index = self.p.T.index
@@ -136,7 +142,7 @@ class Accordion():
 				self.compute_cost(mode=i)
 		self.history['Step3:']='Cost Computed'
 
-	def compute_cost(self,mode='GRD',metric=None,beta=0.5,d=1e-10):
+	def compute_cost(self,mode='GRD',metric=None,beta=0.5,d=1e-10,degnorm=False):
 		"""
 		Compute costs for the optimal transport
 
@@ -155,7 +161,7 @@ class Accordion():
 				# assert("PCA" in self.Cs,"PCA not computed")
 				self.wdist[f'PCA_{metric}']=squareform(pdist(self.Cs['PCA'],metric))
 		elif mode == 'GRD':
-			self.Cs['GRD']=ctd_dist(self.expgraph)
+			self.Cs['GRD']=ctd_dist(self.expgraph,degnorm=False)
 		elif mode == 'glasso':
 			glasso = covariance.GraphicalLassoCV(cv=5,mode='cd',max_iter=100)
 			glasso = glasso.fit(squareform(pdist(self.p.to_numpy(),'correlation')))
@@ -188,7 +194,7 @@ class Accordion():
 			lab=f'{cost}_{tmpl}'
 		self.wdist[lab]={}
 		if algorithm=='emd':
-			for i in tqdm(self.p.columns):
+			for i in self.p.columns:
 				self.wdist[lab][i]={}
 				for j in self.p.columns:
 					self.wdist[lab][i][j] = ot.emd2(a=self.p[i].to_numpy()/self.p[i].sum(), 
@@ -196,7 +202,7 @@ class Accordion():
 													M=self.Cs[cost])
 			self.wdist[lab] = pd.DataFrame.from_dict(self.wdist[lab])
 		elif algorithm=='sinkhorn':
-			for i in tqdm(self.p.columns):
+			for i in self.p.columns:
 				self.wdist[lab][i]={}
 				for j in self.p.columns:
 					self.wdist[lab][i][j] = ot.sinkhorn2(self.p[i].to_numpy()/self.p[i].sum(), 

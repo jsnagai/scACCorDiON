@@ -161,7 +161,7 @@ class Accordion():
 				# assert("PCA" in self.Cs,"PCA not computed")
 				self.wdist[f'PCA_{metric}']=squareform(pdist(self.Cs['PCA'],metric))
 		elif mode == 'GRD':
-			self.Cs['GRD']=ctd_dist(self.expgraph,degnorm=False)
+			self.Cs['GRD']=getGRD(self.expgraph,degnorm=False)
 		elif mode == 'glasso':
 			glasso = covariance.GraphicalLassoCV(cv=5,mode='cd',max_iter=100)
 			glasso = glasso.fit(squareform(pdist(self.p.to_numpy(),'correlation')))
@@ -175,7 +175,7 @@ class Accordion():
 		elif mode == 'HTD':
 			tmp = nx.to_numpy_array(self.expgraph)
 			tmp += d*np.ones(tmp.shape)
-			self.Cs[f'HTD_{beta}'] = get_dhp(tmp,beta=beta)
+			self.Cs[f'HTD_{beta}'] = getCTD(tmp,beta=beta)
 		else: 
 			print('option not found')
         
@@ -192,6 +192,10 @@ class Accordion():
 		if 'reg' in kwargs.keys():
 			tmpl = kwargs["reg"]
 			lab=f'{cost}_{tmpl}'
+		if 'marginals' in kwargs.keys():
+			tmpl = kwargs["reg"]
+			marg = '_'.join(kwargs["reg_m"])
+			lab=f'{cost}_{tmpl}_{marg}'
 		self.wdist[lab]={}
 		if algorithm=='emd':
 			for i in self.p.columns:
@@ -209,7 +213,14 @@ class Accordion():
 			    										 self.p[j].to_numpy()/self.p[j].sum(), 
 			    										 self.Cs[cost],**kwargs)
 			self.wdist[lab] = pd.DataFrame.from_dict(self.wdist[lab])
-
+		elif algorithm =='unbalanced':
+			for i in self.p.columns:
+				self.wdist[lab][i]={}
+				for j in self.p.columns:
+					self.wdist[lab][i][j] = ot.unbalanced.sinkhorn_unbalanced(self.p[i].to_numpy()/self.p[i].sum(), 
+			    										 self.p[j].to_numpy()/self.p[j].sum(), 
+			    										 self.Cs[cost],**kwargs)
+			self.wdist[lab] = pd.DataFrame.from_dict(self.wdist[lab])
 	def eval_all(self,y):
 		tmpeval = {}
 		for lab in self.wdist.keys():

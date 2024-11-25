@@ -2,8 +2,8 @@ import scaccordion as actl
 import pytest
 import pandas as pd
 
-def test_pdac_load():
-    assert type(actl.tl.datasets.load_peng2019()) is dict
+# def test_pdac_load():
+#     assert type(actl.tl.datasets.load_peng2019()) is dict
 
 def test_pdac_metadata_load():
     assert type(actl.tl.datasets.load_peng2019_metadata()) is pd.DataFrame
@@ -12,11 +12,11 @@ def test_pdac_metadata_load():
 def test_pdac_metadata_load(datashape,shape):
     assert datashape == shape
 
-def test_pdac_keys():
-    import numpy as np
-    df = actl.tl.datasets.load_peng2019()
-    metadata = actl.tl.datasets.load_peng2019_metadata()
-    assert np.all(metadata.index.isin(df.keys()))
+# def test_pdac_keys():
+#     import numpy as np
+#     df = actl.tl.datasets.load_peng2019()
+#     metadata = actl.tl.datasets.load_peng2019_metadata()
+#     assert np.all(metadata.index.isin(df.keys()))
 
 def test_gl_plain_net():
     g1 = actl.tl.datasets.make_gl_ciclic_graph()

@@ -17,7 +17,9 @@ microenvironment.
 [2]  **Nagai, J. S., Schaub, M. T., & Gesteira Costa Filho, I. (2024). scACCorDiON: A clustering approach for explainable patient level cell cell communication graph analysis. *bioRxiv*, 2024-08.**
 
 To install **scACCorDiON**:
-```
+
+
+```{toctree}
 :hidden: true
 :maxdepth: 1
 
@@ -25,6 +27,5 @@ installation
 tutorials/index
 news
 ```
-
 
 

@@ -23,7 +23,7 @@ from .distances import *
 
 
 class Accordion():
-	def __init__(self,tbls,weight='lr_means',filter=0.2,filter_mode='edge', normf=None, pseudo=1e-5,cost_new=False):
+	def __init__(self,tbls,weight='lr_means',filter=0.2,filter_mode='edge', normf=None, pseudo=1e-10,cost_new=False):
 		"""
 		Build tCrossTalkeR Object
 
@@ -92,7 +92,7 @@ class Accordion():
 			self.expgraph = pd.DataFrame(tmpmat,index=self.p.index,columns=self.p.index)
 			#self.expgraph.replace(to_replace=esize+1,value=0,inplace=True)
 			self.e = self.expgraph 
-			self.expgraph = nx.from_pandas_adjacency(1-self.expgraph.apply(lambda x:x/(sum(x)+1e-6),axis=1) ,create_using=nx.DiGraph)
+			self.expgraph = nx.from_pandas_adjacency(1-self.expgraph.apply(lambda x:x/(sum(x)+pseudo),axis=1) ,create_using=nx.DiGraph)
 			self.history['Step1:']='Networkx build with success'
 		else:
 			# Creating common grounded graph
@@ -162,16 +162,6 @@ class Accordion():
 				self.wdist[f'PCA_{metric}']=squareform(pdist(self.Cs['PCA'],metric))
 		elif mode == 'GRD':
 			self.Cs['GRD']=getGRD(self.expgraph,degnorm=False)
-		elif mode == 'glasso':
-			glasso = covariance.GraphicalLassoCV(cv=5,mode='cd',max_iter=100)
-			glasso = glasso.fit(squareform(pdist(self.p.to_numpy(),'correlation')))
-			partial_correlations = glasso.precision_.copy()
-			d = 1 / np.sqrt(np.diag(partial_correlations))
-			partial_correlations *= d
-			partial_correlations *= d[:, np.newaxis]
-			non_zero = np.triu(1-partial_correlations, k=0)
-			non_zero = (non_zero +non_zero.T)	
-			self.Cs['glasso'] = non_zero
 		elif mode == 'HTD':
 			tmp = nx.to_numpy_array(self.expgraph)
 			tmp += d*np.ones(tmp.shape)
@@ -192,10 +182,13 @@ class Accordion():
 		if 'reg' in kwargs.keys():
 			tmpl = kwargs["reg"]
 			lab=f'{cost}_{tmpl}'
-		if 'marginals' in kwargs.keys():
+		if 'reg_m' in kwargs.keys():
 			tmpl = kwargs["reg"]
-			marg = '_'.join(kwargs["reg_m"])
-			lab=f'{cost}_{tmpl}_{marg}'
+			if len(kwargs["reg_m"]) > 1:
+				marg = '_'.join([str(i) for i in kwargs["reg_m"]])
+			else:
+				marg = str(kwargs["reg_m"])
+			lab=f'{cost}_{tmpl}:{marg}'
 		self.wdist[lab]={}
 		if algorithm=='emd':
 			for i in self.p.columns:
@@ -217,12 +210,12 @@ class Accordion():
 			for i in self.p.columns:
 				self.wdist[lab][i]={}
 				for j in self.p.columns:
-					self.wdist[lab][i][j] = ot.unbalanced.sinkhorn_unbalanced(self.p[i].to_numpy()/self.p[i].sum(), 
+					self.wdist[lab][i][j] = ot.unbalanced.sinkhorn_unbalanced2(self.p[i].to_numpy()/self.p[i].sum(), 
 			    										 self.p[j].to_numpy()/self.p[j].sum(), 
 			    										 self.Cs[cost],**kwargs)
 			self.wdist[lab] = pd.DataFrame.from_dict(self.wdist[lab])
 	def eval_all(self,y):
 		tmpeval = {}
 		for lab in self.wdist.keys():
-			tmpeval[lab]=performance_eval(self.wdist[lab],y)
+			tmpeval[lab]=performance_eval(self.wdist[lab].to_numpy(),y)
 		return tmpeval

@@ -22,18 +22,10 @@ microenvironment.
 
 ```{toctree}
 ---
-caption: Synthetic Data - Learning a Metric from Directed Weighted Graphs
+caption: Installing scACCorDiON
 maxdepth: 2
 ---
 Installation
-```
-
-```{toctree}
----
-caption: Synthetic Data - Learning a Metric from Directed Weighted Graphs
-maxdepth: 2
----
-Global_Local_Comparison
 ```
 
 ```{toctree}
@@ -55,7 +47,7 @@ SingleCellDemo
 ```{toctree}
 ---
 caption: Full Tutorial of PDAC data
-maxdepth: 3
+maxdepth: 2
 ---
 PDAC_FullTutorial
 ```

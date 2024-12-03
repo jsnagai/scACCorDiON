@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'scACCorDiON'
-copyright = '2023, James S. Nagai'
+copyright = '2024, James S. Nagai'
 author = 'James S. Nagai'
 
 # -- General configuration ---------------------------------------------------

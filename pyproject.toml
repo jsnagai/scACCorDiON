@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "scaccordion"
-version = "0.2.0.3"
+version = "0.2.0.5"
 description = ""
 authors = ["James Nagai <james.nagai@gmail.com>"]
 readme = "README.md"

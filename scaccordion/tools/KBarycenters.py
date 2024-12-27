@@ -1,4 +1,3 @@
-
 import numpy as np 
 import ot 
 import pandas as pd
@@ -11,22 +10,26 @@ class KBarycenters:
         self.bary = []
         self.centroids = None
         self.err = []
+        self.seed = random_state
+        self.iter = 0
+        self.ini = None
     
-    def fit(self, data, distr,cost,init='random',random_state=42,reg=1e-2):
-        np.random.seed(random_state)
-        self._initialize_centroids(data,init,random_state)
+    def fit(self, data, distr,cost,init='random',reg=1e-2):
+        np.random.seed(self.seed)
+        self._initialize_centroids(data,init)
         self.data = data
         for _ in range(self.max_iters):
             # Assign points to clusters
             self._assign_clusters()
+            self.iter+=1
             # Update centroids
             new_centroids = self._update_centroids(data, distr,cost,reg=reg)
             # Check for convergence
-            if np.allclose(self.centroids, new_centroids):
+            if np.alltrue(self.flabels==np.argmin(new_centroids, axis=1)):
                 break
             self.centroids = new_centroids
      
-    def _initialize_centroids(self, data, init,random_state):
+    def _initialize_centroids(self, data, init):
         indices = []
         if init=='random':
             indices = np.random.choice(len(data.columns), self.k, replace=False)
@@ -34,9 +37,10 @@ class KBarycenters:
         elif init == '++':
             indices = [np.random.choice(len(data.columns),1, replace=False)]
             for idi in range(self.k-1):
-                for idj in inidices:
+                for idj in indices:
                     indices.append(np.argmax(data[:,idj]))
             self.centroids = data.iloc[:,indices]
+            self.ini = indices
 
     def _assign_clusters(self):
         self.flabels = np.argmin(self.centroids, axis=1)
@@ -50,15 +54,15 @@ class KBarycenters:
                 bary= ot.barycenter(A=distr.loc[:,currg].apply(lambda x: x/sum(x)).to_numpy(),
                                      M=cost,reg=reg,log=True)
                 tmperr[i] = np.median(bary[1]['err'])
-                tmpbary[i] = bary[0]
+                tmpbary[i] = np.round(bary[0],4)/np.sum(np.round(bary[0],4))
                 tmpdist[i]={}
                 for idp in distr.columns:
-                    tmpdist[i][idp] = ot.emd2(a=tmpbary[i]/tmpbary[i].sum(),
+                    tmpdist[i][idp] = ot.emd2(a=tmpbary[i],
                                               b=distr[idp].to_numpy()/distr[idp].sum(),
                                               M=cost)
             self.bary=tmpbary
             tmpdist=pd.DataFrame.from_dict(tmpdist)
-            for err in tmpdist.mean(axis=1):
-                self.err.append(err)
+            ## SSE
+            self.err.append(np.sum([np.square(self.centroids[i[1]][self.flabels==i[0]]).sum() for i in enumerate(self.centroids.columns)]))
             return tmpdist
- 	
+    

@@ -1,9 +1,9 @@
 ```{eval-rst}
-.. module:: pilotpy
+.. module:: scaccordion
 ```
 
 ```{eval-rst}
-.. automodule:: pilotpy
+.. automodule:: scaccordion
    :noindex:
 ```
 
@@ -24,5 +24,3 @@ import scaccordion
 ```{eval-rst}
 .. currentmodule:: scaccordion
 ```
-
-

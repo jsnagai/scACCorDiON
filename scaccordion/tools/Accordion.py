@@ -210,9 +210,12 @@ class Accordion():
 			for i in self.p.columns:
 				self.wdist[lab][i]={}
 				for j in self.p.columns:
-					self.wdist[lab][i][j] = ot.unbalanced.sinkhorn_unbalanced2(self.p[i].to_numpy()/self.p[i].sum(), 
-			    										 self.p[j].to_numpy()/self.p[j].sum(), 
-			    										 self.Cs[cost],**kwargs)
+					if i != j:
+						self.wdist[lab][i][j] = ot.unbalanced.sinkhorn_unbalanced2(self.p[i].to_numpy()/self.p[i].sum(), 
+				    										 self.p[j].to_numpy()/self.p[j].sum(), 
+				    										 self.Cs[cost],**kwargs)
+					else:
+						self.wdist[lab][i][j]=0
 			self.wdist[lab] = pd.DataFrame.from_dict(self.wdist[lab])
 	def eval_all(self,y):
 		tmpeval = {}

@@ -3,3 +3,4 @@
 - Implementing unbalanced OT
 - Refactoring distances.py 
 - Removing R dependencies
+- Fix in the Kbarycenter optimization

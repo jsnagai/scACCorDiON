@@ -28,8 +28,10 @@ import scaccordion
 scACCorDiON
 -----
 
+```{eval-rst}
 .. automodule:: scaccordion.Accordion
     :members:
     :undoc-members:
     :inherited-members:
     :show-inheritance:
+```

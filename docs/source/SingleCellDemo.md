@@ -1,8 +1,6 @@
-### Examples 2
-
+### scRNA derived Cell Cell Communication Data
 ```{toctree}
 ---
-caption: scRNA derived Cell Cell Communication Data
 maxdepth: 2
 ---
 notebooks/CCI.ipynb

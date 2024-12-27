@@ -1,8 +1,7 @@
-### Examples 1
+### Synthetic Data
 
 ```{toctree}
 ---
-caption: Synthetic Data
 maxdepth: 1
 ---
 notebooks/Global_Local_Comparison.ipynb

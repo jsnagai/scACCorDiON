@@ -1,5 +1,5 @@
 
-### scRNA derived Cell Cell Communication Data
+### scRNA derived Cell Cell Communication Distances
 
 ```{toctree}
 ---

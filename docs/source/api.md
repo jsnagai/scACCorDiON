@@ -24,3 +24,12 @@ import scaccordion
 ```{eval-rst}
 .. currentmodule:: scaccordion
 ```
+
+scACCorDiON
+-----
+
+.. automodule:: scaccordion.Accordion
+    :members:
+    :undoc-members:
+    :inherited-members:
+    :show-inheritance:

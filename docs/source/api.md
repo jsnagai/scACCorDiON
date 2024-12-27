@@ -29,7 +29,7 @@ scACCorDiON
 -----
 
 ```{eval-rst}
-.. automodule:: scaccordion.Accordion
+.. automodule:: scaccordion.tl.Accordion
     :members:
     :undoc-members:
     :inherited-members:

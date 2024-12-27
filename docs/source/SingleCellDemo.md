@@ -1,4 +1,4 @@
-### Clustering scRNA cohorts using scACCorDiON
+### scRNA derived Cell Cell Communication Distances
 ```{toctree}
 ---
 maxdepth: 2

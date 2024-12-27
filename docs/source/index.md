@@ -30,25 +30,15 @@ Installation
 
 ```{toctree}
 ---
-caption: Synthetic Data - Learning a Metric from Directed Weighted Graphs
+caption: Tutorials and Examples 
 maxdepth: 2
 ---
+
+### Synthetic Data - Learning a Metric from Directed Weighted Graphs
 Global_Local_Comparison
-```
-
-```{toctree}
----
-caption: Real World Data Benchmark - Learning a Metric from Directed Weighted Graphs
-maxdepth: 2
----
+### Real World Data Benchmark - Learning a Metric from Directed Weighted Graphs
 SingleCellDemo
-```
-
-```{toctree}
----
-caption: Full Tutorial of PDAC data
-maxdepth: 2
----
+###  Full Tutorial of PDAC data
 PDAC_FullTutorial
 ```
 

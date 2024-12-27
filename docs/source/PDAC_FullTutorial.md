@@ -3,7 +3,7 @@
 
 ```{toctree}
 ---
-maxdepth: 2
+maxdepth: 1
 ---
 notebooks/PDAC-Learning-distances-and-Clustering.ipynb
 ```

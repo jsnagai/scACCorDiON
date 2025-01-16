@@ -9,11 +9,15 @@
 
 # API
 
-Import scaccordion as:
+The central class:
 
+```{eval-rst}
+.. autosummary::
+   :toctree: generated/
+
+   Accordion
 ```
-import scaccordion
-```
+
 
 ## tools: `tl`
 

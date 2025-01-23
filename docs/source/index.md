@@ -27,18 +27,18 @@ caption: Installing scACCorDiON
 Installation
 ```
 
-```{toctree}
+# Thumbnails gallery
+```{nbgallery}
 ---
 caption: Tutorials and Examples 
 ---
 
-### Synthetic Data - Learning a Metric from Directed Weighted Graphs
-Global_Local_Comparison
-### Real World Data Benchmark - Learning a Metric from Directed Weighted Graphs
-SingleCellDemo
-###  Full Tutorial of PDAC data
-PDAC_FullTutorial
+notebooks/notebooks/Global_Local_Comparison.ipynb
+notebooks/CCI.ipynb
+notebooks/PDAC-Learning-distances-and-Clustering.ipynb
+
 ```
+
 
 ```{toctree}
 ---

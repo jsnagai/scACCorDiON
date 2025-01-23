@@ -23,7 +23,6 @@ microenvironment.
 ```{toctree}
 ---
 caption: Installing scACCorDiON
-maxdepth: 1
 ---
 Installation
 ```
@@ -31,7 +30,6 @@ Installation
 ```{toctree}
 ---
 caption: Tutorials and Examples 
-maxdepth: 1
 ---
 
 ### Synthetic Data - Learning a Metric from Directed Weighted Graphs
@@ -44,7 +42,6 @@ PDAC_FullTutorial
 
 ```{toctree}
 ---
-maxdepth: 1
 caption: API Reference
 ---
 api

@@ -24,14 +24,13 @@ microenvironment.
 Installation
 ```
 
-# Thumbnails gallery
 
 ```{nbgallery}
 ---
 caption: Tutorials and Examples 
 ---
 
-notebooks/notebooks/Global_Local_Comparison.ipynb
+notebooks/Global_Local_Comparison.ipynb
 notebooks/CCI.ipynb
 notebooks/PDAC-Learning-distances-and-Clustering.ipynb
 

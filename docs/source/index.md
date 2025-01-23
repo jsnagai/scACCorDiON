@@ -21,13 +21,11 @@ microenvironment.
 
 
 ```{toctree}
----
-caption: Installing scACCorDiON
----
 Installation
 ```
 
 # Thumbnails gallery
+
 ```{nbgallery}
 ---
 caption: Tutorials and Examples 

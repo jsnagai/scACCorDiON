@@ -1,32 +1,11 @@
-```{eval-rst}
-.. module:: scaccordion
-```
-
-```{eval-rst}
-.. automodule:: scaccordion
-   :noindex:
-```
-
-# API
-
-The central class:
-
-```{eval-rst}
-.. autosummary::
-   :toctree: generated/
-
-   Accordion
-```
+API
+===
 
 
 ## tools: `tl`
 
 ```{eval-rst}
 .. module:: scaccordion.tl
-```
-
-```{eval-rst}
-.. currentmodule:: scaccordion
 ```
 
 scACCorDiON

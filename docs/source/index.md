@@ -32,8 +32,7 @@ caption: Tutorials and Examples
 
 notebooks/Global_Local_Comparison.ipynb
 notebooks/CCI.ipynb
-notebooks/060324-PDAC_Interpretation.ipynb
-
+notebooks/PDAC-Learning-distances-and-Clustering.ipynb
 ```
 
 

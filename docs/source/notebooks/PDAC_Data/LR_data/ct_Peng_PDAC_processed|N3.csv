@@ -1,0 +1,1751 @@
+,ligand,receptor,source,target,lr_means,cellphone_pvals,type_gene_A,type_gene_B,gene_A,gene_B,MeanLR
+0,INS,INSR,Endocrine cell,Acinar cell,4.5838213,0.0,Ligand,Receptor,INS,INSR,4.5838213
+1,INS,INSR,Endocrine cell,Endothelial cell,4.457715,0.0,Ligand,Receptor,INS,INSR,4.457715
+2,INS,INSR,Endocrine cell,Endocrine cell,4.3736954,0.0,Ligand,Receptor,INS,INSR,4.3736954
+3,INS,INSR,Endocrine cell,Ductal cell type 1,4.313536,0.0,Ligand,Receptor,INS,INSR,4.313536
+4,INS,IGF1R,Endocrine cell,Ductal cell type 1,4.2771153,0.0,Ligand,Receptor,INS,IGF1R,4.2771153
+5,INS,IGF1R,Endocrine cell,Endocrine cell,4.2623744,0.0,Ligand,Receptor,INS,IGF1R,4.2623744
+6,INS,IGF1R,Endocrine cell,Acinar cell,4.225923,0.0,Ligand,Receptor,INS,IGF1R,4.225923
+7,INS,LILRB2,Endocrine cell,Acinar cell,4.2161975,0.0,Ligand,Receptor,INS,LILRB2,4.2161975
+8,PRSS1,F2R,Acinar cell,Fibroblast cell,3.574916,0.0,Ligand,Receptor,PRSS1,F2R,3.574916
+9,PRSS1,F2RL3,Acinar cell,Endothelial cell,3.5718672,0.0,Ligand,Receptor,PRSS1,F2RL3,3.5718672
+10,PRSS1,F2RL1,Acinar cell,Ductal cell type 1,3.4186516,0.0,Ligand,Receptor,PRSS1,F2RL1,3.4186516
+11,PRSS1,F2RL1,Acinar cell,Acinar cell,3.374281,0.0,Ligand,Receptor,PRSS1,F2RL1,3.374281
+12,INS,INSR,B cell,Acinar cell,3.365355,0.006,Ligand,Receptor,INS,INSR,3.365355
+13,PRSS1,F2RL3,Acinar cell,Acinar cell,3.349285,0.0,Ligand,Receptor,PRSS1,F2RL3,3.349285
+14,INS,INSR,B cell,Endothelial cell,3.2392488,0.006,Ligand,Receptor,INS,INSR,3.2392488
+17,APP,CD74,B cell,Macrophage cell,3.081016,0.0,Ligand,Receptor,APP,CD74,3.081016
+18,APP,CD74,Endothelial cell,Macrophage cell,3.077235,0.0,Ligand,Receptor,APP,CD74,3.077235
+20,APP,CD74,Ductal cell type 1,Macrophage cell,3.0570958,0.0,Ligand,Receptor,APP,CD74,3.0570958
+24,B2M,CD1C,Endothelial cell,Macrophage cell,2.953101,0.0,Ligand,Receptor,B2M,CD1C,2.953101
+29,CEL,CXCR4,Acinar cell,Macrophage cell,2.8572176,0.0,Ligand,Receptor,CEL,CXCR4,2.8572176
+31,PRSS3,F2R,Acinar cell,Fibroblast cell,2.8341966,0.0,Ligand,Receptor,PRSS3,F2R,2.8341966
+32,PRSS3,F2RL3,Acinar cell,Endothelial cell,2.831148,0.0,Ligand,Receptor,PRSS3,F2RL3,2.831148
+38,APP,CD74,Acinar cell,Macrophage cell,2.7441761,0.0,Ligand,Receptor,APP,CD74,2.7441761
+39,APP,CD74,Endocrine cell,Macrophage cell,2.7421932,0.0,Ligand,Receptor,APP,CD74,2.7421932
+40,B2M,LILRB2,Endothelial cell,Acinar cell,2.732596,0.0,Ligand,Receptor,B2M,LILRB2,2.732596
+41,B2M,KLRD1,Endothelial cell,Acinar cell,2.732596,0.0,Ligand,Receptor,B2M,KLRD1,2.732596
+42,TIMP1,CD63,Fibroblast cell,Fibroblast cell,2.7304707,0.0,Ligand,Receptor,TIMP1,CD63,2.7304707
+44,APP,CD74,Fibroblast cell,Macrophage cell,2.713225,0.0,Ligand,Receptor,APP,CD74,2.713225
+49,PRSS3,F2RL1,Acinar cell,Ductal cell type 1,2.6779323,0.0,Ligand,Receptor,PRSS3,F2RL1,2.6779323
+51,APP,CD74,Macrophage cell,Macrophage cell,2.652159,0.0,Ligand,Receptor,APP,CD74,2.652159
+54,PRSS3,F2RL1,Acinar cell,Acinar cell,2.6335616,0.0,Ligand,Receptor,PRSS3,F2RL1,2.6335616
+56,COPA,CD74,Endothelial cell,Macrophage cell,2.6217697,0.0,Ligand,Receptor,COPA,CD74,2.6217697
+59,COPA,CD74,Fibroblast cell,Macrophage cell,2.616705,0.0,Ligand,Receptor,COPA,CD74,2.616705
+60,HLA-DRA,CD4,Macrophage cell,Macrophage cell,2.6129432,0.0,Ligand,Receptor,HLA-DRA,CD4,2.6129432
+61,PRSS3,F2RL3,Acinar cell,Acinar cell,2.6085656,0.0,Ligand,Receptor,PRSS3,F2RL3,2.6085656
+62,COPA,CD74,Endocrine cell,Macrophage cell,2.6082656,0.0,Ligand,Receptor,COPA,CD74,2.6082656
+64,COPA,CD74,Ductal cell type 1,Macrophage cell,2.6009116,0.0,Ligand,Receptor,COPA,CD74,2.6009116
+68,TIMP1,CD63,Fibroblast cell,Ductal cell type 1,2.583588,0.0,Ligand,Receptor,TIMP1,CD63,2.583588
+69,TIMP1,CD63,Fibroblast cell,Endothelial cell,2.5829792,0.0,Ligand,Receptor,TIMP1,CD63,2.5829792
+85,TIMP1,CD63,Fibroblast cell,Stellate cell,2.5212264,0.0,Ligand,Receptor,TIMP1,CD63,2.5212264
+88,HLA-B,CANX,Endothelial cell,B cell,2.5077763,0.0,Ligand,Receptor,HLA-B,CANX,2.5077763
+89,FABP5,RXRA,Endothelial cell,Acinar cell,2.4990275,0.0,Ligand,Receptor,FABP5,RXRA,2.4990275
+92,S100A10,CFTR,Ductal cell type 1,Ductal cell type 1,2.484673,0.0,Ligand,Receptor,S100A10,CFTR,2.484673
+95,B2M,CD1C,Macrophage cell,Macrophage cell,2.4726665,0.0,Ligand,Receptor,B2M,CD1C,2.4726665
+96,APP,CD74,B cell,Endothelial cell,2.4553163,0.0,Ligand,Receptor,APP,CD74,2.4553163
+97,APP,CD74,Endothelial cell,Endothelial cell,2.4515352,0.0,Ligand,Receptor,APP,CD74,2.4515352
+100,APP,CD74,Ductal cell type 1,Endothelial cell,2.431396,0.0,Ligand,Receptor,APP,CD74,2.431396
+101,B2M,CD1C,B cell,Macrophage cell,2.4261403,0.007,Ligand,Receptor,B2M,CD1C,2.4261403
+102,LGALS1,ITGB1,Stellate cell,Stellate cell,2.4213936,0.0,Ligand,Receptor,LGALS1,ITGB1,2.4213936
+103,LGALS1,ITGB1,Stellate cell,Fibroblast cell,2.4136171,0.0,Ligand,Receptor,LGALS1,ITGB1,2.4136171
+104,TIMP1,CD63,Fibroblast cell,Macrophage cell,2.4022813,0.0,Ligand,Receptor,TIMP1,CD63,2.4022813
+105,HLA-DRB1,CD4,Macrophage cell,Macrophage cell,2.372918,0.0,Ligand,Receptor,HLA-DRB1,CD4,2.372918
+106,LGALS1,ITGB1,Stellate cell,Endothelial cell,2.3133478,0.0,Ligand,Receptor,LGALS1,ITGB1,2.3133478
+107,HLA-B,CANX,Endothelial cell,Endocrine cell,2.3012683,0.0,Ligand,Receptor,HLA-B,CANX,2.3012683
+108,HLA-DPA1,CD4,Macrophage cell,Macrophage cell,2.2968035,0.0,Ligand,Receptor,HLA-DPA1,CD4,2.2968035
+109,HLA-DPB1,CD4,Macrophage cell,Macrophage cell,2.2864482,0.0,Ligand,Receptor,HLA-DPB1,CD4,2.2864482
+110,HSP90AA1,CFTR,Ductal cell type 1,Ductal cell type 1,2.273767,0.0,Ligand,Receptor,HSP90AA1,CFTR,2.273767
+111,B2M,KLRD1,Macrophage cell,Acinar cell,2.2521615,0.001,Ligand,Receptor,B2M,KLRD1,2.2521615
+112,B2M,LILRB2,Macrophage cell,Acinar cell,2.2521615,0.003,Ligand,Receptor,B2M,LILRB2,2.2521615
+113,IAPP,RAMP2,Endocrine cell,Endothelial cell,2.242611,0.0,Ligand,Receptor,IAPP,RAMP2,2.242611
+114,HLA-B,CANX,Endothelial cell,Macrophage cell,2.2349033,0.0,Ligand,Receptor,HLA-B,CANX,2.2349033
+115,HLA-B,CANX,Endothelial cell,Endothelial cell,2.2102528,0.0,Ligand,Receptor,HLA-B,CANX,2.2102528
+118,LGALS1,ITGB1,Fibroblast cell,Stellate cell,2.2030935,0.0,Ligand,Receptor,LGALS1,ITGB1,2.2030935
+119,HLA-A,APLP2,Endothelial cell,Fibroblast cell,2.1963487,0.0,Ligand,Receptor,HLA-A,APLP2,2.1963487
+121,LGALS1,ITGB1,Fibroblast cell,Fibroblast cell,2.1953173,0.0,Ligand,Receptor,LGALS1,ITGB1,2.1953173
+122,HSP90AA1,CFTR,B cell,Ductal cell type 1,2.1837,0.0,Ligand,Receptor,HSP90AA1,CFTR,2.1837
+123,S100A10,CFTR,Endothelial cell,Ductal cell type 1,2.1781216,0.0,Ligand,Receptor,S100A10,CFTR,2.1781216
+124,B2M,CD1C,Stellate cell,Macrophage cell,2.175392,0.0,Ligand,Receptor,B2M,CD1C,2.175392
+125,HLA-B,CANX,Endothelial cell,Ductal cell type 1,2.1742752,0.0,Ligand,Receptor,HLA-B,CANX,2.1742752
+126,APOD,LEPR,Fibroblast cell,Endothelial cell,2.1692798,0.0,Ligand,Receptor,APOD,LEPR,2.1692798
+127,HLA-A,APLP2,Endothelial cell,Endothelial cell,2.1561093,0.0,Ligand,Receptor,HLA-A,APLP2,2.1561093
+128,HLA-A,APLP2,Endothelial cell,Ductal cell type 1,2.153398,0.0,Ligand,Receptor,HLA-A,APLP2,2.153398
+129,TIMP1,CD63,Fibroblast cell,B cell,2.1448712,0.004,Ligand,Receptor,TIMP1,CD63,2.1448712
+130,HLA-B,CANX,Endothelial cell,Acinar cell,2.1420176,0.0,Ligand,Receptor,HLA-B,CANX,2.1420176
+131,RPS19,C5AR1,Macrophage cell,Macrophage cell,2.1356194,0.0,Ligand,Receptor,RPS19,C5AR1,2.1356194
+132,TIMP1,CD63,Fibroblast cell,Endocrine cell,2.1349943,0.0,Ligand,Receptor,TIMP1,CD63,2.1349943
+134,TNFSF13B,HLA-DPB1,Fibroblast cell,Macrophage cell,2.130098,0.0,Ligand,Receptor,TNFSF13B,HLA-DPB1,2.130098
+135,APP,CD74,Acinar cell,Endothelial cell,2.1184764,0.0,Ligand,Receptor,APP,CD74,2.1184764
+136,APP,CD74,Endocrine cell,Endothelial cell,2.1164935,0.0,Ligand,Receptor,APP,CD74,2.1164935
+137,LGALS1,ITGB1,Fibroblast cell,Endothelial cell,2.0950477,0.0,Ligand,Receptor,LGALS1,ITGB1,2.0950477
+138,APP,CD74,Fibroblast cell,Endothelial cell,2.0875251,0.0,Ligand,Receptor,APP,CD74,2.0875251
+139,LUM,ITGB1,Fibroblast cell,Stellate cell,2.0519276,0.0,Ligand,Receptor,LUM,ITGB1,2.0519276
+140,HLA-A,APLP2,Endothelial cell,Macrophage cell,2.0496852,0.0,Ligand,Receptor,HLA-A,APLP2,2.0496852
+141,COL1A2,CD36,Fibroblast cell,Endothelial cell,2.0490031,0.0,Ligand,Receptor,COL1A2,CD36,2.0490031
+142,LUM,ITGB1,Fibroblast cell,Fibroblast cell,2.0441513,0.0,Ligand,Receptor,LUM,ITGB1,2.0441513
+143,RPS19,C5AR1,B cell,Macrophage cell,2.0340655,0.0,Ligand,Receptor,RPS19,C5AR1,2.0340655
+144,CALM2,AQP1,Stellate cell,Ductal cell type 1,2.0293698,0.0,Ligand,Receptor,CALM2,AQP1,2.0293698
+145,APP,CD74,Macrophage cell,Endothelial cell,2.0264592,0.0,Ligand,Receptor,APP,CD74,2.0264592
+146,LGALS1,PTPRC,Stellate cell,Macrophage cell,2.024963,0.0,Ligand,Receptor,LGALS1,PTPRC,2.024963
+147,LGALS1,ITGB1,Macrophage cell,Stellate cell,2.0194607,0.0,Ligand,Receptor,LGALS1,ITGB1,2.0194607
+148,LGALS1,ITGB1,Macrophage cell,Fibroblast cell,2.0116842,0.0,Ligand,Receptor,LGALS1,ITGB1,2.0116842
+149,HLA-B,KLRD1,Endothelial cell,Acinar cell,2.0060334,0.0,Ligand,Receptor,HLA-B,KLRD1,2.0060334
+150,HLA-B,LILRB2,Endothelial cell,Acinar cell,2.0060334,0.0,Ligand,Receptor,HLA-B,LILRB2,2.0060334
+151,COPA,CD74,Endothelial cell,Endothelial cell,1.9960699,0.0,Ligand,Receptor,COPA,CD74,1.9960699
+152,HLA-A,APLP2,Endothelial cell,Endocrine cell,1.9920437,0.0,Ligand,Receptor,HLA-A,APLP2,1.9920437
+153,COPA,CD74,Fibroblast cell,Endothelial cell,1.9910053,0.0,Ligand,Receptor,COPA,CD74,1.9910053
+154,COPA,CD74,Endocrine cell,Endothelial cell,1.9825659,0.0,Ligand,Receptor,COPA,CD74,1.9825659
+155,LGALS1,ITGB1,Stellate cell,Ductal cell type 1,1.9816834,0.0,Ligand,Receptor,LGALS1,ITGB1,1.9816834
+156,S100A10,CFTR,Macrophage cell,Ductal cell type 1,1.9775835,0.0,Ligand,Receptor,S100A10,CFTR,1.9775835
+157,COPA,CD74,Ductal cell type 1,Endothelial cell,1.9752117,0.0,Ligand,Receptor,COPA,CD74,1.9752117
+160,TIMP1,CD63,Endothelial cell,Fibroblast cell,1.9746882,0.0,Ligand,Receptor,TIMP1,CD63,1.9746882
+161,S100A10,CFTR,Ductal cell type 1,Endocrine cell,1.9725444,0.0,Ligand,Receptor,S100A10,CFTR,1.9725444
+164,CALM2,AQP1,Stellate cell,Endothelial cell,1.9486339,0.0,Ligand,Receptor,CALM2,AQP1,1.9486339
+165,HLA-C,NOTCH4,Endothelial cell,Endothelial cell,1.9482365,0.0,Ligand,Receptor,HLA-C,NOTCH4,1.9482365
+166,LGALS1,ITGB1,Stellate cell,Acinar cell,1.9443524,0.0,Ligand,Receptor,LGALS1,ITGB1,1.9443524
+167,LUM,ITGB1,Fibroblast cell,Endothelial cell,1.9438818,0.0,Ligand,Receptor,LUM,ITGB1,1.9438818
+168,HLA-B,CANX,Macrophage cell,B cell,1.9434638,0.001,Ligand,Receptor,HLA-B,CANX,1.9434638
+169,CALM2,AQP1,Stellate cell,Endocrine cell,1.9367179,0.0,Ligand,Receptor,CALM2,AQP1,1.9367179
+170,LGALS1,ITGB1,Stellate cell,Endocrine cell,1.9311655,0.0,Ligand,Receptor,LGALS1,ITGB1,1.9311655
+171,HSP90B1,LRP1,B cell,Fibroblast cell,1.9187268,0.0,Ligand,Receptor,HSP90B1,LRP1,1.9187268
+174,LGALS1,ITGB1,Macrophage cell,Endothelial cell,1.9114147,0.0,Ligand,Receptor,LGALS1,ITGB1,1.9114147
+175,RPS19,C5AR1,Ductal cell type 1,Macrophage cell,1.907927,0.0,Ligand,Receptor,RPS19,C5AR1,1.907927
+176,CALM2,INSR,Stellate cell,Acinar cell,1.903711,0.0,Ligand,Receptor,CALM2,INSR,1.903711
+177,HLA-DQB1,CD4,Macrophage cell,Macrophage cell,1.8978782,0.0,Ligand,Receptor,HLA-DQB1,CD4,1.8978782
+178,DCN,TLR2,Fibroblast cell,Macrophage cell,1.896059,0.0,Ligand,Receptor,DCN,TLR2,1.896059
+179,LGALS1,ITGB1,Stellate cell,Macrophage cell,1.8800476,0.0,Ligand,Receptor,LGALS1,ITGB1,1.8800476
+180,S100A10,CFTR,Endocrine cell,Ductal cell type 1,1.8793031,0.007,Ligand,Receptor,S100A10,CFTR,1.8793031
+181,CALM2,MYLK,Stellate cell,Stellate cell,1.8745837,0.0,Ligand,Receptor,CALM2,MYLK,1.8745837
+184,HLA-A,APLP2,Endothelial cell,Acinar cell,1.8462657,0.004,Ligand,Receptor,HLA-A,APLP2,1.8462657
+185,HLA-A,ERBB2,Endothelial cell,Ductal cell type 1,1.8422809,0.0,Ligand,Receptor,HLA-A,ERBB2,1.8422809
+186,TIMP1,CD63,Endothelial cell,Ductal cell type 1,1.8278054,0.0,Ligand,Receptor,TIMP1,CD63,1.8278054
+187,TIMP1,CD63,Endothelial cell,Endothelial cell,1.8271966,0.0,Ligand,Receptor,TIMP1,CD63,1.8271966
+188,CALM2,AQP1,Fibroblast cell,Ductal cell type 1,1.8269842,0.0,Ligand,Receptor,CALM2,AQP1,1.8269842
+189,HSP90AA1,CFTR,Fibroblast cell,Ductal cell type 1,1.8227551,0.001,Ligand,Receptor,HSP90AA1,CFTR,1.8227551
+190,HLA-A,ERBB2,Endothelial cell,Acinar cell,1.8208653,0.0,Ligand,Receptor,HLA-A,ERBB2,1.8208653
+192,A2M,LRP1,Endothelial cell,Fibroblast cell,1.8099294,0.0,Ligand,Receptor,A2M,LRP1,1.8099294
+193,LGALS1,PTPRC,Fibroblast cell,Macrophage cell,1.8066629,0.0,Ligand,Receptor,LGALS1,PTPRC,1.8066629
+194,HLA-A,ERBB2,Endothelial cell,Endocrine cell,1.8051807,0.0,Ligand,Receptor,HLA-A,ERBB2,1.8051807
+195,DCN,ERBB4,Fibroblast cell,Acinar cell,1.8050617,0.0,Ligand,Receptor,DCN,ERBB4,1.8050617
+197,HSP90AA1,CFTR,Stellate cell,Ductal cell type 1,1.7841455,0.0,Ligand,Receptor,HSP90AA1,CFTR,1.7841455
+198,HLA-A,LILRB2,Endothelial cell,Acinar cell,1.7777529,0.0,Ligand,Receptor,HLA-A,LILRB2,1.7777529
+199,CALM2,INSR,Stellate cell,Endothelial cell,1.7776048,0.0,Ligand,Receptor,CALM2,INSR,1.7776048
+204,TIMP1,CD63,Endothelial cell,Stellate cell,1.7654438,0.009,Ligand,Receptor,TIMP1,CD63,1.7654438
+206,LGALS1,ITGB1,Fibroblast cell,Ductal cell type 1,1.7633833,0.001,Ligand,Receptor,LGALS1,ITGB1,1.7633833
+207,HSP90AA1,CFTR,Ductal cell type 1,Endocrine cell,1.7616383,0.006,Ligand,Receptor,HSP90AA1,CFTR,1.7616383
+209,HLA-DRB5,CD4,Macrophage cell,Macrophage cell,1.75618,0.0,Ligand,Receptor,HLA-DRB5,CD4,1.75618
+210,CALM2,AQP1,Ductal cell type 1,Ductal cell type 1,1.7529936,0.0,Ligand,Receptor,CALM2,AQP1,1.7529936
+212,APP,RPSA,B cell,Ductal cell type 1,1.737684,0.006,Ligand,Receptor,APP,RPSA,1.737684
+213,HLA-B,CANX,Macrophage cell,Endocrine cell,1.736956,0.003,Ligand,Receptor,HLA-B,CANX,1.736956
+215,APP,RPSA,Endothelial cell,Ductal cell type 1,1.7339029,0.0,Ligand,Receptor,APP,RPSA,1.7339029
+217,GNAI2,CAV1,Endothelial cell,Endothelial cell,1.7298608,0.0,Ligand,Receptor,GNAI2,CAV1,1.7298608
+218,HSP90AA1,CFTR,Endothelial cell,Ductal cell type 1,1.7262462,0.0,Ligand,Receptor,HSP90AA1,CFTR,1.7262462
+220,APP,RPSA,Ductal cell type 1,Ductal cell type 1,1.7137637,0.0,Ligand,Receptor,APP,RPSA,1.7137637
+221,LGALS1,ITGB1,Fibroblast cell,Endocrine cell,1.7128654,0.004,Ligand,Receptor,LGALS1,ITGB1,1.7128654
+223,FBLN1,ITGB1,Fibroblast cell,Stellate cell,1.7107786,0.0,Ligand,Receptor,FBLN1,ITGB1,1.7107786
+224,IAPP,RAMP1,Endocrine cell,Ductal cell type 1,1.710201,0.0,Ligand,Receptor,IAPP,RAMP1,1.710201
+225,HLA-DQA1,CD4,Macrophage cell,Macrophage cell,1.7095675,0.0,Ligand,Receptor,HLA-DQA1,CD4,1.7095675
+226,C3,IFITM1,Fibroblast cell,Endothelial cell,1.7092521,0.0,Ligand,Receptor,C3,IFITM1,1.7092521
+227,HSP90AA1,CFTR,Endocrine cell,Ductal cell type 1,1.7062563,0.01,Ligand,Receptor,HSP90AA1,CFTR,1.7062563
+228,PSAP,LRP1,Macrophage cell,Fibroblast cell,1.7054213,0.0,Ligand,Receptor,PSAP,LRP1,1.7054213
+229,VIM,CD44,Fibroblast cell,Ductal cell type 1,1.7051189,0.0,Ligand,Receptor,VIM,CD44,1.7051189
+231,ANXA2,ROBO4,Ductal cell type 1,Endothelial cell,1.7045889,0.0,Ligand,Receptor,ANXA2,ROBO4,1.7045889
+236,FBLN1,ITGB1,Fibroblast cell,Fibroblast cell,1.7030022,0.0,Ligand,Receptor,FBLN1,ITGB1,1.7030022
+240,HLA-DRB1,CD4,Endothelial cell,Macrophage cell,1.696326,0.0,Ligand,Receptor,HLA-DRB1,CD4,1.696326
+241,CALM2,INSR,Stellate cell,Endocrine cell,1.6935849,0.0,Ligand,Receptor,CALM2,INSR,1.6935849
+244,HMGB1,CXCR4,Endothelial cell,Macrophage cell,1.6860502,0.0,Ligand,Receptor,HMGB1,CXCR4,1.6860502
+245,GNAI2,CAV1,Macrophage cell,Endothelial cell,1.6844568,0.0,Ligand,Receptor,GNAI2,CAV1,1.6844568
+247,S100A10,TRPV6,Ductal cell type 1,B cell,1.6761405,0.0,Ligand,Receptor,S100A10,TRPV6,1.6761405
+250,CALM2,AQP1,Ductal cell type 1,Endothelial cell,1.6722577,0.0,Ligand,Receptor,CALM2,AQP1,1.6722577
+251,CALM2,MYLK,Fibroblast cell,Stellate cell,1.6721979,0.0,Ligand,Receptor,CALM2,MYLK,1.6721979
+254,TIMP3,CD44,Fibroblast cell,Ductal cell type 1,1.668587,0.0,Ligand,Receptor,TIMP3,CD44,1.668587
+257,LAMA2,RPSA,Fibroblast cell,Ductal cell type 1,1.6640128,0.0,Ligand,Receptor,LAMA2,RPSA,1.6640128
+258,LGALS1,ITGB1,Fibroblast cell,Macrophage cell,1.6617475,0.009,Ligand,Receptor,LGALS1,ITGB1,1.6617475
+260,TIMP3,KDR,Fibroblast cell,Endothelial cell,1.6580284,0.0,Ligand,Receptor,TIMP3,KDR,1.6580284
+261,COL1A1,CD36,Fibroblast cell,Endothelial cell,1.6534868,0.0,Ligand,Receptor,COL1A1,CD36,1.6534868
+262,SPARC,ENG,Endothelial cell,Endothelial cell,1.6531452,0.0,Ligand,Receptor,SPARC,ENG,1.6531452
+263,CALM2,PDE1C,Stellate cell,Endothelial cell,1.651416,0.0,Ligand,Receptor,CALM2,PDE1C,1.651416
+264,IAPP,RAMP3,Endocrine cell,Endothelial cell,1.6504481,0.0,Ligand,Receptor,IAPP,RAMP3,1.6504481
+266,CALM2,PDE1A,Stellate cell,Fibroblast cell,1.6501282,0.0,Ligand,Receptor,CALM2,PDE1A,1.6501282
+267,S100A10,TRPV6,Ductal cell type 1,Ductal cell type 1,1.6477516,0.0,Ligand,Receptor,S100A10,TRPV6,1.6477516
+273,CALM2,MYLK,Stellate cell,Endothelial cell,1.6448903,0.0,Ligand,Receptor,CALM2,MYLK,1.6448903
+275,A2M,LRP1,Fibroblast cell,Fibroblast cell,1.6418008,0.0,Ligand,Receptor,A2M,LRP1,1.6418008
+277,IAPP,RAMP1,Endocrine cell,Fibroblast cell,1.6385233,0.0,Ligand,Receptor,IAPP,RAMP1,1.6385233
+278,COL1A2,CD93,Fibroblast cell,Endothelial cell,1.6353996,0.0,Ligand,Receptor,COL1A2,CD93,1.6353996
+279,CALM2,INSR,Stellate cell,Ductal cell type 1,1.633426,0.0,Ligand,Receptor,CALM2,INSR,1.633426
+283,ADCYAP1,RAMP2,Endocrine cell,Endothelial cell,1.6270795,0.0,Ligand,Receptor,ADCYAP1,RAMP2,1.6270795
+284,LGALS1,PTPRC,Macrophage cell,Macrophage cell,1.62303,0.0,Ligand,Receptor,LGALS1,PTPRC,1.62303
+285,S100A10,TRPV6,Ductal cell type 1,Endocrine cell,1.6224315,0.0,Ligand,Receptor,S100A10,TRPV6,1.6224315
+286,CALM2,KCNQ1,Stellate cell,Acinar cell,1.6208508,0.0,Ligand,Receptor,CALM2,KCNQ1,1.6208508
+290,SERPING1,LRP1,Fibroblast cell,Fibroblast cell,1.6125373,0.0,Ligand,Receptor,SERPING1,LRP1,1.6125373
+291,LUM,ITGB1,Fibroblast cell,Ductal cell type 1,1.6122173,0.0,Ligand,Receptor,LUM,ITGB1,1.6122173
+292,HLA-DRA,CD4,Endothelial cell,Macrophage cell,1.6108575,0.0,Ligand,Receptor,HLA-DRA,CD4,1.6108575
+294,HLA-C,LILRB2,Endothelial cell,Acinar cell,1.6084257,0.0,Ligand,Receptor,HLA-C,LILRB2,1.6084257
+296,FBLN1,ITGB1,Fibroblast cell,Endothelial cell,1.6027328,0.0,Ligand,Receptor,FBLN1,ITGB1,1.6027328
+297,MIF,CXCR4,Ductal cell type 1,Macrophage cell,1.6002043,0.0,Ligand,Receptor,MIF,CXCR4,1.6002043
+299,CALM2,MYLK,Ductal cell type 1,Stellate cell,1.5982074,0.0,Ligand,Receptor,CALM2,MYLK,1.5982074
+305,LGALS1,ITGB1,Macrophage cell,Ductal cell type 1,1.5797503,0.0,Ligand,Receptor,LGALS1,ITGB1,1.5797503
+309,CALM2,INSR,Fibroblast cell,Endothelial cell,1.5752189,0.001,Ligand,Receptor,CALM2,INSR,1.5752189
+310,LUM,ITGB1,Fibroblast cell,Acinar cell,1.5748863,0.0,Ligand,Receptor,LUM,ITGB1,1.5748863
+311,S100A4,ERBB3,Macrophage cell,Ductal cell type 1,1.5718279,0.0,Ligand,Receptor,S100A4,ERBB3,1.5718279
+314,LUM,ITGB1,Fibroblast cell,Endocrine cell,1.5616994,0.0,Ligand,Receptor,LUM,ITGB1,1.5616994
+315,APP,RPSA,Endothelial cell,Macrophage cell,1.5580165,0.002,Ligand,Receptor,APP,RPSA,1.5580165
+320,S100A4,ERBB3,Macrophage cell,Acinar cell,1.5488695,0.0,Ligand,Receptor,S100A4,ERBB3,1.5488695
+321,HMGB1,SDC1,Endothelial cell,B cell,1.5479333,0.0,Ligand,Receptor,HMGB1,SDC1,1.5479333
+326,GNAI2,CAV1,Endothelial cell,Stellate cell,1.5387104,0.0,Ligand,Receptor,GNAI2,CAV1,1.5387104
+327,APP,RPSA,Ductal cell type 1,Macrophage cell,1.5378773,0.001,Ligand,Receptor,APP,RPSA,1.5378773
+328,GNAI2,CAV1,B cell,Endothelial cell,1.5377599,0.0,Ligand,Receptor,GNAI2,CAV1,1.5377599
+331,HMGB1,CXCR4,Fibroblast cell,Macrophage cell,1.5297598,0.0,Ligand,Receptor,HMGB1,CXCR4,1.5297598
+332,LGALS1,ITGB1,Macrophage cell,Endocrine cell,1.5292324,0.005,Ligand,Receptor,LGALS1,ITGB1,1.5292324
+333,CALM2,PDE1A,Stellate cell,Acinar cell,1.5266099,0.0,Ligand,Receptor,CALM2,PDE1A,1.5266099
+334,VIM,CD44,Fibroblast cell,Endocrine cell,1.5244349,0.0,Ligand,Receptor,VIM,CD44,1.5244349
+335,TIMP1,FGFR2,Fibroblast cell,Ductal cell type 1,1.5240623,0.0,Ligand,Receptor,TIMP1,FGFR2,1.5240623
+338,ANXA2,TLR2,Ductal cell type 1,Macrophage cell,1.5147454,0.0,Ligand,Receptor,ANXA2,TLR2,1.5147454
+339,COL1A2,SDC1,Fibroblast cell,B cell,1.5132272,0.0,Ligand,Receptor,COL1A2,SDC1,1.5132272
+340,LUM,ITGB1,Fibroblast cell,Macrophage cell,1.5105815,0.0,Ligand,Receptor,LUM,ITGB1,1.5105815
+341,VIM,CD44,Fibroblast cell,Macrophage cell,1.5054878,0.0,Ligand,Receptor,VIM,CD44,1.5054878
+342,VIM,CD44,Fibroblast cell,Acinar cell,1.5054222,0.004,Ligand,Receptor,VIM,CD44,1.5054222
+343,IAPP,RAMP1,Endocrine cell,Acinar cell,1.5032105,0.0,Ligand,Receptor,IAPP,RAMP1,1.5032105
+344,CALM2,INSR,Ductal cell type 1,Endothelial cell,1.5012283,0.0,Ligand,Receptor,CALM2,INSR,1.5012283
+345,COL1A2,CD44,Fibroblast cell,Ductal cell type 1,1.4995465,0.0,Ligand,Receptor,COL1A2,CD44,1.4995465
+348,GNAI2,CAV1,Macrophage cell,Stellate cell,1.4933064,0.0,Ligand,Receptor,GNAI2,CAV1,1.4933064
+351,LAMA2,RPSA,Fibroblast cell,Macrophage cell,1.4881265,0.0,Ligand,Receptor,LAMA2,RPSA,1.4881265
+352,TIMP3,CD44,Fibroblast cell,Endocrine cell,1.487903,0.0,Ligand,Receptor,TIMP3,CD44,1.487903
+353,VIM,CD44,Macrophage cell,Ductal cell type 1,1.4839082,0.0,Ligand,Receptor,VIM,CD44,1.4839082
+355,VIM,CD44,Stellate cell,Ductal cell type 1,1.482723,0.0,Ligand,Receptor,VIM,CD44,1.482723
+356,S100A4,ERBB2,Macrophage cell,Ductal cell type 1,1.4822185,0.0,Ligand,Receptor,S100A4,ERBB2,1.4822185
+357,VIM,CD44,Fibroblast cell,B cell,1.4797229,0.002,Ligand,Receptor,VIM,CD44,1.4797229
+362,APOE,LRP1,Fibroblast cell,Fibroblast cell,1.4765298,0.0,Ligand,Receptor,APOE,LRP1,1.4765298
+363,HSP90B1,TLR2,B cell,Macrophage cell,1.475137,0.0,Ligand,Receptor,HSP90B1,TLR2,1.475137
+365,SERPINF1,PLXDC2,Fibroblast cell,Macrophage cell,1.4707835,0.0,Ligand,Receptor,SERPINF1,PLXDC2,1.4707835
+366,PSAP,LRP1,B cell,Fibroblast cell,1.4700146,0.0,Ligand,Receptor,PSAP,LRP1,1.4700146
+367,TIMP3,CD44,Fibroblast cell,Macrophage cell,1.4689559,0.0,Ligand,Receptor,TIMP3,CD44,1.4689559
+368,TIMP3,CD44,Fibroblast cell,Acinar cell,1.4688903,0.0,Ligand,Receptor,TIMP3,CD44,1.4688903
+372,TGFB1,CAV1,B cell,Endothelial cell,1.4635623,0.0,Ligand,Receptor,TGFB1,CAV1,1.4635623
+373,PTN,NCL,Fibroblast cell,Fibroblast cell,1.4629471,0.0,Ligand,Receptor,PTN,NCL,1.4629471
+374,MIF,CXCR4,B cell,Macrophage cell,1.4626114,0.0,Ligand,Receptor,MIF,CXCR4,1.4626114
+376,S100A4,ERBB2,Macrophage cell,Acinar cell,1.4608029,0.0,Ligand,Receptor,S100A4,ERBB2,1.4608029
+377,S100A4,ERBB3,Macrophage cell,Endocrine cell,1.456871,0.0,Ligand,Receptor,S100A4,ERBB3,1.456871
+378,HSP90B1,LRP1,B cell,Macrophage cell,1.4565885,0.0,Ligand,Receptor,HSP90B1,LRP1,1.4565885
+380,GNAI2,CAV1,Fibroblast cell,Endothelial cell,1.4524037,0.0,Ligand,Receptor,GNAI2,CAV1,1.4524037
+381,HSPG2,ITGB1,Endothelial cell,Stellate cell,1.4521813,0.0,Ligand,Receptor,HSPG2,ITGB1,1.4521813
+382,IAPP,CALCRL,Endocrine cell,Endothelial cell,1.4521474,0.0,Ligand,Receptor,IAPP,CALCRL,1.4521474
+383,COL1A2,ITGA1,Fibroblast cell,Endothelial cell,1.4520595,0.0,Ligand,Receptor,COL1A2,ITGA1,1.4520595
+384,HLA-DMA,CD4,Macrophage cell,Macrophage cell,1.4511399,0.0,Ligand,Receptor,HLA-DMA,CD4,1.4511399
+386,CALM2,PDE1C,Fibroblast cell,Endothelial cell,1.4490302,0.003,Ligand,Receptor,CALM2,PDE1C,1.4490302
+387,MIF,CD44,Ductal cell type 1,Ductal cell type 1,1.4484067,0.0,Ligand,Receptor,MIF,CD44,1.4484067
+389,CALM2,PDE1A,Fibroblast cell,Fibroblast cell,1.4477425,0.003,Ligand,Receptor,CALM2,PDE1A,1.4477425
+390,S100A4,ERBB2,Macrophage cell,Endocrine cell,1.4451183,0.0,Ligand,Receptor,S100A4,ERBB2,1.4451183
+392,HMGB1,CD163,Endothelial cell,Macrophage cell,1.4445508,0.0,Ligand,Receptor,HMGB1,CD163,1.4445508
+393,HSPG2,ITGB1,Endothelial cell,Fibroblast cell,1.4444048,0.0,Ligand,Receptor,HSPG2,ITGB1,1.4444048
+394,TIMP3,CD44,Fibroblast cell,B cell,1.4431909,0.0,Ligand,Receptor,TIMP3,CD44,1.4431909
+398,COL6A2,SDC1,Fibroblast cell,B cell,1.4403281,0.0,Ligand,Receptor,COL6A2,SDC1,1.4403281
+402,HMGB1,THBD,Endothelial cell,Endothelial cell,1.4361846,0.0,Ligand,Receptor,HMGB1,THBD,1.4361846
+405,CALM1,SCTR,Endothelial cell,Ductal cell type 1,1.4332914,0.0,Ligand,Receptor,CALM1,SCTR,1.4332914
+412,COL6A2,CD44,Fibroblast cell,Ductal cell type 1,1.4266474,0.0,Ligand,Receptor,COL6A2,CD44,1.4266474
+415,HSP90B1,ERBB2,B cell,Ductal cell type 1,1.4233533,0.0,Ligand,Receptor,HSP90B1,ERBB2,1.4233533
+419,CALM1,AQP1,Endothelial cell,Ductal cell type 1,1.41836,0.0,Ligand,Receptor,CALM1,AQP1,1.41836
+420,SPARC,ENG,Endothelial cell,Fibroblast cell,1.4175893,0.0,Ligand,Receptor,SPARC,ENG,1.4175893
+428,VWF,ITGB1,Endothelial cell,Stellate cell,1.4084415,0.0,Ligand,Receptor,VWF,ITGB1,1.4084415
+431,GNAI2,CAV1,Stellate cell,Endothelial cell,1.4061079,0.0,Ligand,Receptor,GNAI2,CAV1,1.4061079
+433,HSP90B1,ERBB2,B cell,Acinar cell,1.4019377,0.0,Ligand,Receptor,HSP90B1,ERBB2,1.4019377
+436,VWF,ITGB1,Endothelial cell,Fibroblast cell,1.4006653,0.0,Ligand,Receptor,VWF,ITGB1,1.4006653
+441,TGFB1,CAV1,Macrophage cell,Endothelial cell,1.3964987,0.0,Ligand,Receptor,TGFB1,CAV1,1.3964987
+442,LGALS1,ITGB1,Endothelial cell,Stellate cell,1.3951156,0.0,Ligand,Receptor,LGALS1,ITGB1,1.3951156
+443,SPARC,ENG,Fibroblast cell,Endothelial cell,1.3948829,0.0,Ligand,Receptor,SPARC,ENG,1.3948829
+444,PTN,PTPRB,Fibroblast cell,Endothelial cell,1.3945291,0.0,Ligand,Receptor,PTN,PTPRB,1.3945291
+445,C1QA,CD93,Macrophage cell,Endothelial cell,1.3943735,0.0,Ligand,Receptor,C1QA,CD93,1.3943735
+446,HSPG2,LRP1,Endothelial cell,Fibroblast cell,1.3926625,0.0,Ligand,Receptor,HSPG2,LRP1,1.3926625
+447,HMGB1,SDC1,Fibroblast cell,B cell,1.3916429,0.0,Ligand,Receptor,HMGB1,SDC1,1.3916429
+448,HMGB1,CXCR4,Ductal cell type 1,Macrophage cell,1.3896564,0.0,Ligand,Receptor,HMGB1,CXCR4,1.3896564
+450,ICAM1,CAV1,Endothelial cell,Endothelial cell,1.3888112,0.0,Ligand,Receptor,ICAM1,CAV1,1.3888112
+453,HSP90B1,ERBB2,B cell,Endocrine cell,1.3862531,0.0,Ligand,Receptor,HSP90B1,ERBB2,1.3862531
+454,MIF,CXCR4,Fibroblast cell,Macrophage cell,1.3836167,0.0,Ligand,Receptor,MIF,CXCR4,1.3836167
+455,TIMP3,DDR1,Fibroblast cell,Ductal cell type 1,1.3807007,0.0,Ligand,Receptor,TIMP3,DDR1,1.3807007
+457,COL6A2,ITGA1,Fibroblast cell,Endothelial cell,1.3791604,0.0,Ligand,Receptor,COL6A2,ITGA1,1.3791604
+458,HSP90AA1,ERBB2,Ductal cell type 1,Ductal cell type 1,1.3784698,0.0,Ligand,Receptor,HSP90AA1,ERBB2,1.3784698
+459,GNAI2,CAV1,Endocrine cell,Endothelial cell,1.3767679,0.0,Ligand,Receptor,GNAI2,CAV1,1.3767679
+461,CALM2,PDE1C,Ductal cell type 1,Endothelial cell,1.3750396,0.0,Ligand,Receptor,CALM2,PDE1C,1.3750396
+464,CALM2,PDE1A,Ductal cell type 1,Fibroblast cell,1.3737519,0.0,Ligand,Receptor,CALM2,PDE1A,1.3737519
+465,IAPP,RAMP1,Endocrine cell,B cell,1.3729471,0.0,Ligand,Receptor,IAPP,RAMP1,1.3729471
+466,VIM,CD44,Endothelial cell,Ductal cell type 1,1.372621,0.0,Ligand,Receptor,VIM,CD44,1.372621
+467,SERPINF1,PLXDC2,Fibroblast cell,Fibroblast cell,1.3720903,0.0,Ligand,Receptor,SERPINF1,PLXDC2,1.3720903
+472,TGFB1,CAV1,Endothelial cell,Endothelial cell,1.3697212,0.0,Ligand,Receptor,TGFB1,CAV1,1.3697212
+475,CALM2,MYLK,Ductal cell type 1,Endothelial cell,1.368514,0.0,Ligand,Receptor,CALM2,MYLK,1.368514
+476,CD99,CD81,Fibroblast cell,Fibroblast cell,1.3679539,0.0,Ligand,Receptor,CD99,CD81,1.3679539
+481,HMGB1,CXCR4,Stellate cell,Macrophage cell,1.3626456,0.0,Ligand,Receptor,HMGB1,CXCR4,1.3626456
+482,LAMA2,RPSA,Fibroblast cell,Acinar cell,1.3610514,0.009,Ligand,Receptor,LAMA2,RPSA,1.3610514
+484,HSP90AA1,ERBB2,Ductal cell type 1,Acinar cell,1.3570542,0.003,Ligand,Receptor,HSP90AA1,ERBB2,1.3570542
+485,CALM2,INSR,Ductal cell type 1,Ductal cell type 1,1.3570496,0.007,Ligand,Receptor,CALM2,INSR,1.3570496
+486,LAMB2,RPSA,Endothelial cell,Ductal cell type 1,1.3563784,0.0,Ligand,Receptor,LAMB2,RPSA,1.3563784
+489,TIMP3,DDR1,Fibroblast cell,Acinar cell,1.3514847,0.0,Ligand,Receptor,TIMP3,DDR1,1.3514847
+490,LAMB2,RPSA,B cell,Ductal cell type 1,1.3499391,0.008,Ligand,Receptor,LAMB2,RPSA,1.3499391
+491,EGF,CAV1,Acinar cell,Endothelial cell,1.3489314,0.0,Ligand,Receptor,EGF,CAV1,1.3489314
+492,VWF,LRP1,Endothelial cell,Fibroblast cell,1.348923,0.0,Ligand,Receptor,VWF,LRP1,1.348923
+493,LAMA2,RPSA,Fibroblast cell,Stellate cell,1.3484832,0.0,Ligand,Receptor,LAMA2,RPSA,1.3484832
+494,ALB,FCGRT,Acinar cell,Macrophage cell,1.3481107,0.0,Ligand,Receptor,ALB,FCGRT,1.3481107
+495,A2M,LRP1,Endothelial cell,Macrophage cell,1.3477911,0.0,Ligand,Receptor,A2M,LRP1,1.3477911
+496,GNAI2,CAV1,B cell,Stellate cell,1.3466095,0.001,Ligand,Receptor,GNAI2,CAV1,1.3466095
+497,CALM2,KCNQ1,Ductal cell type 1,Acinar cell,1.3444744,0.008,Ligand,Receptor,CALM2,KCNQ1,1.3444744
+498,HSPG2,ITGB1,Endothelial cell,Endothelial cell,1.3441355,0.0,Ligand,Receptor,HSPG2,ITGB1,1.3441355
+499,COL1A2,ITGA1,Fibroblast cell,Fibroblast cell,1.3420836,0.0,Ligand,Receptor,COL1A2,ITGA1,1.3420836
+500,HSP90AA1,ERBB2,Ductal cell type 1,Endocrine cell,1.3413696,0.0,Ligand,Receptor,HSP90AA1,ERBB2,1.3413696
+501,S100A10,TRPV6,Endothelial cell,Ductal cell type 1,1.3412001,0.0,Ligand,Receptor,S100A10,TRPV6,1.3412001
+504,TIMP3,DDR1,Fibroblast cell,Endocrine cell,1.3392923,0.0,Ligand,Receptor,TIMP3,DDR1,1.3392923
+506,CALM1,AQP1,Endothelial cell,Endothelial cell,1.3376241,0.0,Ligand,Receptor,CALM1,AQP1,1.3376241
+515,CALM1,AQP1,Endothelial cell,Endocrine cell,1.3257079,0.001,Ligand,Receptor,CALM1,AQP1,1.3257079
+517,ADCYAP1,RAMP2,Acinar cell,Endothelial cell,1.3237793,0.0,Ligand,Receptor,ADCYAP1,RAMP2,1.3237793
+518,CD99,CD81,Endocrine cell,Fibroblast cell,1.3211201,0.0,Ligand,Receptor,CD99,CD81,1.3211201
+521,PSAP,LRP1,Fibroblast cell,Fibroblast cell,1.320452,0.0,Ligand,Receptor,PSAP,LRP1,1.320452
+522,PTN,NCL,Fibroblast cell,Ductal cell type 1,1.3195097,0.0,Ligand,Receptor,PTN,NCL,1.3195097
+523,COL1A2,CD44,Fibroblast cell,Endocrine cell,1.3188626,0.0,Ligand,Receptor,COL1A2,CD44,1.3188626
+526,S100A10,TRPV6,Endothelial cell,Endocrine cell,1.3158801,0.009,Ligand,Receptor,S100A10,TRPV6,1.3158801
+527,MMP7,CD151,Ductal cell type 1,Stellate cell,1.3147156,0.0,Ligand,Receptor,MMP7,CD151,1.3147156
+528,THBS1,CD36,Fibroblast cell,Endothelial cell,1.3139852,0.0,Ligand,Receptor,THBS1,CD36,1.3139852
+533,LAMB2,RPSA,Fibroblast cell,Ductal cell type 1,1.310047,0.001,Ligand,Receptor,LAMB2,RPSA,1.310047
+537,IAPP,RAMP1,Endocrine cell,Endocrine cell,1.3063939,0.0,Ligand,Receptor,IAPP,RAMP1,1.3063939
+539,LAMB2,RPSA,Ductal cell type 1,Ductal cell type 1,1.3046994,0.0,Ligand,Receptor,LAMB2,RPSA,1.3046994
+540,HLA-DPA1,CD4,Endothelial cell,Macrophage cell,1.3034477,0.0,Ligand,Receptor,HLA-DPA1,CD4,1.3034477
+542,VIM,CD44,Macrophage cell,Endocrine cell,1.3032243,0.0,Ligand,Receptor,VIM,CD44,1.3032243
+543,C3,IFITM1,Macrophage cell,Endothelial cell,1.3024626,0.0,Ligand,Receptor,C3,IFITM1,1.3024626
+545,VIM,CD44,Stellate cell,Endocrine cell,1.302039,0.0,Ligand,Receptor,VIM,CD44,1.302039
+546,CALM1,SCTR,Stellate cell,Ductal cell type 1,1.3013196,0.0,Ligand,Receptor,CALM1,SCTR,1.3013196
+547,LAMB2,RPSA,Endocrine cell,Ductal cell type 1,1.3012137,0.0,Ligand,Receptor,LAMB2,RPSA,1.3012137
+548,VWF,ITGB1,Endothelial cell,Endothelial cell,1.3003957,0.0,Ligand,Receptor,VWF,ITGB1,1.3003957
+549,COL1A2,CD44,Fibroblast cell,Macrophage cell,1.2999154,0.0,Ligand,Receptor,COL1A2,CD44,1.2999154
+550,COL1A2,CD44,Fibroblast cell,Acinar cell,1.2998499,0.0,Ligand,Receptor,COL1A2,CD44,1.2998499
+552,CXCL12,ITGB1,Fibroblast cell,Stellate cell,1.2969971,0.0,Ligand,Receptor,CXCL12,ITGB1,1.2969971
+555,HLA-DPB1,CD4,Endothelial cell,Macrophage cell,1.2929225,0.0,Ligand,Receptor,HLA-DPB1,CD4,1.2929225
+556,CALM1,INSR,Endothelial cell,Acinar cell,1.292701,0.004,Ligand,Receptor,CALM1,INSR,1.292701
+558,HMGB1,TLR2,Endothelial cell,Macrophage cell,1.2892629,0.0,Ligand,Receptor,HMGB1,TLR2,1.2892629
+559,CXCL12,ITGB1,Fibroblast cell,Fibroblast cell,1.2892207,0.0,Ligand,Receptor,CXCL12,ITGB1,1.2892207
+560,C1QB,LRP1,Macrophage cell,Fibroblast cell,1.2888759,0.0,Ligand,Receptor,C1QB,LRP1,1.2888759
+562,HMGB1,CD163,Fibroblast cell,Macrophage cell,1.2882602,0.001,Ligand,Receptor,HMGB1,CD163,1.2882602
+565,CALM1,AQP1,Stellate cell,Ductal cell type 1,1.286388,0.0,Ligand,Receptor,CALM1,AQP1,1.286388
+568,GDF15,TGFBR2,Acinar cell,Endothelial cell,1.2854029,0.0,Ligand,Receptor,GDF15,TGFBR2,1.2854029
+569,VIM,CD44,Macrophage cell,Macrophage cell,1.2842772,0.0,Ligand,Receptor,VIM,CD44,1.2842772
+571,VIM,CD44,Stellate cell,Macrophage cell,1.2830919,0.0,Ligand,Receptor,VIM,CD44,1.2830919
+572,VIM,CD44,Stellate cell,Acinar cell,1.2830263,0.009,Ligand,Receptor,VIM,CD44,1.2830263
+573,MIF,CXCR4,Endocrine cell,Macrophage cell,1.2817086,0.0,Ligand,Receptor,MIF,CXCR4,1.2817086
+574,HMGB1,THBD,Fibroblast cell,Endothelial cell,1.2798942,0.004,Ligand,Receptor,HMGB1,THBD,1.2798942
+577,MIF,CXCR4,Stellate cell,Macrophage cell,1.2785001,0.0,Ligand,Receptor,MIF,CXCR4,1.2785001
+578,COL1A2,CD44,Fibroblast cell,B cell,1.2741505,0.0,Ligand,Receptor,COL1A2,CD44,1.2741505
+579,TGFB1,CAV1,B cell,Stellate cell,1.2724118,0.0,Ligand,Receptor,TGFB1,CAV1,1.2724118
+581,FBLN1,ITGB1,Fibroblast cell,Ductal cell type 1,1.2710683,0.0,Ligand,Receptor,FBLN1,ITGB1,1.2710683
+582,HRAS,CAV1,Acinar cell,Endothelial cell,1.2699407,0.0,Ligand,Receptor,HRAS,CAV1,1.2699407
+583,C3,IFITM1,Fibroblast cell,Fibroblast cell,1.2692722,0.0,Ligand,Receptor,C3,IFITM1,1.2692722
+584,COL6A2,ITGA1,Fibroblast cell,Fibroblast cell,1.2691845,0.0,Ligand,Receptor,COL6A2,ITGA1,1.2691845
+585,MIF,CD44,Ductal cell type 1,Endocrine cell,1.2677228,0.002,Ligand,Receptor,MIF,CD44,1.2677228
+587,IAPP,RAMP2,Acinar cell,Endothelial cell,1.2664677,0.0,Ligand,Receptor,IAPP,RAMP2,1.2664677
+589,PTN,NCL,Fibroblast cell,Endothelial cell,1.2649164,0.0,Ligand,Receptor,PTN,NCL,1.2649164
+590,CALM1,MYLK,Endothelial cell,Stellate cell,1.2635738,0.0,Ligand,Receptor,CALM1,MYLK,1.2635738
+591,GNAI2,CAV1,Fibroblast cell,Stellate cell,1.2612532,0.0,Ligand,Receptor,GNAI2,CAV1,1.2612532
+594,CALM1,SCTR,Endothelial cell,Endocrine cell,1.259156,0.0,Ligand,Receptor,CALM1,SCTR,1.259156
+596,SPP1,S1PR1,Ductal cell type 1,Endothelial cell,1.2575182,0.0,Ligand,Receptor,SPP1,S1PR1,1.2575182
+597,VIM,CD44,Stellate cell,B cell,1.257327,0.004,Ligand,Receptor,VIM,CD44,1.257327
+598,THBS4,CD36,Fibroblast cell,Endothelial cell,1.2570596,0.0,Ligand,Receptor,THBS4,CD36,1.2570596
+599,POMC,RAMP2,Acinar cell,Endothelial cell,1.2569904,0.0,Ligand,Receptor,POMC,RAMP2,1.2569904
+602,C3,CD81,Fibroblast cell,Fibroblast cell,1.2558689,0.0,Ligand,Receptor,C3,CD81,1.2558689
+603,HLA-C,NOTCH4,Ductal cell type 1,Endothelial cell,1.2558122,0.0,Ligand,Receptor,HLA-C,NOTCH4,1.2558122
+604,HMGB1,HAVCR2,Endothelial cell,Macrophage cell,1.2548877,0.0,Ligand,Receptor,HMGB1,HAVCR2,1.2548877
+607,LGALS3,ENG,Fibroblast cell,Endothelial cell,1.2528602,0.0,Ligand,Receptor,LGALS3,ENG,1.2528602
+611,HMGB1,SDC1,Ductal cell type 1,B cell,1.2515396,0.0,Ligand,Receptor,HMGB1,SDC1,1.2515396
+612,PTN,SDC1,Fibroblast cell,B cell,1.2513955,0.0,Ligand,Receptor,PTN,SDC1,1.2513955
+618,MIF,CD44,Ductal cell type 1,Macrophage cell,1.2487757,0.001,Ligand,Receptor,MIF,CD44,1.2487757
+620,COL6A2,CD44,Fibroblast cell,Endocrine cell,1.2459635,0.0,Ligand,Receptor,COL6A2,CD44,1.2459635
+621,PSAP,LRP1,Macrophage cell,Macrophage cell,1.243283,0.0,Ligand,Receptor,PSAP,LRP1,1.243283
+623,IGFBP4,LRP6,Endothelial cell,Acinar cell,1.2401943,0.0,Ligand,Receptor,IGFBP4,LRP6,1.2401943
+624,COL1A1,CD93,Fibroblast cell,Endothelial cell,1.2398833,0.0,Ligand,Receptor,COL1A1,CD93,1.2398833
+625,CALR,LRP1,B cell,Fibroblast cell,1.2362702,0.0,Ligand,Receptor,CALR,LRP1,1.2362702
+627,TIMP3,CD44,Endothelial cell,Ductal cell type 1,1.2352448,0.0,Ligand,Receptor,TIMP3,CD44,1.2352448
+628,FBLN1,ITGB1,Fibroblast cell,Acinar cell,1.2337373,0.0,Ligand,Receptor,FBLN1,ITGB1,1.2337373
+629,ALB,FCGRT,Acinar cell,Endothelial cell,1.2319049,0.0,Ligand,Receptor,ALB,FCGRT,1.2319049
+631,HLA-DRB5,CD4,Endothelial cell,Macrophage cell,1.2317065,0.0,Ligand,Receptor,HLA-DRB5,CD4,1.2317065
+632,SPARC,ENG,Stellate cell,Endothelial cell,1.2306186,0.0,Ligand,Receptor,SPARC,ENG,1.2306186
+633,LAMA2,RPSA,Fibroblast cell,Endocrine cell,1.2296131,0.0,Ligand,Receptor,LAMA2,RPSA,1.2296131
+634,PSAP,LRP1,Endocrine cell,Fibroblast cell,1.2291952,0.0,Ligand,Receptor,PSAP,LRP1,1.2291952
+636,COL1A2,CD36,Fibroblast cell,Macrophage cell,1.2272955,0.0,Ligand,Receptor,COL1A2,CD36,1.2272955
+637,COL6A2,CD44,Fibroblast cell,Macrophage cell,1.2270163,0.0,Ligand,Receptor,COL6A2,CD44,1.2270163
+638,COL6A2,CD44,Fibroblast cell,Acinar cell,1.2269508,0.0,Ligand,Receptor,COL6A2,CD44,1.2269508
+639,MFGE8,PDGFRB,Stellate cell,Stellate cell,1.225407,0.0,Ligand,Receptor,MFGE8,PDGFRB,1.225407
+643,TIMP3,KDR,Endothelial cell,Endothelial cell,1.2246861,0.0,Ligand,Receptor,TIMP3,KDR,1.2246861
+644,HMGB1,SDC1,Stellate cell,B cell,1.2245288,0.0,Ligand,Receptor,HMGB1,SDC1,1.2245288
+645,HMGB1,CXCR4,Macrophage cell,Macrophage cell,1.2242215,0.0,Ligand,Receptor,HMGB1,CXCR4,1.2242215
+646,C3,LRP1,Fibroblast cell,Fibroblast cell,1.2233455,0.0,Ligand,Receptor,C3,LRP1,1.2233455
+647,C3,IFITM1,Acinar cell,Endothelial cell,1.2230582,0.0,Ligand,Receptor,C3,IFITM1,1.2230582
+650,SPARC,FGFR1,Endothelial cell,Fibroblast cell,1.2218896,0.0,Ligand,Receptor,SPARC,FGFR1,1.2218896
+651,CD99,CD81,Fibroblast cell,Endothelial cell,1.2218163,0.0,Ligand,Receptor,CD99,CD81,1.2218163
+652,HMGB1,THBD,Endothelial cell,Endocrine cell,1.2216563,0.0,Ligand,Receptor,HMGB1,THBD,1.2216563
+655,SERPING1,LRP1,Ductal cell type 1,Fibroblast cell,1.2211366,0.0,Ligand,Receptor,SERPING1,LRP1,1.2211366
+656,FBLN1,ITGB1,Fibroblast cell,Endocrine cell,1.2205504,0.0,Ligand,Receptor,FBLN1,ITGB1,1.2205504
+657,TIMP2,ITGB1,Fibroblast cell,Stellate cell,1.2182262,0.0,Ligand,Receptor,TIMP2,ITGB1,1.2182262
+658,GNAI2,CAV1,Stellate cell,Stellate cell,1.2149575,0.0,Ligand,Receptor,GNAI2,CAV1,1.2149575
+664,TIMP2,ITGB1,Fibroblast cell,Fibroblast cell,1.2104498,0.0,Ligand,Receptor,TIMP2,ITGB1,1.2104498
+667,HSPG2,SDC1,Endothelial cell,B cell,1.2077433,0.0,Ligand,Receptor,HSPG2,SDC1,1.2077433
+668,CXCL14,CXCR4,Fibroblast cell,Macrophage cell,1.2075379,0.0,Ligand,Receptor,CXCL14,CXCR4,1.2075379
+671,CALM1,AQP1,Stellate cell,Endothelial cell,1.205652,0.009,Ligand,Receptor,CALM1,AQP1,1.205652
+672,SERPINF1,PLXDC2,Fibroblast cell,Acinar cell,1.205546,0.0,Ligand,Receptor,SERPINF1,PLXDC2,1.205546
+673,TGFB1,CAV1,Macrophage cell,Stellate cell,1.2053483,0.0,Ligand,Receptor,TGFB1,CAV1,1.2053483
+674,MIF,TNFRSF14,Ductal cell type 1,B cell,1.2045442,0.0,Ligand,Receptor,MIF,TNFRSF14,1.2045442
+675,COL3A1,ITGA1,Fibroblast cell,Endothelial cell,1.2027022,0.0,Ligand,Receptor,COL3A1,ITGA1,1.2027022
+677,APOE,TREM2,Fibroblast cell,Macrophage cell,1.2015712,0.0,Ligand,Receptor,APOE,TREM2,1.2015712
+678,COL6A2,CD44,Fibroblast cell,B cell,1.2012514,0.0,Ligand,Receptor,COL6A2,CD44,1.2012514
+681,HMGB1,SDC1,Endothelial cell,Acinar cell,1.1979474,0.003,Ligand,Receptor,HMGB1,SDC1,1.1979474
+682,ICAM1,CAV1,Endothelial cell,Stellate cell,1.1976608,0.0,Ligand,Receptor,ICAM1,CAV1,1.1976608
+693,IAPP,GPR20,Endocrine cell,Stellate cell,1.1925399,0.0,Ligand,Receptor,IAPP,GPR20,1.1925399
+694,VIM,CD44,Endothelial cell,Endocrine cell,1.1919372,0.0,Ligand,Receptor,VIM,CD44,1.1919372
+696,CXCL12,CXCR4,Fibroblast cell,Macrophage cell,1.1906759,0.0,Ligand,Receptor,CXCL12,CXCR4,1.1906759
+698,CXCL12,ITGB1,Fibroblast cell,Endothelial cell,1.1889513,0.0,Ligand,Receptor,CXCL12,ITGB1,1.1889513
+699,GNAI2,CAV1,Endocrine cell,Stellate cell,1.1856174,0.0,Ligand,Receptor,GNAI2,CAV1,1.1856174
+700,MIF,CXCR4,Endothelial cell,Macrophage cell,1.1847734,0.0,Ligand,Receptor,MIF,CXCR4,1.1847734
+702,CD99,CD81,Fibroblast cell,Macrophage cell,1.1838565,0.005,Ligand,Receptor,CD99,CD81,1.1838565
+704,C3,IFITM1,Endocrine cell,Endothelial cell,1.1817576,0.0,Ligand,Receptor,C3,IFITM1,1.1817576
+708,A2M,LRP1,Fibroblast cell,Macrophage cell,1.1796625,0.0,Ligand,Receptor,A2M,LRP1,1.1796625
+709,TGFB1,CAV1,Endothelial cell,Stellate cell,1.1785707,0.0,Ligand,Receptor,TGFB1,CAV1,1.1785707
+711,APP,LRP1,B cell,Fibroblast cell,1.1760378,0.0,Ligand,Receptor,APP,LRP1,1.1760378
+712,CD99,CD81,Endocrine cell,Endothelial cell,1.1749825,0.001,Ligand,Receptor,CD99,CD81,1.1749825
+713,IAPP,RAMP1,Endocrine cell,Endothelial cell,1.1741908,0.0,Ligand,Receptor,IAPP,RAMP1,1.1741908
+715,COL1A2,CD36,Fibroblast cell,Endocrine cell,1.1737742,0.0,Ligand,Receptor,COL1A2,CD36,1.1737742
+716,PSAP,SORT1,Macrophage cell,Endocrine cell,1.1735883,0.0,Ligand,Receptor,PSAP,SORT1,1.1735883
+717,VIM,CD44,Endothelial cell,Macrophage cell,1.1729901,0.0,Ligand,Receptor,VIM,CD44,1.1729901
+719,APP,LRP1,Endothelial cell,Fibroblast cell,1.1722567,0.0,Ligand,Receptor,APP,LRP1,1.1722567
+721,PTN,NCL,Fibroblast cell,Stellate cell,1.1701075,0.0,Ligand,Receptor,PTN,NCL,1.1701075
+722,PSAP,GPR37,Macrophage cell,Acinar cell,1.1698335,0.0,Ligand,Receptor,PSAP,GPR37,1.1698335
+723,FBLN1,ITGB1,Fibroblast cell,Macrophage cell,1.1694325,0.0,Ligand,Receptor,FBLN1,ITGB1,1.1694325
+726,CALM1,INSR,Endothelial cell,Endothelial cell,1.1665947,0.0,Ligand,Receptor,CALM1,INSR,1.1665947
+728,MIF,TNFRSF14,Ductal cell type 1,Macrophage cell,1.1658568,0.0,Ligand,Receptor,MIF,TNFRSF14,1.1658568
+729,PTN,NCL,Fibroblast cell,Endocrine cell,1.1648532,0.0,Ligand,Receptor,PTN,NCL,1.1648532
+730,COL1A2,SDC1,Fibroblast cell,Acinar cell,1.1632413,0.0,Ligand,Receptor,COL1A2,SDC1,1.1632413
+731,CD99,CD81,Endothelial cell,Fibroblast cell,1.1622769,0.0,Ligand,Receptor,CD99,CD81,1.1622769
+732,ALB,FCGRT,Acinar cell,Fibroblast cell,1.1618918,0.0,Ligand,Receptor,ALB,FCGRT,1.1618918
+735,CD99,CD81,Fibroblast cell,Stellate cell,1.1606567,0.004,Ligand,Receptor,CD99,CD81,1.1606567
+737,COL6A3,SDC1,Fibroblast cell,B cell,1.159667,0.0,Ligand,Receptor,COL6A3,SDC1,1.159667
+738,SPARC,ENG,Fibroblast cell,Fibroblast cell,1.159327,0.007,Ligand,Receptor,SPARC,ENG,1.159327
+740,EGF,CAV1,Acinar cell,Stellate cell,1.157781,0.0,Ligand,Receptor,EGF,CAV1,1.157781
+741,PRSS1,F2R,Ductal cell type 1,Fibroblast cell,1.1577046,0.0,Ligand,Receptor,PRSS1,F2R,1.1577046
+744,PTN,PTPRS,Fibroblast cell,Fibroblast cell,1.1548532,0.0,Ligand,Receptor,PTN,PTPRS,1.1548532
+745,PRSS1,F2RL3,Ductal cell type 1,Endothelial cell,1.1546557,0.0,Ligand,Receptor,PRSS1,F2RL3,1.1546557
+746,APP,LRP1,Ductal cell type 1,Fibroblast cell,1.1521175,0.0,Ligand,Receptor,APP,LRP1,1.1521175
+749,SERPING1,LRP1,Fibroblast cell,Macrophage cell,1.150399,0.0,Ligand,Receptor,SERPING1,LRP1,1.150399
+750,DLK1,NOTCH3,Endocrine cell,Stellate cell,1.150388,0.0,Ligand,Receptor,DLK1,NOTCH3,1.150388
+751,FN1,CD79A,Fibroblast cell,B cell,1.1490476,0.0,Ligand,Receptor,FN1,CD79A,1.1490476
+753,HMGB1,CD163,Ductal cell type 1,Macrophage cell,1.1481569,0.0,Ligand,Receptor,HMGB1,CD163,1.1481569
+754,COL1A2,CD36,Fibroblast cell,Acinar cell,1.1479708,0.0,Ligand,Receptor,COL1A2,CD36,1.1479708
+758,COL6A3,CD44,Fibroblast cell,Ductal cell type 1,1.1459862,0.0,Ligand,Receptor,COL6A3,CD44,1.1459862
+763,LGALS3BP,ITGB1,Fibroblast cell,Stellate cell,1.1421314,0.0,Ligand,Receptor,LGALS3BP,ITGB1,1.1421314
+764,PTN,NCL,Fibroblast cell,Macrophage cell,1.1414661,0.0,Ligand,Receptor,PTN,NCL,1.1414661
+765,APOE,SDC2,Fibroblast cell,Acinar cell,1.1414326,0.0,Ligand,Receptor,APOE,SDC2,1.1414326
+768,HMGB1,THBD,Ductal cell type 1,Endothelial cell,1.1397909,0.0,Ligand,Receptor,HMGB1,THBD,1.1397909
+770,ALB,FCGRT,Acinar cell,Ductal cell type 1,1.1381866,0.0,Ligand,Receptor,ALB,FCGRT,1.1381866
+771,CD99,CD81,Fibroblast cell,Ductal cell type 1,1.1378578,0.003,Ligand,Receptor,CD99,CD81,1.1378578
+772,PRSS1,F2R,Endocrine cell,Fibroblast cell,1.137472,0.002,Ligand,Receptor,PRSS1,F2R,1.137472
+773,CD99,CD81,Endocrine cell,Macrophage cell,1.1370227,0.002,Ligand,Receptor,CD99,CD81,1.1370227
+774,TNFSF13B,HLA-DPB1,Fibroblast cell,Endothelial cell,1.1365722,0.0,Ligand,Receptor,TNFSF13B,HLA-DPB1,1.1365722
+776,APOE,SORL1,Fibroblast cell,Macrophage cell,1.1350198,0.0,Ligand,Receptor,APOE,SORL1,1.1350198
+778,PRSS1,F2RL3,Endocrine cell,Endothelial cell,1.1344233,0.01,Ligand,Receptor,PRSS1,F2RL3,1.1344233
+779,LGALS3BP,ITGB1,Fibroblast cell,Fibroblast cell,1.1343551,0.0,Ligand,Receptor,LGALS3BP,ITGB1,1.1343551
+780,HSP90B1,LRP1,Acinar cell,Fibroblast cell,1.1342428,0.0,Ligand,Receptor,HSP90B1,LRP1,1.1342428
+782,CD99,CD81,Fibroblast cell,Endocrine cell,1.1340507,0.007,Ligand,Receptor,CD99,CD81,1.1340507
+788,CALM1,MYLK,Stellate cell,Stellate cell,1.1316018,0.0,Ligand,Receptor,CALM1,MYLK,1.1316018
+789,HBEGF,CD9,Macrophage cell,Stellate cell,1.1303555,0.0,Ligand,Receptor,HBEGF,CD9,1.1303555
+790,SPP1,CD44,Ductal cell type 1,Ductal cell type 1,1.1302218,0.0,Ligand,Receptor,SPP1,CD44,1.1302218
+793,APOE,SORL1,Fibroblast cell,Endocrine cell,1.1298988,0.0,Ligand,Receptor,APOE,SORL1,1.1298988
+795,COL1A2,ITGA2,Fibroblast cell,Acinar cell,1.1287678,0.0,Ligand,Receptor,COL1A2,ITGA2,1.1287678
+796,COL1A2,ITGA3,Fibroblast cell,Acinar cell,1.1287678,0.0,Ligand,Receptor,COL1A2,ITGA3,1.1287678
+797,HSP90B1,LRP1,Fibroblast cell,Fibroblast cell,1.1281817,0.0,Ligand,Receptor,HSP90B1,LRP1,1.1281817
+798,IAPP,RAMP1,Endocrine cell,Macrophage cell,1.1278653,0.0,Ligand,Receptor,IAPP,RAMP1,1.1278653
+804,HSP90B1,LRP1,Endothelial cell,Fibroblast cell,1.1218863,0.0,Ligand,Receptor,HSP90B1,LRP1,1.1218863
+805,HMGB1,CD163,Stellate cell,Macrophage cell,1.1211462,0.0,Ligand,Receptor,HMGB1,CD163,1.1211462
+810,HSPG2,FGFR1,Endothelial cell,Fibroblast cell,1.1199372,0.0,Ligand,Receptor,HSPG2,FGFR1,1.1199372
+813,COL1A1,SDC1,Fibroblast cell,B cell,1.117711,0.0,Ligand,Receptor,COL1A1,SDC1,1.117711
+819,CD99,CD81,Endocrine cell,Stellate cell,1.1138229,0.0,Ligand,Receptor,CD99,CD81,1.1138229
+820,HMGB1,THBD,Stellate cell,Endothelial cell,1.1127801,0.001,Ligand,Receptor,HMGB1,THBD,1.1127801
+821,CD99,CD81,Stellate cell,Fibroblast cell,1.112617,0.004,Ligand,Receptor,CD99,CD81,1.112617
+822,CALM1,SCTR,Ductal cell type 1,Ductal cell type 1,1.1125755,0.0,Ligand,Receptor,CALM1,SCTR,1.1125755
+824,LGALS3,ENG,Endothelial cell,Endothelial cell,1.1118021,0.0,Ligand,Receptor,LGALS3,ENG,1.1118021
+825,MIF,TNFRSF14,Ductal cell type 1,Acinar cell,1.1114191,0.003,Ligand,Receptor,MIF,TNFRSF14,1.1114191
+826,HSPG2,PTPRS,Endothelial cell,Fibroblast cell,1.1112009,0.0,Ligand,Receptor,HSPG2,PTPRS,1.1112009
+831,TIMP2,ITGB1,Fibroblast cell,Endothelial cell,1.1101804,0.0,Ligand,Receptor,TIMP2,ITGB1,1.1101804
+834,C3,CD81,Fibroblast cell,Endothelial cell,1.1097314,0.0,Ligand,Receptor,C3,CD81,1.1097314
+839,APOE,LRP1,Macrophage cell,Fibroblast cell,1.1081371,0.0,Ligand,Receptor,APOE,LRP1,1.1081371
+844,LEFTY1,ACVR2A,Ductal cell type 1,Fibroblast cell,1.1048332,0.0,Ligand,Receptor,LEFTY1,ACVR2A,1.1048332
+845,COL1A1,CD44,Fibroblast cell,Ductal cell type 1,1.1040301,0.0,Ligand,Receptor,COL1A1,CD44,1.1040301
+848,FN1,ITGA6,Fibroblast cell,Endothelial cell,1.1025858,0.0,Ligand,Receptor,FN1,ITGA6,1.1025858
+849,PSAP,LRP1,Endothelial cell,Fibroblast cell,1.1023505,0.0,Ligand,Receptor,PSAP,LRP1,1.1023505
+851,PTN,SDC2,Fibroblast cell,Acinar cell,1.1012177,0.0,Ligand,Receptor,PTN,SDC2,1.1012177
+853,TFPI,LRP1,Fibroblast cell,Fibroblast cell,1.0988841,0.0,Ligand,Receptor,TFPI,LRP1,1.0988841
+856,COL6A3,ITGA1,Fibroblast cell,Endothelial cell,1.0984993,0.0,Ligand,Receptor,COL6A3,ITGA1,1.0984993
+861,LGALS3,ENG,Macrophage cell,Endothelial cell,1.0951257,0.0,Ligand,Receptor,LGALS3,ENG,1.0951257
+865,COL3A1,ITGA1,Fibroblast cell,Fibroblast cell,1.0927262,0.0,Ligand,Receptor,COL3A1,ITGA1,1.0927262
+868,CD99,CD81,Endocrine cell,Ductal cell type 1,1.091024,0.0,Ligand,Receptor,CD99,CD81,1.091024
+869,PTN,SDC4,Fibroblast cell,Acinar cell,1.0910091,0.0,Ligand,Receptor,PTN,SDC4,1.0910091
+870,COL6A2,SDC1,Fibroblast cell,Acinar cell,1.0903422,0.0,Ligand,Receptor,COL6A2,SDC1,1.0903422
+872,SPON2,ITGB1,Fibroblast cell,Stellate cell,1.0898306,0.0,Ligand,Receptor,SPON2,ITGB1,1.0898306
+873,A2M,LRP1,Macrophage cell,Fibroblast cell,1.0890342,0.0,Ligand,Receptor,A2M,LRP1,1.0890342
+886,PLAT,LRP1,Endothelial cell,Fibroblast cell,1.0848327,0.0,Ligand,Receptor,PLAT,LRP1,1.0848327
+889,CALM1,INSR,Endothelial cell,Endocrine cell,1.082575,0.0,Ligand,Receptor,CALM1,INSR,1.082575
+891,SPARC,ENG,Endothelial cell,Macrophage cell,1.0821159,0.0,Ligand,Receptor,SPARC,ENG,1.0821159
+892,S100A4,ERBB3,Fibroblast cell,Ductal cell type 1,1.0821108,0.0,Ligand,Receptor,S100A4,ERBB3,1.0821108
+893,SPON2,ITGB1,Fibroblast cell,Fibroblast cell,1.0820541,0.0,Ligand,Receptor,SPON2,ITGB1,1.0820541
+895,HRAS,CAV1,Acinar cell,Stellate cell,1.0787903,0.0,Ligand,Receptor,HRAS,CAV1,1.0787903
+896,MIF,ACKR3,Ductal cell type 1,Acinar cell,1.0776281,0.0,Ligand,Receptor,MIF,ACKR3,1.0776281
+897,THBS1,CD36,Acinar cell,Endothelial cell,1.0769461,0.0,Ligand,Receptor,THBS1,CD36,1.0769461
+898,COL4A2,CD93,Endothelial cell,Endothelial cell,1.0766015,0.0,Ligand,Receptor,COL4A2,CD93,1.0766015
+900,CALM1,PTPRA,Endothelial cell,Fibroblast cell,1.0748631,0.001,Ligand,Receptor,CALM1,PTPRA,1.0748631
+903,MMP7,SDC1,Ductal cell type 1,B cell,1.0732307,0.0,Ligand,Receptor,MMP7,SDC1,1.0732307
+905,C3,CD81,Fibroblast cell,Macrophage cell,1.0717716,0.0,Ligand,Receptor,C3,CD81,1.0717716
+911,MMP7,CD151,Ductal cell type 1,Endothelial cell,1.0685433,0.0,Ligand,Receptor,MMP7,CD151,1.0685433
+914,COL6A1,ITGA6,Fibroblast cell,Endothelial cell,1.067328,0.0,Ligand,Receptor,COL6A1,ITGA6,1.067328
+917,IAPP,RAMP2,Endocrine cell,Endocrine cell,1.0657594,0.0,Ligand,Receptor,IAPP,RAMP2,1.0657594
+922,COL4A1,CD93,Fibroblast cell,Endothelial cell,1.0624299,0.0,Ligand,Receptor,COL4A1,CD93,1.0624299
+924,BGN,LY96,Fibroblast cell,B cell,1.061135,0.0,Ligand,Receptor,BGN,LY96,1.061135
+926,MMP7,CD44,Ductal cell type 1,Ductal cell type 1,1.05955,0.0,Ligand,Receptor,MMP7,CD44,1.05955
+927,S100A4,ERBB3,Fibroblast cell,Acinar cell,1.0591524,0.001,Ligand,Receptor,S100A4,ERBB3,1.0591524
+928,HSP90B1,LRP1,Macrophage cell,Fibroblast cell,1.058541,0.0,Ligand,Receptor,HSP90B1,LRP1,1.058541
+929,S100A9,CD36,Macrophage cell,Endothelial cell,1.0574976,0.0,Ligand,Receptor,S100A9,CD36,1.0574976
+930,COL1A1,ITGA1,Fibroblast cell,Endothelial cell,1.0565432,0.0,Ligand,Receptor,COL1A1,ITGA1,1.0565432
+932,COL6A2,ITGA2,Fibroblast cell,Acinar cell,1.0558687,0.0,Ligand,Receptor,COL6A2,ITGA2,1.0558687
+933,COL6A2,ITGA3,Fibroblast cell,Acinar cell,1.0558687,0.0,Ligand,Receptor,COL6A2,ITGA3,1.0558687
+934,TIMP3,CD44,Endothelial cell,Endocrine cell,1.0545609,0.0,Ligand,Receptor,TIMP3,CD44,1.0545609
+936,LAMA2,ITGB1,Fibroblast cell,Endothelial cell,1.0538394,0.0,Ligand,Receptor,LAMA2,ITGB1,1.0538394
+939,SPARC,FGFR1,Endothelial cell,Acinar cell,1.0508122,0.0,Ligand,Receptor,SPARC,FGFR1,1.0508122
+942,C3,CD81,Fibroblast cell,Stellate cell,1.0485718,0.0,Ligand,Receptor,C3,CD81,1.0485718
+944,HSPG2,ITGB1,Fibroblast cell,Stellate cell,1.0472622,0.0,Ligand,Receptor,HSPG2,ITGB1,1.0472622
+946,CLEC11A,ITGB1,Fibroblast cell,Stellate cell,1.0464612,0.0,Ligand,Receptor,CLEC11A,ITGB1,1.0464612
+948,PSAP,LRP1,Ductal cell type 1,Fibroblast cell,1.0440935,0.0,Ligand,Receptor,PSAP,LRP1,1.0440935
+953,SLIT2,APP,Fibroblast cell,B cell,1.0415187,0.001,Ligand,Receptor,SLIT2,APP,1.0415187
+955,CALM1,PDE1C,Endothelial cell,Endothelial cell,1.040406,0.0,Ligand,Receptor,CALM1,PDE1C,1.040406
+958,CALM1,PDE1A,Endothelial cell,Fibroblast cell,1.0391183,0.0,Ligand,Receptor,CALM1,PDE1A,1.0391183
+960,CLEC11A,ITGB1,Fibroblast cell,Fibroblast cell,1.0386848,0.0,Ligand,Receptor,CLEC11A,ITGB1,1.0386848
+961,SLIT2,APP,Fibroblast cell,Endothelial cell,1.0377376,0.0,Ligand,Receptor,SLIT2,APP,1.0377376
+967,TIMP3,CD44,Endothelial cell,Macrophage cell,1.0356138,0.0,Ligand,Receptor,TIMP3,CD44,1.0356138
+968,IAPP,CALCRL,Endocrine cell,Acinar cell,1.0356127,0.0,Ligand,Receptor,IAPP,CALCRL,1.0356127
+970,TIMP3,CD44,Endothelial cell,Acinar cell,1.0355482,0.007,Ligand,Receptor,TIMP3,CD44,1.0355482
+972,LGALS3,ENG,Stellate cell,Endothelial cell,1.0349371,0.0,Ligand,Receptor,LGALS3,ENG,1.0349371
+973,ADCYAP1,RAMP3,Endocrine cell,Endothelial cell,1.0349168,0.0,Ligand,Receptor,ADCYAP1,RAMP3,1.0349168
+975,CALM1,INSR,Stellate cell,Endothelial cell,1.0346229,0.0,Ligand,Receptor,CALM1,INSR,1.0346229
+977,LGALS3BP,ITGB1,Fibroblast cell,Endothelial cell,1.0340856,0.0,Ligand,Receptor,LGALS3BP,ITGB1,1.0340856
+979,CALM1,MYLK,Endothelial cell,Endothelial cell,1.0338804,0.0,Ligand,Receptor,CALM1,MYLK,1.0338804
+988,C3,IFITM1,Fibroblast cell,Stellate cell,1.0321038,0.0,Ligand,Receptor,C3,IFITM1,1.0321038
+992,PTN,SDC4,Fibroblast cell,Ductal cell type 1,1.0294248,0.0,Ligand,Receptor,PTN,SDC4,1.0294248
+998,C3,CD81,Fibroblast cell,Ductal cell type 1,1.0257729,0.0,Ligand,Receptor,C3,CD81,1.0257729
+1000,CALM1,PTPRA,Endothelial cell,Endothelial cell,1.0250132,0.0,Ligand,Receptor,CALM1,PTPRA,1.0250132
+1001,APOE,SORL1,Fibroblast cell,Ductal cell type 1,1.0243117,0.0,Ligand,Receptor,APOE,SORL1,1.0243117
+1003,APOE,ABCA1,Fibroblast cell,Fibroblast cell,1.0239576,0.0,Ligand,Receptor,APOE,ABCA1,1.0239576
+1005,CALM1,INSR,Endothelial cell,Ductal cell type 1,1.022416,0.0,Ligand,Receptor,CALM1,INSR,1.022416
+1008,C3,CD81,Fibroblast cell,Endocrine cell,1.0219659,0.0,Ligand,Receptor,C3,CD81,1.0219659
+1010,MFGE8,PDGFRB,Fibroblast cell,Stellate cell,1.019727,0.0,Ligand,Receptor,MFGE8,PDGFRB,1.019727
+1011,LAMB1,ITGB1,Fibroblast cell,Endothelial cell,1.0196595,0.0,Ligand,Receptor,LAMB1,ITGB1,1.0196595
+1013,SLIT2,APP,Fibroblast cell,Ductal cell type 1,1.0175983,0.0,Ligand,Receptor,SLIT2,APP,1.0175983
+1014,LGALS3,ENG,Fibroblast cell,Fibroblast cell,1.0173043,0.002,Ligand,Receptor,LGALS3,ENG,1.0173043
+1018,CD99,CD81,Endothelial cell,Endothelial cell,1.0161393,0.0,Ligand,Receptor,CD99,CD81,1.0161393
+1021,APOE,LRP1,Fibroblast cell,Macrophage cell,1.0143915,0.0,Ligand,Receptor,APOE,LRP1,1.0143915
+1022,CD14,ITGB1,Macrophage cell,Stellate cell,1.0141166,0.0,Ligand,Receptor,CD14,ITGB1,1.0141166
+1023,PTN,PTPRS,Fibroblast cell,Endocrine cell,1.0132893,0.0,Ligand,Receptor,PTN,PTPRS,1.0132893
+1024,HSPG2,ITGB1,Endothelial cell,Ductal cell type 1,1.0124711,0.0,Ligand,Receptor,HSPG2,ITGB1,1.0124711
+1025,SERPING1,LRP1,B cell,Fibroblast cell,1.0122566,0.004,Ligand,Receptor,SERPING1,LRP1,1.0122566
+1034,SERPING1,LRP1,Endothelial cell,Fibroblast cell,1.0102552,0.0,Ligand,Receptor,SERPING1,LRP1,1.0102552
+1035,TIMP3,CD44,Endothelial cell,B cell,1.0098488,0.004,Ligand,Receptor,TIMP3,CD44,1.0098488
+1036,CALM1,KCNQ1,Endothelial cell,Acinar cell,1.0098408,0.001,Ligand,Receptor,CALM1,KCNQ1,1.0098408
+1037,C3,CD81,Fibroblast cell,B cell,1.0086477,0.001,Ligand,Receptor,C3,CD81,1.0086477
+1038,GNAI2,S1PR1,Endothelial cell,Endothelial cell,1.0079873,0.0,Ligand,Receptor,GNAI2,S1PR1,1.0079873
+1040,CCL3,CCR1,B cell,Macrophage cell,1.007477,0.0,Ligand,Receptor,CCL3,CCR1,1.007477
+1044,CD14,ITGB1,Macrophage cell,Fibroblast cell,1.0063403,0.0,Ligand,Receptor,CD14,ITGB1,1.0063403
+1053,PRSS1,F2RL1,Ductal cell type 1,Ductal cell type 1,1.00144,0.0,Ligand,Receptor,PRSS1,F2RL1,1.00144
+1054,TIMP3,CD44,Stellate cell,Ductal cell type 1,1.000689,0.0,Ligand,Receptor,TIMP3,CD44,1.000689
+1055,A2M,LRP1,Stellate cell,Fibroblast cell,1.0004429,0.0,Ligand,Receptor,A2M,LRP1,1.0004429
+1056,MMP7,CD151,Ductal cell type 1,Ductal cell type 1,0.99951077,0.0,Ligand,Receptor,MMP7,CD151,0.99951077
+1057,LGALS1,PTPRC,Endothelial cell,Macrophage cell,0.99868506,0.005,Ligand,Receptor,LGALS1,PTPRC,0.99868506
+1061,SPARC,ENG,Stellate cell,Fibroblast cell,0.9950627,0.0,Ligand,Receptor,SPARC,ENG,0.9950627
+1064,APOE,LRP5,Fibroblast cell,Endothelial cell,0.9944387,0.0,Ligand,Receptor,APOE,LRP5,0.9944387
+1065,EFEMP2,AQP1,Fibroblast cell,Ductal cell type 1,0.9933576,0.0,Ligand,Receptor,EFEMP2,AQP1,0.9933576
+1067,HMGB1,TLR2,Ductal cell type 1,Macrophage cell,0.99286914,0.002,Ligand,Receptor,HMGB1,TLR2,0.99286914
+1068,PTN,NCL,Fibroblast cell,Acinar cell,0.99251205,0.007,Ligand,Receptor,PTN,NCL,0.99251205
+1069,S100A4,ERBB2,Fibroblast cell,Ductal cell type 1,0.99250144,0.0,Ligand,Receptor,S100A4,ERBB2,0.99250144
+1072,CALM1,PTPRA,Endothelial cell,Macrophage cell,0.9916774,0.0,Ligand,Receptor,CALM1,PTPRA,0.9916774
+1074,APP,APLP2,Endothelial cell,Endothelial cell,0.9907117,0.0,Ligand,Receptor,APP,APLP2,0.9907117
+1076,TIMP3,KDR,Stellate cell,Endothelial cell,0.9901304,0.0,Ligand,Receptor,TIMP3,KDR,0.9901304
+1078,MDK,NCL,Ductal cell type 1,Fibroblast cell,0.98895603,0.001,Ligand,Receptor,MDK,NCL,0.98895603
+1079,COL6A3,ITGA1,Fibroblast cell,Fibroblast cell,0.9885233,0.0,Ligand,Receptor,COL6A3,ITGA1,0.9885233
+1080,APP,APLP2,Endothelial cell,Ductal cell type 1,0.98800045,0.0,Ligand,Receptor,APP,APLP2,0.98800045
+1082,HSPG2,LRP1,Fibroblast cell,Fibroblast cell,0.9877435,0.0,Ligand,Receptor,HSPG2,LRP1,0.9877435
+1084,ALB,FCGRT,Acinar cell,Stellate cell,0.98697263,0.0,Ligand,Receptor,ALB,FCGRT,0.98697263
+1085,CCL3,CCR1,Macrophage cell,Macrophage cell,0.986022,0.0,Ligand,Receptor,CCL3,CCR1,0.986022
+1087,MFGE8,PDGFRB,Stellate cell,Fibroblast cell,0.98434126,0.0,Ligand,Receptor,MFGE8,PDGFRB,0.98434126
+1088,FAM3C,LIFR,Fibroblast cell,Endothelial cell,0.9837714,0.0,Ligand,Receptor,FAM3C,LIFR,0.9837714
+1091,SPON2,ITGB1,Fibroblast cell,Endothelial cell,0.98178476,0.0,Ligand,Receptor,SPON2,ITGB1,0.98178476
+1110,C1QB,C1QBP,Macrophage cell,Fibroblast cell,0.9722089,0.0,Ligand,Receptor,C1QB,C1QBP,0.9722089
+1113,TGFB1,ENG,B cell,Endothelial cell,0.9715227,0.0,Ligand,Receptor,TGFB1,ENG,0.9715227
+1114,S100A4,ERBB2,Fibroblast cell,Acinar cell,0.9710859,0.001,Ligand,Receptor,S100A4,ERBB2,0.9710859
+1116,APP,APLP2,Ductal cell type 1,Endothelial cell,0.97057235,0.0,Ligand,Receptor,APP,APLP2,0.97057235
+1117,HSPG2,PTPRS,Endothelial cell,Endocrine cell,0.9696371,0.0,Ligand,Receptor,HSPG2,PTPRS,0.9696371
+1118,VWF,ITGB1,Endothelial cell,Ductal cell type 1,0.96873134,0.0,Ligand,Receptor,VWF,ITGB1,0.96873134
+1119,APP,APLP2,Ductal cell type 1,Ductal cell type 1,0.9678612,0.0,Ligand,Receptor,APP,APLP2,0.9678612
+1120,S100A4,ERBB3,Fibroblast cell,Endocrine cell,0.967154,0.0,Ligand,Receptor,S100A4,ERBB3,0.967154
+1121,SERPING1,LRP1,Endocrine cell,Fibroblast cell,0.9669557,0.0,Ligand,Receptor,SERPING1,LRP1,0.9669557
+1123,APOE,LRP6,Fibroblast cell,Acinar cell,0.96693885,0.0,Ligand,Receptor,APOE,LRP6,0.96693885
+1124,SERPINA1,LRP1,Ductal cell type 1,Fibroblast cell,0.96665835,0.0,Ligand,Receptor,SERPINA1,LRP1,0.96665835
+1125,CD99,CD81,Stellate cell,Endothelial cell,0.9664794,0.005,Ligand,Receptor,CD99,CD81,0.9664794
+1130,COL6A3,CD44,Fibroblast cell,Endocrine cell,0.96530235,0.0,Ligand,Receptor,COL6A3,CD44,0.96530235
+1131,PTN,SDC3,Fibroblast cell,Endothelial cell,0.96498734,0.0,Ligand,Receptor,PTN,SDC3,0.96498734
+1136,SPARC,FGFR1,Fibroblast cell,Fibroblast cell,0.96362746,0.0,Ligand,Receptor,SPARC,FGFR1,0.96362746
+1137,THBS1,LRP1,Fibroblast cell,Fibroblast cell,0.9631286,0.0,Ligand,Receptor,THBS1,LRP1,0.9631286
+1139,PTN,PLXNB2,Fibroblast cell,Endothelial cell,0.9625883,0.0,Ligand,Receptor,PTN,PLXNB2,0.9625883
+1140,GNAI2,S1PR1,Macrophage cell,Endothelial cell,0.9625834,0.0,Ligand,Receptor,GNAI2,S1PR1,0.9625834
+1141,MDK,LRP1,Ductal cell type 1,Fibroblast cell,0.9623237,0.0,Ligand,Receptor,MDK,LRP1,0.9623237
+1142,COL3A1,DDR1,Fibroblast cell,Ductal cell type 1,0.96230286,0.0,Ligand,Receptor,COL3A1,DDR1,0.96230286
+1144,HSPG2,ITGB1,Endothelial cell,Endocrine cell,0.9619531,0.0,Ligand,Receptor,HSPG2,ITGB1,0.9619531
+1145,MMRN2,CD93,Endothelial cell,Endothelial cell,0.96137035,0.0,Ligand,Receptor,MMRN2,CD93,0.96137035
+1146,FN1,SDC1,Fibroblast cell,B cell,0.9612806,0.0,Ligand,Receptor,FN1,SDC1,0.9612806
+1147,TIMP2,CD44,Fibroblast cell,Ductal cell type 1,0.9601074,0.0,Ligand,Receptor,TIMP2,CD44,0.9601074
+1149,GPC3,CD81,Fibroblast cell,Fibroblast cell,0.9589541,0.0,Ligand,Receptor,GPC3,CD81,0.9589541
+1150,HMGB1,HAVCR2,Ductal cell type 1,Macrophage cell,0.95849395,0.004,Ligand,Receptor,HMGB1,HAVCR2,0.95849395
+1155,CALM1,PTPRA,Endothelial cell,Endocrine cell,0.9557614,0.001,Ligand,Receptor,CALM1,PTPRA,0.9557614
+1158,S100A4,ERBB2,Fibroblast cell,Endocrine cell,0.95540124,0.0,Ligand,Receptor,S100A4,ERBB2,0.95540124
+1159,PTN,PLXNB2,Fibroblast cell,Ductal cell type 1,0.9550156,0.0,Ligand,Receptor,PTN,PLXNB2,0.9550156
+1160,CD99,CD81,Endothelial cell,Stellate cell,0.95497966,0.004,Ligand,Receptor,CD99,CD81,0.95497966
+1161,COL4A2,SDC1,Endothelial cell,B cell,0.95442915,0.0,Ligand,Receptor,COL4A2,SDC1,0.95442915
+1164,C3,NRP1,Fibroblast cell,Endothelial cell,0.9538573,0.0,Ligand,Receptor,C3,NRP1,0.9538573
+1167,COL15A1,ITGA1,Endothelial cell,Endothelial cell,0.9524127,0.0,Ligand,Receptor,COL15A1,ITGA1,0.9524127
+1169,APOE,SDC2,Fibroblast cell,Endocrine cell,0.9515443,0.0,Ligand,Receptor,APOE,SDC2,0.9515443
+1170,CXCL12,CD4,Fibroblast cell,Macrophage cell,0.95150095,0.0,Ligand,Receptor,CXCL12,CD4,0.95150095
+1172,SPP1,CD44,Ductal cell type 1,Endocrine cell,0.949538,0.0,Ligand,Receptor,SPP1,CD44,0.949538
+1175,HSPG2,FGFR1,Endothelial cell,Acinar cell,0.9488598,0.0,Ligand,Receptor,HSPG2,FGFR1,0.9488598
+1176,FN1,CD44,Fibroblast cell,Ductal cell type 1,0.9475998,0.0,Ligand,Receptor,FN1,CD44,0.9475998
+1177,TIMP3,DDR1,Endothelial cell,Ductal cell type 1,0.9473586,0.0,Ligand,Receptor,TIMP3,DDR1,0.9473586
+1178,COL1A1,ITGA1,Fibroblast cell,Fibroblast cell,0.94656724,0.0,Ligand,Receptor,COL1A1,ITGA1,0.94656724
+1179,HLA-DMB,CD4,Macrophage cell,Macrophage cell,0.9465656,0.0,Ligand,Receptor,HLA-DMB,CD4,0.9465656
+1180,COL6A3,CD44,Fibroblast cell,Macrophage cell,0.9463552,0.0,Ligand,Receptor,COL6A3,CD44,0.9463552
+1181,COL6A3,CD44,Fibroblast cell,Acinar cell,0.94628966,0.002,Ligand,Receptor,COL6A3,CD44,0.94628966
+1184,ALB,FCGRT,Acinar cell,Endocrine cell,0.9448527,0.0,Ligand,Receptor,ALB,FCGRT,0.9448527
+1186,PTN,PLXNB2,Fibroblast cell,Acinar cell,0.94452196,0.0,Ligand,Receptor,PTN,PLXNB2,0.94452196
+1188,FAM3C,LIFR,Endocrine cell,Endothelial cell,0.9439672,0.0,Ligand,Receptor,FAM3C,LIFR,0.9439672
+1191,CALM1,MYLK,Ductal cell type 1,Stellate cell,0.94285786,0.0,Ligand,Receptor,CALM1,MYLK,0.94285786
+1192,TIMP2,ITGB1,Endothelial cell,Stellate cell,0.94281626,0.0,Ligand,Receptor,TIMP2,ITGB1,0.94281626
+1193,C1QB,C1QBP,Macrophage cell,Ductal cell type 1,0.94260657,0.0,Ligand,Receptor,C1QB,C1QBP,0.94260657
+1196,APOE,SORL1,Fibroblast cell,Acinar cell,0.94194263,0.0,Ligand,Receptor,APOE,SORL1,0.94194263
+1197,COL4A2,CD44,Endothelial cell,Ductal cell type 1,0.94074833,0.0,Ligand,Receptor,COL4A2,CD44,0.94074833
+1198,COL4A1,SDC1,Fibroblast cell,B cell,0.94025743,0.0,Ligand,Receptor,COL4A1,SDC1,0.94025743
+1201,HSPG2,ITGB1,Fibroblast cell,Endothelial cell,0.9392164,0.009,Ligand,Receptor,HSPG2,ITGB1,0.9392164
+1206,CLEC11A,ITGB1,Fibroblast cell,Endothelial cell,0.9384154,0.0,Ligand,Receptor,CLEC11A,ITGB1,0.9384154
+1208,ADCYAP1,SCTR,Endocrine cell,Ductal cell type 1,0.9377729,0.0,Ligand,Receptor,ADCYAP1,SCTR,0.9377729
+1209,PTN,PLXNB2,Fibroblast cell,Endocrine cell,0.9377432,0.0,Ligand,Receptor,PTN,PLXNB2,0.9377432
+1210,MMP7,CD151,Ductal cell type 1,Macrophage cell,0.9377217,0.001,Ligand,Receptor,MMP7,CD151,0.9377217
+1211,COL4A2,CD93,Fibroblast cell,Endothelial cell,0.93735635,0.0,Ligand,Receptor,COL4A2,CD93,0.93735635
+1216,TIMP2,ITGB1,Endothelial cell,Fibroblast cell,0.9350399,0.001,Ligand,Receptor,TIMP2,ITGB1,0.9350399
+1217,TIMP2,ITGB1,Macrophage cell,Stellate cell,0.93490803,0.0,Ligand,Receptor,TIMP2,ITGB1,0.93490803
+1223,HSP90B1,LRP1,Ductal cell type 1,Fibroblast cell,0.933601,0.0,Ligand,Receptor,HSP90B1,LRP1,0.933601
+1224,COL3A1,DDR1,Fibroblast cell,Acinar cell,0.9330868,0.0,Ligand,Receptor,COL3A1,DDR1,0.9330868
+1225,COL4A1,CD93,Endothelial cell,Endothelial cell,0.93298495,0.0,Ligand,Receptor,COL4A1,CD93,0.93298495
+1226,CXCL12,ADRA2A,Fibroblast cell,Ductal cell type 1,0.9329572,0.0,Ligand,Receptor,CXCL12,ADRA2A,0.9329572
+1227,C1QB,C1QBP,Macrophage cell,Stellate cell,0.9326577,0.0,Ligand,Receptor,C1QB,C1QBP,0.9326577
+1228,CD99,CD81,Endothelial cell,Ductal cell type 1,0.93218076,0.003,Ligand,Receptor,CD99,CD81,0.93218076
+1230,CALR,LRP1,Macrophage cell,Fibroblast cell,0.93164605,0.0,Ligand,Receptor,CALR,LRP1,0.93164605
+1231,GRN,TNFRSF1A,Macrophage cell,Endothelial cell,0.9315122,0.0,Ligand,Receptor,GRN,TNFRSF1A,0.9315122
+1235,SPP1,CD44,Ductal cell type 1,Macrophage cell,0.93059087,0.0,Ligand,Receptor,SPP1,CD44,0.93059087
+1237,HSPG2,LRP1,Endothelial cell,Macrophage cell,0.93052435,0.0,Ligand,Receptor,HSPG2,LRP1,0.93052435
+1240,CKLF,LRP6,Macrophage cell,Acinar cell,0.93003875,0.0,Ligand,Receptor,CKLF,LRP6,0.93003875
+1241,VCAN,ITGB1,Fibroblast cell,Stellate cell,0.92878133,0.0,Ligand,Receptor,VCAN,ITGB1,0.92878133
+1246,INHBA,ENG,Fibroblast cell,Endothelial cell,0.92831886,0.0,Ligand,Receptor,INHBA,ENG,0.92831886
+1249,HLA-DQB1,CD4,Endothelial cell,Macrophage cell,0.92775714,0.0,Ligand,Receptor,HLA-DQB1,CD4,0.92775714
+1252,TIMP2,ITGB1,Macrophage cell,Fibroblast cell,0.92713165,0.001,Ligand,Receptor,TIMP2,ITGB1,0.92713165
+1256,COL4A1,CD44,Fibroblast cell,Ductal cell type 1,0.9265767,0.0,Ligand,Receptor,COL4A1,CD44,0.9265767
+1257,GPC3,LRP1,Fibroblast cell,Fibroblast cell,0.9264307,0.0,Ligand,Receptor,GPC3,LRP1,0.9264307
+1258,COL6A1,SDC1,Fibroblast cell,B cell,0.92602277,0.0,Ligand,Receptor,COL6A1,SDC1,0.92602277
+1266,COL1A1,CD44,Fibroblast cell,Endocrine cell,0.9233463,0.0,Ligand,Receptor,COL1A1,CD44,0.9233463
+1272,ANXA1,ADRA2A,Fibroblast cell,Ductal cell type 1,0.92161703,0.0,Ligand,Receptor,ANXA1,ADRA2A,0.92161703
+1273,VCAN,ITGB1,Fibroblast cell,Fibroblast cell,0.92100495,0.0,Ligand,Receptor,VCAN,ITGB1,0.92100495
+1274,COL3A1,DDR1,Fibroblast cell,Endocrine cell,0.92089444,0.0,Ligand,Receptor,COL3A1,DDR1,0.92089444
+1275,COL6A3,CD44,Fibroblast cell,B cell,0.9205902,0.0,Ligand,Receptor,COL6A3,CD44,0.9205902
+1279,THBS1,ITGA6,Fibroblast cell,Endothelial cell,0.9195144,0.0,Ligand,Receptor,THBS1,ITGA6,0.9195144
+1281,C3,ADRA2A,Fibroblast cell,Ductal cell type 1,0.9188244,0.0,Ligand,Receptor,C3,ADRA2A,0.9188244
+1282,CALR,LRP1,Endothelial cell,Fibroblast cell,0.9187696,0.0,Ligand,Receptor,CALR,LRP1,0.9187696
+1284,VWF,ITGB1,Endothelial cell,Endocrine cell,0.9182134,0.0,Ligand,Receptor,VWF,ITGB1,0.9182134
+1285,TIMP3,DDR1,Endothelial cell,Acinar cell,0.91814256,0.001,Ligand,Receptor,TIMP3,DDR1,0.91814256
+1288,HSPG2,DAG1,Endothelial cell,Acinar cell,0.91687,0.0,Ligand,Receptor,HSPG2,DAG1,0.91687
+1291,CALM1,PDE1A,Endothelial cell,Acinar cell,0.91559994,0.002,Ligand,Receptor,CALM1,PDE1A,0.91559994
+1298,MDK,ITGB1,Ductal cell type 1,Endothelial cell,0.9137966,0.0,Ligand,Receptor,MDK,ITGB1,0.9137966
+1299,EFEMP2,AQP1,Fibroblast cell,Endothelial cell,0.9126216,0.0,Ligand,Receptor,EFEMP2,AQP1,0.9126216
+1300,COL6A1,CD44,Fibroblast cell,Ductal cell type 1,0.912342,0.0,Ligand,Receptor,COL6A1,CD44,0.912342
+1302,PTN,SDC4,Fibroblast cell,Endocrine cell,0.91146547,0.0,Ligand,Receptor,PTN,SDC4,0.91146547
+1303,PTN,SDC2,Fibroblast cell,Endocrine cell,0.9113293,0.0,Ligand,Receptor,PTN,SDC2,0.9113293
+1304,HSPG2,ITGB1,Endothelial cell,Macrophage cell,0.91083515,0.004,Ligand,Receptor,HSPG2,ITGB1,0.91083515
+1305,BGN,LY96,Fibroblast cell,Macrophage cell,0.91023946,0.0,Ligand,Receptor,BGN,LY96,0.91023946
+1306,HSPG2,DAG1,Endothelial cell,Endocrine cell,0.9096997,0.0,Ligand,Receptor,HSPG2,DAG1,0.9096997
+1309,CALM1,PDE1C,Stellate cell,Endothelial cell,0.90843403,0.0,Ligand,Receptor,CALM1,PDE1C,0.90843403
+1311,APOE,LDLR,Fibroblast cell,Acinar cell,0.9071511,0.0,Ligand,Receptor,APOE,LDLR,0.9071511
+1312,APOE,LSR,Fibroblast cell,Acinar cell,0.9071511,0.0,Ligand,Receptor,APOE,LSR,0.9071511
+1313,CALM1,PDE1A,Stellate cell,Fibroblast cell,0.90714633,0.001,Ligand,Receptor,CALM1,PDE1A,0.90714633
+1317,CD14,ITGB1,Macrophage cell,Endothelial cell,0.9060708,0.0,Ligand,Receptor,CD14,ITGB1,0.9060708
+1319,TIMP3,DDR1,Endothelial cell,Endocrine cell,0.9059502,0.0,Ligand,Receptor,TIMP3,DDR1,0.9059502
+1328,TGFB1,ENG,Macrophage cell,Endothelial cell,0.9044591,0.0,Ligand,Receptor,TGFB1,ENG,0.9044591
+1329,COL1A1,CD44,Fibroblast cell,Macrophage cell,0.90439916,0.0,Ligand,Receptor,COL1A1,CD44,0.90439916
+1330,COL1A1,CD44,Fibroblast cell,Acinar cell,0.9043336,0.003,Ligand,Receptor,COL1A1,CD44,0.9043336
+1331,LGALS3,ENG,Ductal cell type 1,Endothelial cell,0.9042251,0.0,Ligand,Receptor,LGALS3,ENG,0.9042251
+1333,SERPING1,LRP1,Stellate cell,Fibroblast cell,0.90378386,0.0,Ligand,Receptor,SERPING1,LRP1,0.90378386
+1334,LAMA2,CD44,Fibroblast cell,Ductal cell type 1,0.90376645,0.0,Ligand,Receptor,LAMA2,CD44,0.90376645
+1335,MFGE8,ITGB5,Stellate cell,Fibroblast cell,0.90376043,0.0,Ligand,Receptor,MFGE8,ITGB5,0.90376043
+1342,PTN,SDC1,Fibroblast cell,Acinar cell,0.9014095,0.0,Ligand,Receptor,PTN,SDC1,0.9014095
+1344,ANXA1,FPR1,Fibroblast cell,Macrophage cell,0.90095645,0.0,Ligand,Receptor,ANXA1,FPR1,0.90095645
+1346,EFEMP2,AQP1,Fibroblast cell,Endocrine cell,0.9007055,0.0,Ligand,Receptor,EFEMP2,AQP1,0.9007055
+1347,C1QB,C1QBP,Macrophage cell,Macrophage cell,0.90034354,0.0,Ligand,Receptor,C1QB,C1QBP,0.90034354
+1348,FAM3C,LIFR,Endothelial cell,Endothelial cell,0.8982579,0.0,Ligand,Receptor,FAM3C,LIFR,0.8982579
+1350,SPP1,ITGA5,Ductal cell type 1,Endothelial cell,0.8982334,0.0,Ligand,Receptor,SPP1,ITGA5,0.8982334
+1351,ALB,FCGRT,Acinar cell,Acinar cell,0.8967048,0.006,Ligand,Receptor,ALB,FCGRT,0.8967048
+1352,PDGFA,PDGFRA,Endocrine cell,Fibroblast cell,0.895545,0.0,Ligand,Receptor,PDGFA,PDGFRA,0.895545
+1354,FAM3C,LIFR,Macrophage cell,Endothelial cell,0.89506763,0.0,Ligand,Receptor,FAM3C,LIFR,0.89506763
+1359,COL4A2,ITGA1,Endothelial cell,Endothelial cell,0.89326143,0.0,Ligand,Receptor,COL4A2,ITGA1,0.89326143
+1362,FN1,ROBO4,Fibroblast cell,Endothelial cell,0.8924537,0.0,Ligand,Receptor,FN1,ROBO4,0.8924537
+1363,CXCL12,SDC4,Fibroblast cell,Acinar cell,0.8921727,0.0,Ligand,Receptor,CXCL12,SDC4,0.8921727
+1365,DLK1,NOTCH4,Endocrine cell,Endothelial cell,0.89045,0.0,Ligand,Receptor,DLK1,NOTCH4,0.89045
+1373,MDK,LRP1,Fibroblast cell,Fibroblast cell,0.8874289,0.0,Ligand,Receptor,MDK,LRP1,0.8874289
+1374,VWF,LRP1,Endothelial cell,Macrophage cell,0.8867847,0.0,Ligand,Receptor,VWF,LRP1,0.8867847
+1383,F13A1,ITGB1,Macrophage cell,Stellate cell,0.8802131,0.0,Ligand,Receptor,F13A1,ITGB1,0.8802131
+1384,PTN,NCL,Stellate cell,Fibroblast cell,0.8801656,0.0,Ligand,Receptor,PTN,NCL,0.8801656
+1385,COL3A1,ITGA2,Fibroblast cell,Acinar cell,0.8794105,0.0,Ligand,Receptor,COL3A1,ITGA2,0.8794105
+1386,COL4A1,ITGA1,Fibroblast cell,Endothelial cell,0.8790897,0.0,Ligand,Receptor,COL4A1,ITGA1,0.8790897
+1387,MMP7,CD44,Ductal cell type 1,Endocrine cell,0.8788661,0.0,Ligand,Receptor,MMP7,CD44,0.8788661
+1390,COL1A1,CD44,Fibroblast cell,B cell,0.87863415,0.0,Ligand,Receptor,COL1A1,CD44,0.87863415
+1393,TGFB1,ENG,Endothelial cell,Endothelial cell,0.87768173,0.0,Ligand,Receptor,TGFB1,ENG,0.87768173
+1396,CALM3,AQP1,Fibroblast cell,Ductal cell type 1,0.8765676,0.008,Ligand,Receptor,CALM3,AQP1,0.8765676
+1397,LGALS3,ENG,Endothelial cell,Fibroblast cell,0.8762462,0.001,Ligand,Receptor,LGALS3,ENG,0.8762462
+1401,CD99,PILRA,Fibroblast cell,Macrophage cell,0.87548316,0.0,Ligand,Receptor,CD99,PILRA,0.87548316
+1406,C1QB,C1QBP,Macrophage cell,B cell,0.8743791,0.0,Ligand,Receptor,C1QB,C1QBP,0.8743791
+1407,PDGFA,PDGFRA,Ductal cell type 1,Fibroblast cell,0.87373257,0.0,Ligand,Receptor,PDGFA,PDGFRA,0.87373257
+1409,TGFB1,ITGB1,B cell,Stellate cell,0.8725112,0.0,Ligand,Receptor,TGFB1,ITGB1,0.8725112
+1411,F13A1,ITGB1,Macrophage cell,Fibroblast cell,0.8724367,0.0,Ligand,Receptor,F13A1,ITGB1,0.8724367
+1413,COL1A1,ITGA5,Fibroblast cell,Endothelial cell,0.8720417,0.0,Ligand,Receptor,COL1A1,ITGA5,0.8720417
+1418,ADAM15,ITGB1,Endothelial cell,Stellate cell,0.8700322,0.0,Ligand,Receptor,ADAM15,ITGB1,0.8700322
+1419,LAMB1,CD44,Fibroblast cell,Ductal cell type 1,0.8695865,0.0,Ligand,Receptor,LAMB1,CD44,0.8695865
+1420,SLIT2,SDC1,Fibroblast cell,B cell,0.86931133,0.0,Ligand,Receptor,SLIT2,SDC1,0.86931133
+1423,APP,ADRA2A,Endothelial cell,Ductal cell type 1,0.8677355,0.0,Ligand,Receptor,APP,ADRA2A,0.8677355
+1426,VWF,ITGB1,Endothelial cell,Macrophage cell,0.8670955,0.002,Ligand,Receptor,VWF,ITGB1,0.8670955
+1428,PTN,SDC3,Fibroblast cell,Acinar cell,0.8669361,0.0,Ligand,Receptor,PTN,SDC3,0.8669361
+1429,FAM3C,LIFR,Acinar cell,Endothelial cell,0.8668388,0.0,Ligand,Receptor,FAM3C,LIFR,0.8668388
+1436,COL6A1,ITGA1,Fibroblast cell,Endothelial cell,0.86485505,0.0,Ligand,Receptor,COL6A1,ITGA1,0.86485505
+1437,TGFB1,ITGB1,B cell,Fibroblast cell,0.8647348,0.0,Ligand,Receptor,TGFB1,ITGB1,0.8647348
+1439,AGRN,ITGB1,Ductal cell type 1,Stellate cell,0.86413336,0.0,Ligand,Receptor,AGRN,ITGB1,0.86413336
+1441,C3,IFITM1,Macrophage cell,Fibroblast cell,0.86248267,0.003,Ligand,Receptor,C3,IFITM1,0.86248267
+1442,C1QB,C1QBP,Macrophage cell,Endothelial cell,0.862359,0.0,Ligand,Receptor,C1QB,C1QBP,0.862359
+1443,TFF3,CXCR4,Endothelial cell,Macrophage cell,0.86226547,0.0,Ligand,Receptor,TFF3,CXCR4,0.86226547
+1444,ADAM15,ITGB1,Endothelial cell,Fibroblast cell,0.8622558,0.0,Ligand,Receptor,ADAM15,ITGB1,0.8622558
+1445,SERPINA1,LRP1,Macrophage cell,Fibroblast cell,0.8619138,0.0,Ligand,Receptor,SERPINA1,LRP1,0.8619138
+1449,SPP1,ITGAV,Ductal cell type 1,Ductal cell type 1,0.8615136,0.0,Ligand,Receptor,SPP1,ITGAV,0.8615136
+1450,SERPINA1,LRP1,Acinar cell,Fibroblast cell,0.8611548,0.0,Ligand,Receptor,SERPINA1,LRP1,0.8611548
+1455,SPP1,S1PR1,Macrophage cell,Endothelial cell,0.860392,0.0,Ligand,Receptor,SPP1,S1PR1,0.860392
+1456,MMP7,CD44,Ductal cell type 1,Macrophage cell,0.85991895,0.0,Ligand,Receptor,MMP7,CD44,0.85991895
+1459,LGALS3,ENG,Macrophage cell,Fibroblast cell,0.8595698,0.004,Ligand,Receptor,LGALS3,ENG,0.8595698
+1461,HSPG2,SDC1,Endothelial cell,Acinar cell,0.8577573,0.0,Ligand,Receptor,HSPG2,SDC1,0.8577573
+1463,CXCL12,ITGB1,Fibroblast cell,Ductal cell type 1,0.8572868,0.0,Ligand,Receptor,CXCL12,ITGB1,0.8572868
+1465,AGRN,ITGB1,Ductal cell type 1,Fibroblast cell,0.856357,0.002,Ligand,Receptor,AGRN,ITGB1,0.856357
+1466,LAMA2,ITGA1,Fibroblast cell,Endothelial cell,0.8562795,0.0,Ligand,Receptor,LAMA2,ITGA1,0.8562795
+1467,LGALS3BP,ITGB1,Macrophage cell,Stellate cell,0.85467947,0.0,Ligand,Receptor,LGALS3BP,ITGB1,0.85467947
+1468,TIMP2,ITGB1,Endocrine cell,Stellate cell,0.85439134,0.0,Ligand,Receptor,TIMP2,ITGB1,0.85439134
+1470,C3,CD46,Fibroblast cell,Endothelial cell,0.8535589,0.0,Ligand,Receptor,C3,CD46,0.8535589
+1471,APOE,LRP1,Stellate cell,Fibroblast cell,0.85268474,0.0,Ligand,Receptor,APOE,LRP1,0.85268474
+1473,HSP90B1,LRP1,Endocrine cell,Fibroblast cell,0.85229117,0.0,Ligand,Receptor,HSP90B1,LRP1,0.85229117
+1476,C3,CD81,Macrophage cell,Fibroblast cell,0.8490795,0.0,Ligand,Receptor,C3,CD81,0.8490795
+1479,AGRN,ITGB1,B cell,Stellate cell,0.8478116,0.003,Ligand,Receptor,AGRN,ITGB1,0.8478116
+1480,PDGFA,PDGFRA,Acinar cell,Fibroblast cell,0.84772056,0.0,Ligand,Receptor,PDGFA,PDGFRA,0.84772056
+1483,APP,ADRA2A,Ductal cell type 1,Ductal cell type 1,0.8475962,0.0,Ligand,Receptor,APP,ADRA2A,0.8475962
+1485,LGALS3BP,ITGB1,Macrophage cell,Fibroblast cell,0.8469031,0.002,Ligand,Receptor,LGALS3BP,ITGB1,0.8469031
+1488,GRN,TNFRSF1A,Macrophage cell,Fibroblast cell,0.84653986,0.0,Ligand,Receptor,GRN,TNFRSF1A,0.84653986
+1490,MDK,NCL,Ductal cell type 1,Ductal cell type 1,0.8455187,0.0,Ligand,Receptor,MDK,NCL,0.8455187
+1494,IGFBP4,LRP6,Fibroblast cell,Acinar cell,0.84274465,0.007,Ligand,Receptor,IGFBP4,LRP6,0.84274465
+1496,COL15A1,ITGA1,Endothelial cell,Fibroblast cell,0.84243673,0.0,Ligand,Receptor,COL15A1,ITGA1,0.84243673
+1504,LRPAP1,LRP1,Ductal cell type 1,Fibroblast cell,0.8378713,0.0,Ligand,Receptor,LRPAP1,LRP1,0.8378713
+1506,APP,LRP1,Endocrine cell,Fibroblast cell,0.8372149,0.0,Ligand,Receptor,APP,LRP1,0.8372149
+1510,GRN,TNFRSF1A,B cell,Endothelial cell,0.83508986,0.0,Ligand,Receptor,GRN,TNFRSF1A,0.83508986
+1511,C3,C3AR1,Fibroblast cell,Macrophage cell,0.8350351,0.0,Ligand,Receptor,C3,C3AR1,0.8350351
+1512,CALM3,AQP1,Macrophage cell,Ductal cell type 1,0.83481735,0.002,Ligand,Receptor,CALM3,AQP1,0.83481735
+1513,TIMP2,ITGB1,Endothelial cell,Endothelial cell,0.83477044,0.0,Ligand,Receptor,TIMP2,ITGB1,0.83477044
+1518,APOE,TREM2,Macrophage cell,Macrophage cell,0.8331785,0.0,Ligand,Receptor,APOE,TREM2,0.8331785
+1520,SPP1,PTGER4,Ductal cell type 1,Macrophage cell,0.83278173,0.0,Ligand,Receptor,SPP1,PTGER4,0.83278173
+1521,COL1A1,CD36,Fibroblast cell,Macrophage cell,0.83177924,0.0,Ligand,Receptor,COL1A1,CD36,0.83177924
+1523,CXCL12,SDC4,Fibroblast cell,Ductal cell type 1,0.83058834,0.0,Ligand,Receptor,CXCL12,SDC4,0.83058834
+1525,JAG1,NOTCH3,Stellate cell,Stellate cell,0.82966006,0.0,Ligand,Receptor,JAG1,NOTCH3,0.82966006
+1526,GRN,TNFRSF1B,Macrophage cell,Macrophage cell,0.8294043,0.0,Ligand,Receptor,GRN,TNFRSF1B,0.8294043
+1527,CALR,LRP1,Acinar cell,Fibroblast cell,0.82921636,0.0,Ligand,Receptor,CALR,LRP1,0.82921636
+1528,CD99,PILRA,Endocrine cell,Macrophage cell,0.8286494,0.0,Ligand,Receptor,CD99,PILRA,0.8286494
+1529,BGN,LY96,Stellate cell,B cell,0.8283658,0.0,Ligand,Receptor,BGN,LY96,0.8283658
+1530,LGALS9,LRP1,Macrophage cell,Fibroblast cell,0.8281861,0.0,Ligand,Receptor,LGALS9,LRP1,0.8281861
+1532,LGALS3BP,ITGB1,Ductal cell type 1,Stellate cell,0.827452,0.0,Ligand,Receptor,LGALS3BP,ITGB1,0.827452
+1535,TIMP2,ITGB1,Macrophage cell,Endothelial cell,0.8268622,0.001,Ligand,Receptor,TIMP2,ITGB1,0.8268622
+1536,C1QB,C1QBP,Macrophage cell,Endocrine cell,0.8267727,0.0,Ligand,Receptor,C1QB,C1QBP,0.8267727
+1537,C1QB,LRP1,Macrophage cell,Macrophage cell,0.8267377,0.0,Ligand,Receptor,C1QB,LRP1,0.8267377
+1540,SPP1,PTGER4,Ductal cell type 1,Acinar cell,0.8262321,0.0,Ligand,Receptor,SPP1,PTGER4,0.8262321
+1541,SERPINE1,LRP1,Fibroblast cell,Fibroblast cell,0.8253919,0.0,Ligand,Receptor,SERPINE1,LRP1,0.8253919
+1543,CALM3,AQP1,Stellate cell,Ductal cell type 1,0.82427996,0.0,Ligand,Receptor,CALM3,AQP1,0.82427996
+1546,HSPG2,ITGA2,Endothelial cell,Acinar cell,0.8232839,0.0,Ligand,Receptor,HSPG2,ITGA2,0.8232839
+1547,LAMB1,ITGA1,Fibroblast cell,Endothelial cell,0.82209957,0.0,Ligand,Receptor,LAMB1,ITGA1,0.82209957
+1550,VCAN,ITGB1,Fibroblast cell,Endothelial cell,0.8207355,0.0,Ligand,Receptor,VCAN,ITGB1,0.8207355
+1552,CALR,LRP1,Endocrine cell,Fibroblast cell,0.82004964,0.0,Ligand,Receptor,CALR,LRP1,0.82004964
+1555,GRN,TNFRSF1A,Macrophage cell,Macrophage cell,0.8198799,0.0,Ligand,Receptor,GRN,TNFRSF1A,0.8198799
+1556,LGALS3BP,ITGB1,Ductal cell type 1,Fibroblast cell,0.8196756,0.005,Ligand,Receptor,LGALS3BP,ITGB1,0.8196756
+1557,LAMC1,ITGB1,Fibroblast cell,Endothelial cell,0.81861687,0.0,Ligand,Receptor,LAMC1,ITGB1,0.81861687
+1559,CCL4,CCR1,B cell,Macrophage cell,0.8174529,0.0,Ligand,Receptor,CCL4,CCR1,0.8174529
+1560,C3,LRP1,Macrophage cell,Fibroblast cell,0.8165561,0.0,Ligand,Receptor,C3,LRP1,0.8165561
+1563,COL1A1,DDR1,Fibroblast cell,Ductal cell type 1,0.81614393,0.0,Ligand,Receptor,COL1A1,DDR1,0.81614393
+1566,GNAI2,S1PR1,B cell,Endothelial cell,0.8158864,0.002,Ligand,Receptor,GNAI2,S1PR1,0.8158864
+1568,COL4A2,SDC1,Fibroblast cell,B cell,0.815184,0.0,Ligand,Receptor,COL4A2,SDC1,0.815184
+1569,MMRN2,CLEC14A,Endothelial cell,Endothelial cell,0.8149517,0.0,Ligand,Receptor,MMRN2,CLEC14A,0.8149517
+1570,MMP2,FGFR1,Fibroblast cell,Fibroblast cell,0.81493074,0.0,Ligand,Receptor,MMP2,FGFR1,0.81493074
+1571,HBEGF,CD9,Macrophage cell,Ductal cell type 1,0.81474066,0.0,Ligand,Receptor,HBEGF,CD9,0.81474066
+1573,SLC6A8,LIFR,Acinar cell,Endothelial cell,0.81316245,0.0,Ligand,Receptor,SLC6A8,LIFR,0.81316245
+1574,GPC3,CD81,Fibroblast cell,Endothelial cell,0.81281656,0.0,Ligand,Receptor,GPC3,CD81,0.81281656
+1576,CXCL12,ADRA2A,Fibroblast cell,Endocrine cell,0.8120445,0.0,Ligand,Receptor,CXCL12,ADRA2A,0.8120445
+1577,PTN,PTPRB,Stellate cell,Endothelial cell,0.81174755,0.0,Ligand,Receptor,PTN,PTPRB,0.81174755
+1578,FN1,SDC2,Fibroblast cell,Acinar cell,0.8111028,0.0,Ligand,Receptor,FN1,SDC2,0.8111028
+1580,COL4A1,SDC1,Endothelial cell,B cell,0.8108126,0.0,Ligand,Receptor,COL4A1,SDC1,0.8108126
+1581,COL6A3,SDC1,Fibroblast cell,Acinar cell,0.809681,0.0,Ligand,Receptor,COL6A3,SDC1,0.809681
+1583,COL4A2,CD93,Stellate cell,Endothelial cell,0.80923784,0.0,Ligand,Receptor,COL4A2,CD93,0.80923784
+1584,TNFSF12,TNFRSF12A,Fibroblast cell,Ductal cell type 1,0.80874604,0.0,Ligand,Receptor,TNFSF12,TNFRSF12A,0.80874604
+1586,APP,LRP1,Fibroblast cell,Fibroblast cell,0.8082467,0.003,Ligand,Receptor,APP,LRP1,0.8082467
+1587,COL4A1,CD47,Fibroblast cell,Ductal cell type 1,0.8076211,0.0,Ligand,Receptor,COL4A1,CD47,0.8076211
+1590,CXCL12,ITGA5,Fibroblast cell,Endothelial cell,0.80688983,0.0,Ligand,Receptor,CXCL12,ITGA5,0.80688983
+1591,CXCL12,ITGB1,Fibroblast cell,Endocrine cell,0.8067689,0.0,Ligand,Receptor,CXCL12,ITGB1,0.8067689
+1593,COL4A2,ITGB5,Endothelial cell,Fibroblast cell,0.8057443,0.0,Ligand,Receptor,COL4A2,ITGB5,0.8057443
+1594,C3,CD46,Fibroblast cell,B cell,0.80558264,0.0,Ligand,Receptor,C3,CD46,0.80558264
+1595,TGFB1,ITGB1,Macrophage cell,Stellate cell,0.8054477,0.0,Ligand,Receptor,TGFB1,ITGB1,0.8054477
+1596,AGRN,LRP1,Ductal cell type 1,Fibroblast cell,0.80461466,0.0,Ligand,Receptor,AGRN,LRP1,0.80461466
+1600,HSPG2,SDC1,Fibroblast cell,B cell,0.80282414,0.0,Ligand,Receptor,HSPG2,SDC1,0.80282414
+1601,CALR,LRP1,Fibroblast cell,Fibroblast cell,0.8020631,0.0,Ligand,Receptor,CALR,LRP1,0.8020631
+1602,C1QB,C1QBP,Macrophage cell,Acinar cell,0.80190194,0.001,Ligand,Receptor,C1QB,C1QBP,0.80190194
+1603,COL4A2,CD44,Fibroblast cell,Ductal cell type 1,0.8015032,0.0,Ligand,Receptor,COL4A2,CD44,0.8015032
+1607,ANXA1,ADRA2A,Fibroblast cell,Endocrine cell,0.80070436,0.0,Ligand,Receptor,ANXA1,ADRA2A,0.80070436
+1608,SLIT2,ROBO4,Fibroblast cell,Endothelial cell,0.8004844,0.0,Ligand,Receptor,SLIT2,ROBO4,0.8004844
+1610,LGALS3,ENG,Stellate cell,Fibroblast cell,0.79938126,0.006,Ligand,Receptor,LGALS3,ENG,0.79938126
+1611,SPARC,FGFR1,Stellate cell,Fibroblast cell,0.799363,0.0,Ligand,Receptor,SPARC,FGFR1,0.799363
+1614,C3,ADRA2A,Fibroblast cell,Endocrine cell,0.7979117,0.0,Ligand,Receptor,C3,ADRA2A,0.7979117
+1615,TGFB1,ITGB1,Macrophage cell,Fibroblast cell,0.7976713,0.001,Ligand,Receptor,TGFB1,ITGB1,0.7976713
+1617,COL4A1,CD44,Endothelial cell,Ductal cell type 1,0.7971318,0.0,Ligand,Receptor,COL4A1,CD44,0.7971318
+1619,BGN,LY96,Fibroblast cell,Fibroblast cell,0.7964164,0.0,Ligand,Receptor,BGN,LY96,0.7964164
+1622,HLA-DMA,CD4,Endothelial cell,Macrophage cell,0.79604304,0.0,Ligand,Receptor,HLA-DMA,CD4,0.79604304
+1624,TFF3,CXCR4,Endocrine cell,Macrophage cell,0.79582673,0.0,Ligand,Receptor,TFF3,CXCR4,0.79582673
+1625,CLEC11A,ITGB1,Macrophage cell,Stellate cell,0.7950679,0.0,Ligand,Receptor,CLEC11A,ITGB1,0.7950679
+1626,MDK,LRP1,Stellate cell,Fibroblast cell,0.7944211,0.0,Ligand,Receptor,MDK,LRP1,0.7944211
+1629,PDGFC,PDGFRA,Acinar cell,Fibroblast cell,0.79404426,0.0,Ligand,Receptor,PDGFC,PDGFRA,0.79404426
+1631,LRPAP1,LRP1,Fibroblast cell,Fibroblast cell,0.7930716,0.0,Ligand,Receptor,LRPAP1,LRP1,0.7930716
+1634,SPP1,ITGAV,Ductal cell type 1,Endocrine cell,0.79263884,0.0,Ligand,Receptor,SPP1,ITGAV,0.79263884
+1635,SPP1,ITGAV,Ductal cell type 1,Endocrine cell,0.79263884,0.0,Ligand,Receptor,SPP1,ITGAV,0.79263884
+1636,SPARC,FGFR1,Fibroblast cell,Acinar cell,0.79255,0.007,Ligand,Receptor,SPARC,FGFR1,0.79255
+1637,JAM3,ITGB1,Endothelial cell,Stellate cell,0.7924345,0.0,Ligand,Receptor,JAM3,ITGB1,0.7924345
+1638,PDAP1,PDGFRB,Stellate cell,Stellate cell,0.7919748,0.0,Ligand,Receptor,PDAP1,PDGFRB,0.7919748
+1639,MDK,NCL,Ductal cell type 1,Endothelial cell,0.79092526,0.0,Ligand,Receptor,MDK,NCL,0.79092526
+1640,LGALS3,MCAM,Fibroblast cell,Stellate cell,0.7908632,0.0,Ligand,Receptor,LGALS3,MCAM,0.7908632
+1646,AGRN,LRP1,B cell,Fibroblast cell,0.7882929,0.0,Ligand,Receptor,AGRN,LRP1,0.7882929
+1649,TGFB2,ENG,Acinar cell,Endothelial cell,0.78737843,0.0,Ligand,Receptor,TGFB2,ENG,0.78737843
+1650,CLEC11A,ITGB1,Macrophage cell,Fibroblast cell,0.7872915,0.005,Ligand,Receptor,CLEC11A,ITGB1,0.7872915
+1651,COL1A1,DDR1,Fibroblast cell,Acinar cell,0.7869279,0.0,Ligand,Receptor,COL1A1,DDR1,0.7869279
+1653,NID1,ITGB1,Fibroblast cell,Stellate cell,0.7865838,0.0,Ligand,Receptor,NID1,ITGB1,0.7865838
+1654,PSAP,LRP1,Stellate cell,Fibroblast cell,0.7865534,0.005,Ligand,Receptor,PSAP,LRP1,0.7865534
+1656,VEGFA,ITGB1,Ductal cell type 1,Stellate cell,0.7859931,0.0,Ligand,Receptor,VEGFA,ITGB1,0.7859931
+1659,JAM3,ITGB1,Endothelial cell,Fibroblast cell,0.78465813,0.001,Ligand,Receptor,JAM3,ITGB1,0.78465813
+1662,LRPAP1,LRP1,Stellate cell,Fibroblast cell,0.7839117,0.0,Ligand,Receptor,LRPAP1,LRP1,0.7839117
+1664,COL4A2,ITGA1,Endothelial cell,Fibroblast cell,0.78328544,0.0,Ligand,Receptor,COL4A2,ITGA1,0.78328544
+1667,PLAU,ITGB1,Endothelial cell,Stellate cell,0.7830328,0.0,Ligand,Receptor,PLAU,ITGB1,0.7830328
+1671,CALM3,AQP1,Endothelial cell,Ductal cell type 1,0.7811264,0.0,Ligand,Receptor,CALM3,AQP1,0.7811264
+1673,VWF,SIRPA,Endothelial cell,Acinar cell,0.77954423,0.0,Ligand,Receptor,VWF,SIRPA,0.77954423
+1674,TIMP2,CD44,Fibroblast cell,Endocrine cell,0.7794235,0.0,Ligand,Receptor,TIMP2,CD44,0.7794235
+1675,JAG1,NOTCH3,Endothelial cell,Stellate cell,0.7793778,0.0,Ligand,Receptor,JAG1,NOTCH3,0.7793778
+1676,NID1,ITGB1,Fibroblast cell,Fibroblast cell,0.7788074,0.001,Ligand,Receptor,NID1,ITGB1,0.7788074
+1677,TGFB1,ITGB1,Endothelial cell,Stellate cell,0.77867025,0.0,Ligand,Receptor,TGFB1,ITGB1,0.77867025
+1678,MFGE8,PDGFRB,Fibroblast cell,Fibroblast cell,0.77866125,0.0,Ligand,Receptor,MFGE8,PDGFRB,0.77866125
+1679,SPP1,ITGAV,Ductal cell type 1,Acinar cell,0.7786462,0.009,Ligand,Receptor,SPP1,ITGAV,0.7786462
+1680,SPP1,ITGAV,Ductal cell type 1,Acinar cell,0.7786462,0.009,Ligand,Receptor,SPP1,ITGAV,0.7786462
+1682,COL1A1,CD36,Fibroblast cell,Endocrine cell,0.77825785,0.0,Ligand,Receptor,COL1A1,CD36,0.77825785
+1683,VEGFA,ITGB1,Ductal cell type 1,Fibroblast cell,0.7782167,0.003,Ligand,Receptor,VEGFA,ITGB1,0.7782167
+1684,THBS1,SDC1,Fibroblast cell,B cell,0.7782093,0.0,Ligand,Receptor,THBS1,SDC1,0.7782093
+1687,MDK,SDC1,Ductal cell type 1,B cell,0.7774044,0.0,Ligand,Receptor,MDK,SDC1,0.7774044
+1688,JAG2,NOTCH3,Endothelial cell,Stellate cell,0.77669775,0.0,Ligand,Receptor,JAG2,NOTCH3,0.77669775
+1689,AGRN,ITGB1,Endocrine cell,Stellate cell,0.77550006,0.001,Ligand,Receptor,AGRN,ITGB1,0.77550006
+1691,PLAU,ITGB1,Endothelial cell,Fibroblast cell,0.7752564,0.0,Ligand,Receptor,PLAU,ITGB1,0.7752564
+1692,ANXA1,ADRA2A,Macrophage cell,Ductal cell type 1,0.7752228,0.0,Ligand,Receptor,ANXA1,ADRA2A,0.7752228
+1693,COL6A3,ITGA3,Fibroblast cell,Acinar cell,0.77520764,0.0,Ligand,Receptor,COL6A3,ITGA3,0.77520764
+1694,COL6A3,ITGA2,Fibroblast cell,Acinar cell,0.77520764,0.0,Ligand,Receptor,COL6A3,ITGA2,0.77520764
+1695,GPC3,CD81,Fibroblast cell,Macrophage cell,0.77485675,0.0,Ligand,Receptor,GPC3,CD81,0.77485675
+1696,GNAI2,ADRA2A,Endothelial cell,Ductal cell type 1,0.7747699,0.0,Ligand,Receptor,GNAI2,ADRA2A,0.7747699
+1697,COL1A1,DDR1,Fibroblast cell,Endocrine cell,0.7747355,0.0,Ligand,Receptor,COL1A1,DDR1,0.7747355
+1699,S100A4,ERBB3,Stellate cell,Ductal cell type 1,0.77462167,0.0,Ligand,Receptor,S100A4,ERBB3,0.77462167
+1701,LRPAP1,LRP1,B cell,Fibroblast cell,0.77425295,0.0,Ligand,Receptor,LRPAP1,LRP1,0.77425295
+1703,CALR,LRP1,B cell,Macrophage cell,0.7741319,0.0,Ligand,Receptor,CALR,LRP1,0.7741319
+1709,APOE,SDC2,Macrophage cell,Acinar cell,0.77303994,0.0,Ligand,Receptor,APOE,SDC2,0.77303994
+1710,SERPINA1,LRP1,B cell,Fibroblast cell,0.77257764,0.0,Ligand,Receptor,SERPINA1,LRP1,0.77257764
+1711,LGALS3BP,ITGB1,Endocrine cell,Stellate cell,0.77256036,0.0,Ligand,Receptor,LGALS3BP,ITGB1,0.77256036
+1713,F13A1,ITGB1,Macrophage cell,Endothelial cell,0.77216727,0.0,Ligand,Receptor,F13A1,ITGB1,0.77216727
+1715,TGFB1,ITGB1,Endothelial cell,Fibroblast cell,0.7708939,0.002,Ligand,Receptor,TGFB1,ITGB1,0.7708939
+1719,CXCL12,ITGAV,Fibroblast cell,Ductal cell type 1,0.77017003,0.0,Ligand,Receptor,CXCL12,ITGAV,0.77017003
+1720,MFGE8,ITGAV,Stellate cell,Ductal cell type 1,0.7700563,0.0,Ligand,Receptor,MFGE8,ITGAV,0.7700563
+1721,GRN,TNFRSF1A,Macrophage cell,Acinar cell,0.7699223,0.001,Ligand,Receptor,GRN,TNFRSF1A,0.7699223
+1725,COL4A1,ITGA1,Fibroblast cell,Fibroblast cell,0.7691138,0.0,Ligand,Receptor,COL4A1,ITGA1,0.7691138
+1726,AGRN,ITGB1,Endothelial cell,Stellate cell,0.76908326,0.0,Ligand,Receptor,AGRN,ITGB1,0.76908326
+1727,CALR,ITGAV,B cell,Ductal cell type 1,0.7689618,0.001,Ligand,Receptor,CALR,ITGAV,0.7689618
+1728,SPP1,ITGA5,Ductal cell type 1,Acinar cell,0.7689204,0.005,Ligand,Receptor,SPP1,ITGA5,0.7689204
+1729,TIMP1,FGFR2,Endothelial cell,Ductal cell type 1,0.7682798,0.0,Ligand,Receptor,TIMP1,FGFR2,0.7682798
+1730,COL1A1,SDC1,Fibroblast cell,Acinar cell,0.76772493,0.0,Ligand,Receptor,COL1A1,SDC1,0.76772493
+1733,JAG1,NOTCH3,Ductal cell type 1,Stellate cell,0.7673327,0.0,Ligand,Receptor,JAG1,NOTCH3,0.7673327
+1734,BGN,TLR2,Fibroblast cell,Macrophage cell,0.76729935,0.0,Ligand,Receptor,BGN,TLR2,0.76729935
+1737,FN1,CD44,Fibroblast cell,Endocrine cell,0.7669159,0.0,Ligand,Receptor,FN1,CD44,0.7669159
+1739,COL18A1,KDR,B cell,Endothelial cell,0.76687133,0.006,Ligand,Receptor,COL18A1,KDR,0.76687133
+1740,HSP90B1,LRP1,Stellate cell,Fibroblast cell,0.76663345,0.0,Ligand,Receptor,HSP90B1,LRP1,0.76663345
+1741,APOE,SORL1,Macrophage cell,Macrophage cell,0.7666271,0.0,Ligand,Receptor,APOE,SORL1,0.7666271
+1742,TGFB1,CXCR4,B cell,Macrophage cell,0.76619,0.0,Ligand,Receptor,TGFB1,CXCR4,0.76619
+1743,CD99,PILRB,Fibroblast cell,Acinar cell,0.76605177,0.006,Ligand,Receptor,CD99,PILRB,0.76605177
+1747,TGFB1,ITGB1,B cell,Endothelial cell,0.7644654,0.003,Ligand,Receptor,TGFB1,ITGB1,0.7644654
+1748,ADCYAP1,SCTR,Endocrine cell,Endocrine cell,0.7636375,0.0,Ligand,Receptor,ADCYAP1,SCTR,0.7636375
+1749,TIMP2,ITGB1,Ductal cell type 1,Stellate cell,0.7636331,0.0,Ligand,Receptor,TIMP2,ITGB1,0.7636331
+1752,ADAM15,ITGB1,Endothelial cell,Endothelial cell,0.7619864,0.0,Ligand,Receptor,ADAM15,ITGB1,0.7619864
+1754,APOE,SORL1,Macrophage cell,Endocrine cell,0.7615061,0.0,Ligand,Receptor,APOE,SORL1,0.7615061
+1756,C3,LRP1,Fibroblast cell,Macrophage cell,0.76120734,0.0,Ligand,Receptor,C3,LRP1,0.76120734
+1760,TIMP2,CD44,Fibroblast cell,Macrophage cell,0.76047635,0.0,Ligand,Receptor,TIMP2,CD44,0.76047635
+1762,COL4A2,CD44,Endothelial cell,Endocrine cell,0.7600645,0.0,Ligand,Receptor,COL4A2,CD44,0.7600645
+1765,SERPING1,LRP1,Ductal cell type 1,Macrophage cell,0.7589984,0.0,Ligand,Receptor,SERPING1,LRP1,0.7589984
+1766,C3,CD46,Fibroblast cell,Endocrine cell,0.7582652,0.0,Ligand,Receptor,C3,CD46,0.7582652
+1769,FN1,PLAUR,Fibroblast cell,Macrophage cell,0.75631046,0.0,Ligand,Receptor,FN1,PLAUR,0.75631046
+1771,AGRN,ITGB1,Ductal cell type 1,Endothelial cell,0.75608754,0.0,Ligand,Receptor,AGRN,ITGB1,0.75608754
+1774,CXCL12,ITGB1,Fibroblast cell,Macrophage cell,0.75565094,0.002,Ligand,Receptor,CXCL12,ITGB1,0.75565094
+1776,COL6A1,ITGA1,Fibroblast cell,Fibroblast cell,0.7548791,0.0,Ligand,Receptor,COL6A1,ITGA1,0.7548791
+1777,TNFSF12,TNFRSF12A,Stellate cell,Ductal cell type 1,0.75480175,0.0,Ligand,Receptor,TNFSF12,TNFRSF12A,0.75480175
+1780,ANXA1,FPR1,Macrophage cell,Macrophage cell,0.7545622,0.0,Ligand,Receptor,ANXA1,FPR1,0.7545622
+1782,GNAI2,FPR1,Endothelial cell,Macrophage cell,0.7541093,0.0,Ligand,Receptor,GNAI2,FPR1,0.7541093
+1784,COL4A2,ITGA1,Fibroblast cell,Endothelial cell,0.7540163,0.0,Ligand,Receptor,COL4A2,ITGA1,0.7540163
+1785,VEGFA,ITGB1,Macrophage cell,Stellate cell,0.75371826,0.0,Ligand,Receptor,VEGFA,ITGB1,0.75371826
+1786,MDK,LRP1,Endocrine cell,Fibroblast cell,0.7537114,0.0,Ligand,Receptor,MDK,LRP1,0.7537114
+1787,TFPI,SDC4,Fibroblast cell,Acinar cell,0.7535784,0.0,Ligand,Receptor,TFPI,SDC4,0.7535784
+1788,TFPI,LRP1,Stellate cell,Fibroblast cell,0.75331736,0.0,Ligand,Receptor,TFPI,LRP1,0.75331736
+1792,S100A4,ERBB3,Stellate cell,Acinar cell,0.7516633,0.006,Ligand,Receptor,S100A4,ERBB3,0.7516633
+1793,GPC3,CD81,Fibroblast cell,Stellate cell,0.7516569,0.0,Ligand,Receptor,GPC3,CD81,0.7516569
+1797,TFPI,F3,Fibroblast cell,Fibroblast cell,0.7503171,0.0,Ligand,Receptor,TFPI,F3,0.7503171
+1798,GRN,TNFRSF1A,B cell,Fibroblast cell,0.75011754,0.002,Ligand,Receptor,GRN,TNFRSF1A,0.75011754
+1800,COL4A1,ITGA1,Endothelial cell,Endothelial cell,0.7496449,0.0,Ligand,Receptor,COL4A1,ITGA1,0.7496449
+1801,CALM3,AQP1,Ductal cell type 1,Ductal cell type 1,0.7495536,0.001,Ligand,Receptor,CALM3,AQP1,0.7495536
+1802,C3,CD46,Fibroblast cell,Ductal cell type 1,0.74945724,0.0,Ligand,Receptor,C3,CD46,0.74945724
+1804,VEGFA,ITGB1,Endocrine cell,Stellate cell,0.7488063,0.0,Ligand,Receptor,VEGFA,ITGB1,0.7488063
+1805,PDAP1,PDGFRB,Ductal cell type 1,Stellate cell,0.74873966,0.0,Ligand,Receptor,PDAP1,PDGFRB,0.74873966
+1807,FN1,CD44,Fibroblast cell,Macrophage cell,0.7479688,0.0,Ligand,Receptor,FN1,CD44,0.7479688
+1808,FN1,CD44,Fibroblast cell,Acinar cell,0.7479032,0.004,Ligand,Receptor,FN1,CD44,0.7479032
+1810,APP,LRP1,Macrophage cell,Fibroblast cell,0.74718064,0.004,Ligand,Receptor,APP,LRP1,0.74718064
+1811,APP,ADRA2A,Endothelial cell,Endocrine cell,0.74682283,0.002,Ligand,Receptor,APP,ADRA2A,0.74682283
+1812,LGALS3BP,ITGB1,Macrophage cell,Endothelial cell,0.74663365,0.0,Ligand,Receptor,LGALS3BP,ITGB1,0.74663365
+1815,LAMA2,ITGA1,Fibroblast cell,Fibroblast cell,0.74630356,0.0,Ligand,Receptor,LAMA2,ITGA1,0.74630356
+1816,LAMB2,ITGB1,Endothelial cell,Endothelial cell,0.7462051,0.0,Ligand,Receptor,LAMB2,ITGB1,0.7462051
+1817,VEGFA,ITGB1,Macrophage cell,Fibroblast cell,0.7459419,0.008,Ligand,Receptor,VEGFA,ITGB1,0.7459419
+1818,MDK,ITGB1,Stellate cell,Endothelial cell,0.74589396,0.005,Ligand,Receptor,MDK,ITGB1,0.74589396
+1819,COL4A1,CD44,Fibroblast cell,Endocrine cell,0.74589276,0.001,Ligand,Receptor,COL4A1,CD44,0.74589276
+1820,ADAM15,ITGB1,Acinar cell,Stellate cell,0.7456786,0.008,Ligand,Receptor,ADAM15,ITGB1,0.7456786
+1821,GNAI2,F2R,Endothelial cell,Fibroblast cell,0.74502075,0.0,Ligand,Receptor,GNAI2,F2R,0.74502075
+1824,C3,NRP1,Fibroblast cell,Fibroblast cell,0.7439064,0.0,Ligand,Receptor,C3,NRP1,0.7439064
+1825,APP,NOTCH2,Endothelial cell,Ductal cell type 1,0.74370366,0.0,Ligand,Receptor,APP,NOTCH2,0.74370366
+1830,COL1A1,ITGA5,Fibroblast cell,Acinar cell,0.7427287,0.0,Ligand,Receptor,COL1A1,ITGA5,0.7427287
+1831,CALR,LRP1,Ductal cell type 1,Fibroblast cell,0.74239916,0.0,Ligand,Receptor,CALR,LRP1,0.74239916
+1838,COL4A2,CD44,Endothelial cell,Macrophage cell,0.74111736,0.0,Ligand,Receptor,COL4A2,CD44,0.74111736
+1840,VEGFA,ITGB1,Endocrine cell,Fibroblast cell,0.7410299,0.01,Ligand,Receptor,VEGFA,ITGB1,0.7410299
+1841,LRPAP1,LRP1,Endothelial cell,Fibroblast cell,0.74100274,0.0,Ligand,Receptor,LRPAP1,LRP1,0.74100274
+1847,MFGE8,ITGB5,Stellate cell,Endocrine cell,0.7396745,0.0,Ligand,Receptor,MFGE8,ITGB5,0.7396745
+1850,LRPAP1,LRP1,Endocrine cell,Fibroblast cell,0.7379768,0.0,Ligand,Receptor,LRPAP1,LRP1,0.7379768
+1855,COL6A1,ITGA6,Stellate cell,Endothelial cell,0.73732436,0.0,Ligand,Receptor,COL6A1,ITGA6,0.73732436
+1856,C3,LRP1,Acinar cell,Fibroblast cell,0.7371518,0.001,Ligand,Receptor,C3,LRP1,0.7371518
+1857,PTN,NCL,Stellate cell,Ductal cell type 1,0.7367282,0.0,Ligand,Receptor,PTN,NCL,0.7367282
+1860,TGFB1,ENG,B cell,Fibroblast cell,0.7359668,0.003,Ligand,Receptor,TGFB1,ENG,0.7359668
+1865,CALM3,MYLK,B cell,Stellate cell,0.7344833,0.008,Ligand,Receptor,CALM3,MYLK,0.7344833
+1866,APOE,LRP1,Endocrine cell,Fibroblast cell,0.7343581,0.0,Ligand,Receptor,APOE,LRP1,0.7343581
+1868,COL1A1,ITGA2,Fibroblast cell,Acinar cell,0.7332516,0.0,Ligand,Receptor,COL1A1,ITGA2,0.7332516
+1869,COL1A1,ITGA3,Fibroblast cell,Acinar cell,0.7332516,0.0,Ligand,Receptor,COL1A1,ITGA3,0.7332516
+1871,GRN,TNFRSF1B,B cell,Macrophage cell,0.732982,0.0,Ligand,Receptor,GRN,TNFRSF1B,0.732982
+1876,PSEN1,NOTCH3,Macrophage cell,Stellate cell,0.73189247,0.0,Ligand,Receptor,PSEN1,NOTCH3,0.73189247
+1878,COL6A1,CD44,Fibroblast cell,Endocrine cell,0.7316581,0.0,Ligand,Receptor,COL6A1,CD44,0.7316581
+1880,ADCYAP1,RAMP3,Acinar cell,Endothelial cell,0.73161656,0.0,Ligand,Receptor,ADCYAP1,RAMP3,0.73161656
+1881,GNAI2,S1PR1,Fibroblast cell,Endothelial cell,0.7305302,0.0,Ligand,Receptor,GNAI2,S1PR1,0.7305302
+1885,GRN,SORT1,Macrophage cell,Endocrine cell,0.7298821,0.0,Ligand,Receptor,GRN,SORT1,0.7298821
+1886,GNAI2,ADRA2A,Macrophage cell,Ductal cell type 1,0.72936594,0.0,Ligand,Receptor,GNAI2,ADRA2A,0.72936594
+1887,GPC3,CD81,Fibroblast cell,Ductal cell type 1,0.728858,0.0,Ligand,Receptor,GPC3,CD81,0.728858
+1894,LAMC3,ITGB1,Fibroblast cell,Endothelial cell,0.7271535,0.0,Ligand,Receptor,LAMC3,ITGB1,0.7271535
+1895,COL4A1,CD44,Fibroblast cell,Macrophage cell,0.72694564,0.002,Ligand,Receptor,COL4A1,CD44,0.72694564
+1898,APP,ADRA2A,Ductal cell type 1,Endocrine cell,0.72668356,0.009,Ligand,Receptor,APP,ADRA2A,0.72668356
+1899,PDGFB,LRP1,Endothelial cell,Fibroblast cell,0.72642064,0.0,Ligand,Receptor,PDGFB,LRP1,0.72642064
+1900,MAML2,NOTCH3,Endocrine cell,Stellate cell,0.7262918,0.0,Ligand,Receptor,MAML2,NOTCH3,0.7262918
+1901,THBS1,LRP1,Acinar cell,Fibroblast cell,0.72608954,0.0,Ligand,Receptor,THBS1,LRP1,0.72608954
+1902,LRPAP1,LRP1,Macrophage cell,Fibroblast cell,0.7256482,0.0,Ligand,Receptor,LRPAP1,LRP1,0.7256482
+1903,LAMA2,ITGB4,Fibroblast cell,Endothelial cell,0.7251063,0.0,Ligand,Receptor,LAMA2,ITGB4,0.7251063
+1904,GPC3,CD81,Fibroblast cell,Endocrine cell,0.7250509,0.002,Ligand,Receptor,GPC3,CD81,0.7250509
+1908,APP,NOTCH2,Ductal cell type 1,Ductal cell type 1,0.7235644,0.0,Ligand,Receptor,APP,NOTCH2,0.7235644
+1909,MMP7,ERBB4,Ductal cell type 1,Acinar cell,0.72356296,0.0,Ligand,Receptor,MMP7,ERBB4,0.72356296
+1910,PLAU,LRP1,Endothelial cell,Fibroblast cell,0.7235141,0.0,Ligand,Receptor,PLAU,LRP1,0.7235141
+1911,GRN,TNFRSF1A,B cell,Macrophage cell,0.7234576,0.003,Ligand,Receptor,GRN,TNFRSF1A,0.7234576
+1912,MMP7,SDC1,Ductal cell type 1,Acinar cell,0.7232448,0.001,Ligand,Receptor,MMP7,SDC1,0.7232448
+1913,LAMA2,CD44,Fibroblast cell,Endocrine cell,0.72308254,0.0,Ligand,Receptor,LAMA2,CD44,0.72308254
+1915,ADAM17,ITGB1,Endocrine cell,Stellate cell,0.72272027,0.0,Ligand,Receptor,ADAM17,ITGB1,0.72272027
+1916,FN1,CD44,Fibroblast cell,B cell,0.72220385,0.004,Ligand,Receptor,FN1,CD44,0.72220385
+1918,CALM3,MYLK,Fibroblast cell,Stellate cell,0.7217814,0.001,Ligand,Receptor,CALM3,MYLK,0.7217814
+1919,THBS4,SDC1,Fibroblast cell,B cell,0.7212837,0.0,Ligand,Receptor,THBS4,SDC1,0.7212837
+1924,TNFSF12,TNFRSF12A,Endothelial cell,Ductal cell type 1,0.7205509,0.0,Ligand,Receptor,TNFSF12,TNFRSF12A,0.7205509
+1926,COL18A1,KDR,Stellate cell,Endothelial cell,0.7204379,0.0,Ligand,Receptor,COL18A1,KDR,0.7204379
+1932,LGALS3BP,ITGB1,Ductal cell type 1,Endothelial cell,0.7194062,0.0,Ligand,Receptor,LGALS3BP,ITGB1,0.7194062
+1933,CD99,PILRB,Endocrine cell,Acinar cell,0.719218,0.007,Ligand,Receptor,CD99,PILRB,0.719218
+1938,TFPI,LRP1,Ductal cell type 1,Fibroblast cell,0.7177166,0.0,Ligand,Receptor,TFPI,LRP1,0.7177166
+1945,AGRN,LRP1,Endocrine cell,Fibroblast cell,0.71598136,0.0,Ligand,Receptor,AGRN,LRP1,0.71598136
+1946,FN1,ITGA5,Fibroblast cell,Endothelial cell,0.7156114,0.0,Ligand,Receptor,FN1,ITGA5,0.7156114
+1952,HSPG2,FGFR1,Fibroblast cell,Fibroblast cell,0.71501815,0.0,Ligand,Receptor,HSPG2,FGFR1,0.71501815
+1953,ADAM17,ITGB1,Endocrine cell,Fibroblast cell,0.7149439,0.01,Ligand,Receptor,ADAM17,ITGB1,0.7149439
+1959,ADAM9,ITGB1,Acinar cell,Stellate cell,0.71368134,0.0,Ligand,Receptor,ADAM9,ITGB1,0.71368134
+1960,LRPAP1,LRP1,Acinar cell,Fibroblast cell,0.7136322,0.004,Ligand,Receptor,LRPAP1,LRP1,0.7136322
+1962,PDAP1,PDGFRB,Endocrine cell,Stellate cell,0.7134523,0.0,Ligand,Receptor,PDAP1,PDGFRB,0.7134523
+1963,LUM,ITGB1,Endocrine cell,Stellate cell,0.71324545,0.0,Ligand,Receptor,LUM,ITGB1,0.71324545
+1966,TIMP3,DDR1,Stellate cell,Ductal cell type 1,0.7128028,0.0,Ligand,Receptor,TIMP3,DDR1,0.7128028
+1967,COL6A1,CD44,Fibroblast cell,Macrophage cell,0.712711,0.0,Ligand,Receptor,COL6A1,CD44,0.712711
+1970,CXCL12,SDC4,Fibroblast cell,Endocrine cell,0.712629,0.0,Ligand,Receptor,CXCL12,SDC4,0.712629
+1972,LAMB1,ITGA1,Fibroblast cell,Fibroblast cell,0.71212363,0.0,Ligand,Receptor,LAMB1,ITGA1,0.71212363
+1975,APP,LRP1,Endothelial cell,Macrophage cell,0.7101185,0.0,Ligand,Receptor,APP,LRP1,0.7101185
+1976,APP,LRP10,Endothelial cell,Ductal cell type 1,0.7100599,0.0,Ligand,Receptor,APP,LRP10,0.7100599
+1977,AGRN,LRP1,Endothelial cell,Fibroblast cell,0.70956457,0.0,Ligand,Receptor,AGRN,LRP1,0.70956457
+1980,PDGFA,PDGFRB,Endocrine cell,Stellate cell,0.7089143,0.0,Ligand,Receptor,PDGFA,PDGFRB,0.7089143
+1981,GNAI2,FPR1,Macrophage cell,Macrophage cell,0.7087054,0.0,Ligand,Receptor,GNAI2,FPR1,0.7087054
+1985,APP,TSPAN12,Endothelial cell,Endothelial cell,0.707179,0.0,Ligand,Receptor,APP,TSPAN12,0.707179
+1988,HSPG2,PTPRS,Fibroblast cell,Fibroblast cell,0.7062819,0.002,Ligand,Receptor,HSPG2,PTPRS,0.7062819
+1989,PDAP1,PDGFRB,Endothelial cell,Stellate cell,0.7062791,0.0,Ligand,Receptor,PDAP1,PDGFRB,0.7062791
+1993,ADAM9,ITGB1,Acinar cell,Fibroblast cell,0.70590496,0.01,Ligand,Receptor,ADAM9,ITGB1,0.70590496
+2002,LAMA2,CD44,Fibroblast cell,Macrophage cell,0.7041354,0.0,Ligand,Receptor,LAMA2,CD44,0.7041354
+2003,LAMA2,CD44,Fibroblast cell,Acinar cell,0.70406985,0.004,Ligand,Receptor,LAMA2,CD44,0.70406985
+2004,FN1,ITGA6,Fibroblast cell,B cell,0.70373726,0.002,Ligand,Receptor,FN1,ITGA6,0.70373726
+2005,C3,CD81,Macrophage cell,Endothelial cell,0.7029419,0.0,Ligand,Receptor,C3,CD81,0.7029419
+2006,SLIT2,APP,Fibroblast cell,Endocrine cell,0.7026957,0.001,Ligand,Receptor,SLIT2,APP,0.7026957
+2007,MDK,SDC1,Fibroblast cell,B cell,0.7025095,0.0,Ligand,Receptor,MDK,SDC1,0.7025095
+2009,GRN,TNFRSF1B,Macrophage cell,Acinar cell,0.70181364,0.0,Ligand,Receptor,GRN,TNFRSF1B,0.70181364
+2011,CXCL12,ITGAV,Fibroblast cell,Endocrine cell,0.70129526,0.0,Ligand,Receptor,CXCL12,ITGAV,0.70129526
+2012,MFGE8,ITGAV,Stellate cell,Endocrine cell,0.70118153,0.0,Ligand,Receptor,MFGE8,ITGAV,0.70118153
+2016,CALR,ITGAV,B cell,Endocrine cell,0.700087,0.007,Ligand,Receptor,CALR,ITGAV,0.700087
+2020,GNAI2,F2R,Macrophage cell,Fibroblast cell,0.6996168,0.0,Ligand,Receptor,GNAI2,F2R,0.6996168
+2021,TNFSF13B,TNFRSF17,Fibroblast cell,B cell,0.69923925,0.0,Ligand,Receptor,TNFSF13B,TNFRSF17,0.69923925
+2022,TGFB1,CXCR4,Macrophage cell,Macrophage cell,0.6991265,0.0,Ligand,Receptor,TGFB1,CXCR4,0.6991265
+2027,MFGE8,ITGB5,Fibroblast cell,Fibroblast cell,0.6980805,0.0,Ligand,Receptor,MFGE8,ITGB5,0.6980805
+2031,COL18A1,KDR,Ductal cell type 1,Endothelial cell,0.6976758,0.0,Ligand,Receptor,COL18A1,KDR,0.6976758
+2032,TGFB1,ITGB1,Macrophage cell,Endothelial cell,0.6974019,0.0,Ligand,Receptor,TGFB1,ITGB1,0.6974019
+2035,APP,LRP10,Endothelial cell,Endothelial cell,0.6971007,0.001,Ligand,Receptor,APP,LRP10,0.6971007
+2039,C3,LRP1,Endocrine cell,Fibroblast cell,0.695851,0.0,Ligand,Receptor,C3,LRP1,0.695851
+2044,COL18A1,PTPRS,B cell,Fibroblast cell,0.6945684,0.01,Ligand,Receptor,COL18A1,PTPRS,0.6945684
+2045,LAMB2,ITGB1,Ductal cell type 1,Endothelial cell,0.6945261,0.0,Ligand,Receptor,LAMB2,ITGB1,0.6945261
+2046,PGF,FLT1,Stellate cell,Endothelial cell,0.6944829,0.0,Ligand,Receptor,PGF,FLT1,0.6944829
+2050,PSEN1,NOTCH3,Acinar cell,Stellate cell,0.69369173,0.0,Ligand,Receptor,PSEN1,NOTCH3,0.69369173
+2052,MAML2,NOTCH3,Acinar cell,Stellate cell,0.69300926,0.0,Ligand,Receptor,MAML2,NOTCH3,0.69300926
+2055,LAMA2,ITGA7,Fibroblast cell,Stellate cell,0.69276845,0.0,Ligand,Receptor,LAMA2,ITGA7,0.69276845
+2056,INHBA,ENG,Fibroblast cell,Fibroblast cell,0.692763,0.0,Ligand,Receptor,INHBA,ENG,0.692763
+2059,TFPI,SDC4,Fibroblast cell,Ductal cell type 1,0.6919941,0.0,Ligand,Receptor,TFPI,SDC4,0.6919941
+2061,LAMB2,ITGB1,Endocrine cell,Endothelial cell,0.69104046,0.01,Ligand,Receptor,LAMB2,ITGB1,0.69104046
+2062,LAMB1,ITGB4,Fibroblast cell,Endothelial cell,0.6909264,0.0,Ligand,Receptor,LAMB1,ITGB4,0.6909264
+2068,APP,LRP1,Ductal cell type 1,Macrophage cell,0.6899792,0.0,Ligand,Receptor,APP,LRP1,0.6899792
+2069,FN1,C5AR1,Fibroblast cell,Macrophage cell,0.6899229,0.0,Ligand,Receptor,FN1,C5AR1,0.6899229
+2070,APP,LRP10,Ductal cell type 1,Ductal cell type 1,0.6899206,0.0,Ligand,Receptor,APP,LRP10,0.6899206
+2071,COL6A2,SDC1,Stellate cell,B cell,0.68924403,0.0,Ligand,Receptor,COL6A2,SDC1,0.68924403
+2073,LAMB1,CD44,Fibroblast cell,Endocrine cell,0.6889026,0.0,Ligand,Receptor,LAMB1,CD44,0.6889026
+2076,GNAI2,EDNRB,Endothelial cell,Fibroblast cell,0.68854463,0.0,Ligand,Receptor,GNAI2,EDNRB,0.68854463
+2078,C3,CD46,Fibroblast cell,Acinar cell,0.68844026,0.0,Ligand,Receptor,C3,CD46,0.68844026
+2081,MIA,ITGB1,Acinar cell,Stellate cell,0.68836695,0.0,Ligand,Receptor,MIA,ITGB1,0.68836695
+2085,CXCL12,ITGAV,Fibroblast cell,Acinar cell,0.6873026,0.0,Ligand,Receptor,CXCL12,ITGAV,0.6873026
+2086,MFGE8,ITGAV,Stellate cell,Acinar cell,0.68718886,0.001,Ligand,Receptor,MFGE8,ITGAV,0.68718886
+2087,PDGFA,PDGFRB,Ductal cell type 1,Stellate cell,0.6871017,0.0,Ligand,Receptor,PDGFA,PDGFRB,0.6871017
+2088,COL4A2,SDC1,Stellate cell,B cell,0.6870655,0.0,Ligand,Receptor,COL4A2,SDC1,0.6870655
+2089,APP,TSPAN12,Ductal cell type 1,Endothelial cell,0.68703973,0.0,Ligand,Receptor,APP,TSPAN12,0.68703973
+2090,CLEC11A,ITGB1,Macrophage cell,Endothelial cell,0.6870221,0.001,Ligand,Receptor,CLEC11A,ITGB1,0.6870221
+2091,COL6A1,CD44,Fibroblast cell,B cell,0.68694603,0.009,Ligand,Receptor,COL6A1,CD44,0.68694603
+2093,GPC3,FLT1,Fibroblast cell,Endothelial cell,0.6862715,0.0,Ligand,Receptor,GPC3,FLT1,0.6862715
+2095,SPON2,ITGB2,Fibroblast cell,Macrophage cell,0.68560266,0.0,Ligand,Receptor,SPON2,ITGB2,0.68560266
+2099,S100A4,ERBB2,Stellate cell,Ductal cell type 1,0.68501234,0.0,Ligand,Receptor,S100A4,ERBB2,0.68501234
+2101,TIMP2,CD44,Endothelial cell,Ductal cell type 1,0.68469745,0.0,Ligand,Receptor,TIMP2,CD44,0.68469745
+2104,HSP90B1,TLR2,Fibroblast cell,Macrophage cell,0.6845919,0.01,Ligand,Receptor,HSP90B1,TLR2,0.6845919
+2105,JAM3,ITGB1,Endothelial cell,Endothelial cell,0.6843887,0.0,Ligand,Receptor,JAM3,ITGB1,0.6843887
+2107,GNAI2,S1PR1,Stellate cell,Endothelial cell,0.6842344,0.0,Ligand,Receptor,GNAI2,S1PR1,0.6842344
+2108,C3,NRP1,Fibroblast cell,Endocrine cell,0.6840557,0.0,Ligand,Receptor,C3,NRP1,0.6840557
+2110,COL18A1,ITGA1,Stellate cell,Endothelial cell,0.6835096,0.0,Ligand,Receptor,COL18A1,ITGA1,0.6835096
+2111,FSTL1,DIP2A,Fibroblast cell,Acinar cell,0.68339884,0.0,Ligand,Receptor,FSTL1,DIP2A,0.68339884
+2115,THBS1,ITGA6,Acinar cell,Endothelial cell,0.6824753,0.001,Ligand,Receptor,THBS1,ITGA6,0.6824753
+2116,PTN,NCL,Stellate cell,Endothelial cell,0.68213475,0.0,Ligand,Receptor,PTN,NCL,0.68213475
+2118,DLK1,NOTCH2,Endocrine cell,Ductal cell type 1,0.68198764,0.0,Ligand,Receptor,DLK1,NOTCH2,0.68198764
+2126,MIA,ITGB1,Acinar cell,Fibroblast cell,0.68059057,0.005,Ligand,Receptor,MIA,ITGB1,0.68059057
+2131,CALM3,MYLK,Macrophage cell,Stellate cell,0.6800312,0.0,Ligand,Receptor,CALM3,MYLK,0.6800312
+2133,PKM,CD44,Macrophage cell,Ductal cell type 1,0.67928386,0.0,Ligand,Receptor,PKM,CD44,0.67928386
+2134,FN1,ITGAV,Fibroblast cell,Ductal cell type 1,0.6788916,0.0,Ligand,Receptor,FN1,ITGAV,0.6788916
+2135,SPP1,S1PR1,Stellate cell,Endothelial cell,0.678815,0.005,Ligand,Receptor,SPP1,S1PR1,0.678815
+2136,NID1,ITGB1,Fibroblast cell,Endothelial cell,0.67853796,0.0,Ligand,Receptor,NID1,ITGB1,0.67853796
+2138,LAMA2,CD44,Fibroblast cell,B cell,0.6783705,0.003,Ligand,Receptor,LAMA2,CD44,0.6783705
+2139,HSP90B1,TLR2,Endothelial cell,Macrophage cell,0.67829645,0.0,Ligand,Receptor,HSP90B1,TLR2,0.67829645
+2140,COL4A1,CD47,Endothelial cell,Ductal cell type 1,0.6781762,0.0,Ligand,Receptor,COL4A1,CD47,0.6781762
+2141,VEGFA,ITGB1,Ductal cell type 1,Endothelial cell,0.6779473,0.0,Ligand,Receptor,VEGFA,ITGB1,0.6779473
+2144,CXCL12,ITGA5,Fibroblast cell,Acinar cell,0.67757684,0.0,Ligand,Receptor,CXCL12,ITGA5,0.67757684
+2145,BGN,LY96,Stellate cell,Macrophage cell,0.67747027,0.0,Ligand,Receptor,BGN,LY96,0.67747027
+2146,APP,LRP10,Ductal cell type 1,Endothelial cell,0.6769614,0.0,Ligand,Receptor,APP,LRP10,0.6769614
+2149,TIMP2,CD44,Macrophage cell,Ductal cell type 1,0.6767893,0.0,Ligand,Receptor,TIMP2,CD44,0.6767893
+2154,COL6A2,CD44,Stellate cell,Ductal cell type 1,0.6755632,0.0,Ligand,Receptor,COL6A2,CD44,0.6755632
+2155,PLAU,ITGB1,Endothelial cell,Endothelial cell,0.67498696,0.0,Ligand,Receptor,PLAU,ITGB1,0.67498696
+2161,COL4A2,CD44,Stellate cell,Ductal cell type 1,0.67338467,0.0,Ligand,Receptor,COL4A2,CD44,0.67338467
+2163,VWF,LRP1,Endocrine cell,Fibroblast cell,0.67255884,0.002,Ligand,Receptor,VWF,LRP1,0.67255884
+2165,HLA-DQA1,CD4,Endothelial cell,Macrophage cell,0.67244667,0.0,Ligand,Receptor,HLA-DQA1,CD4,0.67244667
+2166,TGFB1,CXCR4,Endothelial cell,Macrophage cell,0.67234904,0.0,Ligand,Receptor,TGFB1,CXCR4,0.67234904
+2168,SERPINA1,LRP1,Endocrine cell,Fibroblast cell,0.67193276,0.0,Ligand,Receptor,SERPINA1,LRP1,0.67193276
+2170,TIMP3,DDR1,Stellate cell,Endocrine cell,0.6713944,0.0,Ligand,Receptor,TIMP3,DDR1,0.6713944
+2174,VCAN,CD44,Fibroblast cell,Ductal cell type 1,0.6706625,0.0,Ligand,Receptor,VCAN,CD44,0.6706625
+2175,TGFB1,ITGB1,Endothelial cell,Endothelial cell,0.67062443,0.0,Ligand,Receptor,TGFB1,ITGB1,0.67062443
+2176,LAMB1,CD44,Fibroblast cell,Macrophage cell,0.6699555,0.0,Ligand,Receptor,LAMB1,CD44,0.6699555
+2178,CD99,PILRA,Endothelial cell,Macrophage cell,0.6698061,0.0,Ligand,Receptor,CD99,PILRA,0.6698061
+2179,CALM3,MYLK,Stellate cell,Stellate cell,0.6694938,0.0,Ligand,Receptor,CALM3,MYLK,0.6694938
+2180,TGFB1,ENG,Macrophage cell,Fibroblast cell,0.66890323,0.001,Ligand,Receptor,TGFB1,ENG,0.66890323
+2182,JAG2,NOTCH3,Acinar cell,Stellate cell,0.6686955,0.0,Ligand,Receptor,JAG2,NOTCH3,0.6686955
+2184,PTN,SDC1,Stellate cell,B cell,0.6686139,0.0,Ligand,Receptor,PTN,SDC1,0.6686139
+2186,LAMC1,CD44,Fibroblast cell,Ductal cell type 1,0.66854393,0.0,Ligand,Receptor,LAMC1,CD44,0.66854393
+2187,COL6A1,ITGA6,Fibroblast cell,B cell,0.66847944,0.002,Ligand,Receptor,COL6A1,ITGA6,0.66847944
+2191,CXCL12,ADRA2A,Fibroblast cell,Acinar cell,0.66809964,0.002,Ligand,Receptor,CXCL12,ADRA2A,0.66809964
+2192,CXCL12,ACKR3,Fibroblast cell,Acinar cell,0.66809964,0.0,Ligand,Receptor,CXCL12,ACKR3,0.66809964
+2193,DLK1,NOTCH3,Endocrine cell,B cell,0.66807806,0.004,Ligand,Receptor,DLK1,NOTCH3,0.66807806
+2194,JAM2,ITGAV,Endothelial cell,Ductal cell type 1,0.66767025,0.0,Ligand,Receptor,JAM2,ITGAV,0.66767025
+2202,CALR,ITGA3,B cell,Acinar cell,0.66689146,0.004,Ligand,Receptor,CALR,ITGA3,0.66689146
+2204,CCL2,CCR10,Ductal cell type 1,B cell,0.66676676,0.0,Ligand,Receptor,CCL2,CCR10,0.66676676
+2205,COL4A2,ITGB5,Fibroblast cell,Fibroblast cell,0.66649914,0.001,Ligand,Receptor,COL4A2,ITGB5,0.66649914
+2207,ANXA1,DYSF,Fibroblast cell,Acinar cell,0.6662367,0.0,Ligand,Receptor,ANXA1,DYSF,0.6662367
+2211,PGF,NRP1,Stellate cell,Endothelial cell,0.6651539,0.0,Ligand,Receptor,PGF,NRP1,0.6651539
+2215,POMC,RAMP3,Acinar cell,Endothelial cell,0.6648277,0.0,Ligand,Receptor,POMC,RAMP3,0.6648277
+2227,PDGFA,PDGFRB,Acinar cell,Stellate cell,0.6610898,0.0,Ligand,Receptor,PDGFA,PDGFRB,0.6610898
+2228,AGRN,ITGB1,Endothelial cell,Endothelial cell,0.66103745,0.0,Ligand,Receptor,AGRN,ITGB1,0.66103745
+2230,COL18A1,ITGA1,Ductal cell type 1,Endothelial cell,0.66074747,0.0,Ligand,Receptor,COL18A1,ITGA1,0.66074747
+2232,HSP90B1,LRP1,Endothelial cell,Macrophage cell,0.659748,0.0,Ligand,Receptor,HSP90B1,LRP1,0.659748
+2233,S100A4,ERBB3,Stellate cell,Endocrine cell,0.6596649,0.0,Ligand,Receptor,S100A4,ERBB3,0.6596649
+2235,PKM,CD44,B cell,Ductal cell type 1,0.6593347,0.007,Ligand,Receptor,PKM,CD44,0.6593347
+2236,JAG1,NOTCH3,Acinar cell,Stellate cell,0.6592183,0.006,Ligand,Receptor,JAG1,NOTCH3,0.6592183
+2237,LAMB1,ITGA7,Fibroblast cell,Stellate cell,0.6585885,0.0,Ligand,Receptor,LAMB1,ITGA7,0.6585885
+2239,EFNA1,EPHB6,Endothelial cell,Ductal cell type 1,0.65811086,0.0,Ligand,Receptor,EFNA1,EPHB6,0.65811086
+2240,LGALS9,MRC2,Macrophage cell,Fibroblast cell,0.65784615,0.0,Ligand,Receptor,LGALS9,MRC2,0.65784615
+2245,COL15A1,ITGA1,Fibroblast cell,Endothelial cell,0.65673506,0.0,Ligand,Receptor,COL15A1,ITGA1,0.65673506
+2246,HEBP1,ADRA2A,Ductal cell type 1,Ductal cell type 1,0.6564425,0.0,Ligand,Receptor,HEBP1,ADRA2A,0.6564425
+2248,APOE,SORL1,Macrophage cell,Ductal cell type 1,0.65591896,0.0,Ligand,Receptor,APOE,SORL1,0.65591896
+2252,APOE,ABCA1,Macrophage cell,Fibroblast cell,0.65556496,0.0,Ligand,Receptor,APOE,ABCA1,0.65556496
+2254,ICAM1,IL2RG,Endothelial cell,B cell,0.6552794,0.0,Ligand,Receptor,ICAM1,IL2RG,0.6552794
+2255,PDGFB,S1PR1,Endothelial cell,Endothelial cell,0.65511686,0.0,Ligand,Receptor,PDGFB,S1PR1,0.65511686
+2257,GNAI2,S1PR1,Endocrine cell,Endothelial cell,0.65489435,0.0,Ligand,Receptor,GNAI2,S1PR1,0.65489435
+2259,APP,TNFRSF21,Endothelial cell,Endocrine cell,0.65435976,0.0,Ligand,Receptor,APP,TNFRSF21,0.65435976
+2261,ANXA1,ADRA2A,Macrophage cell,Endocrine cell,0.6543101,0.0,Ligand,Receptor,ANXA1,ADRA2A,0.6543101
+2262,PLAT,LRP1,Acinar cell,Fibroblast cell,0.65416265,0.01,Ligand,Receptor,PLAT,LRP1,0.65416265
+2263,C3,ADRA2A,Fibroblast cell,Acinar cell,0.6539669,0.002,Ligand,Receptor,C3,ADRA2A,0.6539669
+2264,C3,NRP1,Fibroblast cell,Acinar cell,0.6539669,0.004,Ligand,Receptor,C3,NRP1,0.6539669
+2265,GNAI2,ADRA2A,Endothelial cell,Endocrine cell,0.65385723,0.0,Ligand,Receptor,GNAI2,ADRA2A,0.65385723
+2266,COL4A1,CD47,Fibroblast cell,Endothelial cell,0.6533264,0.0,Ligand,Receptor,COL4A1,CD47,0.6533264
+2267,EFEMP2,AQP1,Ductal cell type 1,Ductal cell type 1,0.65324104,0.0,Ligand,Receptor,EFEMP2,AQP1,0.65324104
+2268,AGRN,LRP1,Acinar cell,Fibroblast cell,0.653162,0.007,Ligand,Receptor,AGRN,LRP1,0.653162
+2274,CCL5,SDC1,B cell,B cell,0.6507254,0.0,Ligand,Receptor,CCL5,SDC1,0.6507254
+2275,TFF3,CXCR4,Acinar cell,Macrophage cell,0.6505586,0.004,Ligand,Receptor,TFF3,CXCR4,0.6505586
+2277,SPON2,ITGB1,Fibroblast cell,Ductal cell type 1,0.6501203,0.0,Ligand,Receptor,SPON2,ITGB1,0.6501203
+2278,LGALS3,MCAM,Endothelial cell,Stellate cell,0.64980507,0.0,Ligand,Receptor,LGALS3,MCAM,0.64980507
+2279,COL18A1,PTPRS,Stellate cell,Fibroblast cell,0.648135,0.0,Ligand,Receptor,COL18A1,PTPRS,0.648135
+2280,S100A4,ERBB2,Stellate cell,Endocrine cell,0.64791214,0.0,Ligand,Receptor,S100A4,ERBB2,0.64791214
+2281,IGF1,INSR,Fibroblast cell,Acinar cell,0.6478073,0.004,Ligand,Receptor,IGF1,INSR,0.6478073
+2283,LAMA5,ITGB1,Ductal cell type 1,Endothelial cell,0.6472563,0.0,Ligand,Receptor,LAMA5,ITGB1,0.6472563
+2285,HSPG2,LRP1,Endocrine cell,Fibroblast cell,0.6466952,0.002,Ligand,Receptor,HSPG2,LRP1,0.6466952
+2288,APOE,LRP1,Macrophage cell,Macrophage cell,0.64599884,0.0,Ligand,Receptor,APOE,LRP1,0.64599884
+2290,PKM,CD44,Endocrine cell,Ductal cell type 1,0.6457186,0.0,Ligand,Receptor,PKM,CD44,0.6457186
+2291,VEGFA,ITGB1,Macrophage cell,Endothelial cell,0.64567244,0.0,Ligand,Receptor,VEGFA,ITGB1,0.64567244
+2293,THBS1,CD47,Fibroblast cell,Ductal cell type 1,0.6455729,0.0,Ligand,Receptor,THBS1,CD47,0.6455729
+2294,PLAT,LRP1,Endocrine cell,Fibroblast cell,0.6455337,0.0,Ligand,Receptor,PLAT,LRP1,0.6455337
+2296,LAMB1,CD44,Fibroblast cell,B cell,0.64419055,0.005,Ligand,Receptor,LAMB1,CD44,0.64419055
+2298,MMP2,FGFR1,Fibroblast cell,Acinar cell,0.6438533,0.0,Ligand,Receptor,MMP2,FGFR1,0.6438533
+2300,CCL3L1,CCR1,Macrophage cell,Macrophage cell,0.64355516,0.0,Ligand,Receptor,CCL3L1,CCR1,0.64355516
+2301,GNAI2,EDNRB,Macrophage cell,Fibroblast cell,0.64314073,0.0,Ligand,Receptor,GNAI2,EDNRB,0.64314073
+2306,TFPI,F3,Fibroblast cell,Acinar cell,0.6421461,0.0,Ligand,Receptor,TFPI,F3,0.6421461
+2307,TGFB1,ENG,Endothelial cell,Fibroblast cell,0.64212584,0.001,Ligand,Receptor,TGFB1,ENG,0.64212584
+2309,COL4A2,ITGB5,Endothelial cell,Endocrine cell,0.6416583,0.0,Ligand,Receptor,COL4A2,ITGB5,0.6416583
+2310,VEGFA,ITGB1,Endocrine cell,Endothelial cell,0.6407605,0.001,Ligand,Receptor,VEGFA,ITGB1,0.6407605
+2313,COL4A1,ITGA1,Endothelial cell,Fibroblast cell,0.63966894,0.0,Ligand,Receptor,COL4A1,ITGA1,0.63966894
+2314,LGALS3,MCAM,Fibroblast cell,Endothelial cell,0.63923204,0.007,Ligand,Receptor,LGALS3,MCAM,0.63923204
+2315,APP,NCSTN,Endothelial cell,Endocrine cell,0.6392213,0.005,Ligand,Receptor,APP,NCSTN,0.6392213
+2320,NUCB2,ERAP1,B cell,Acinar cell,0.6384728,0.001,Ligand,Receptor,NUCB2,ERAP1,0.6384728
+2329,TFPI,LRP1,Fibroblast cell,Macrophage cell,0.63674587,0.0,Ligand,Receptor,TFPI,LRP1,0.63674587
+2333,ADCYAP1,SCTR,Acinar cell,Ductal cell type 1,0.6344727,0.001,Ligand,Receptor,ADCYAP1,SCTR,0.6344727
+2334,APP,TNFRSF21,Ductal cell type 1,Endocrine cell,0.6342205,0.0,Ligand,Receptor,APP,TNFRSF21,0.6342205
+2337,GRN,SORT1,B cell,Endocrine cell,0.6334598,0.003,Ligand,Receptor,GRN,SORT1,0.6334598
+2338,APP,APLP1,Endothelial cell,Endocrine cell,0.6334394,0.0,Ligand,Receptor,APP,APLP1,0.6334394
+2341,LGALS3,MCAM,Macrophage cell,Stellate cell,0.63312864,0.0,Ligand,Receptor,LGALS3,MCAM,0.63312864
+2342,DLK1,NOTCH2,Endocrine cell,Acinar cell,0.63294697,0.001,Ligand,Receptor,DLK1,NOTCH2,0.63294697
+2347,LGALS9,CD44,Macrophage cell,Ductal cell type 1,0.629586,0.0,Ligand,Receptor,LGALS9,CD44,0.629586
+2348,COL15A1,ITGA2,Endothelial cell,Acinar cell,0.62912107,0.0,Ligand,Receptor,COL15A1,ITGA2,0.62912107
+2352,CXCL16,ADRA2A,Macrophage cell,Ductal cell type 1,0.6287838,0.0,Ligand,Receptor,CXCL16,ADRA2A,0.6287838
+2353,MMRN2,CD248,Endothelial cell,Fibroblast cell,0.6287027,0.0,Ligand,Receptor,MMRN2,CD248,0.6287027
+2356,COL4A1,CD47,Fibroblast cell,Endocrine cell,0.62817943,0.003,Ligand,Receptor,COL4A1,CD47,0.62817943
+2357,COL6A2,ITGA1,Stellate cell,Endothelial cell,0.6280763,0.0,Ligand,Receptor,COL6A2,ITGA1,0.6280763
+2359,MDK,SDC2,Ductal cell type 1,Acinar cell,0.6272266,0.001,Ligand,Receptor,MDK,SDC2,0.6272266
+2362,APP,TSPAN12,Endothelial cell,Endocrine cell,0.62680614,0.0,Ligand,Receptor,APP,TSPAN12,0.62680614
+2364,LAMA2,DAG1,Fibroblast cell,Acinar cell,0.626574,0.0,Ligand,Receptor,LAMA2,DAG1,0.626574
+2365,HSP90B1,ERBB2,Endothelial cell,Ductal cell type 1,0.62651277,0.0,Ligand,Receptor,HSP90B1,ERBB2,0.62651277
+2366,CALM3,MYLK,Endothelial cell,Stellate cell,0.62634015,0.0,Ligand,Receptor,CALM3,MYLK,0.62634015
+2367,APOE,LRP5,Macrophage cell,Endothelial cell,0.626046,0.0,Ligand,Receptor,APOE,LRP5,0.626046
+2368,COL4A2,ITGA1,Stellate cell,Endothelial cell,0.62589777,0.0,Ligand,Receptor,COL4A2,ITGA1,0.62589777
+2371,COL18A1,PTPRS,Ductal cell type 1,Fibroblast cell,0.6253729,0.0,Ligand,Receptor,COL18A1,PTPRS,0.6253729
+2372,C3,IFITM1,Macrophage cell,Stellate cell,0.62531424,0.004,Ligand,Receptor,C3,IFITM1,0.62531424
+2383,GNAI2,C5AR1,Endothelial cell,Macrophage cell,0.6230141,0.0,Ligand,Receptor,GNAI2,C5AR1,0.6230141
+2384,PLAT,LRP1,Endothelial cell,Macrophage cell,0.62269443,0.0,Ligand,Receptor,PLAT,LRP1,0.62269443
+2385,ANGPTL1,ITGA1,Fibroblast cell,Endothelial cell,0.62254584,0.0,Ligand,Receptor,ANGPTL1,ITGA1,0.62254584
+2389,FN1,SDC2,Fibroblast cell,Endocrine cell,0.62121445,0.0,Ligand,Receptor,FN1,SDC2,0.62121445
+2390,LAMC1,ITGA1,Fibroblast cell,Endothelial cell,0.621057,0.0,Ligand,Receptor,LAMC1,ITGA1,0.621057
+2392,MDK,SORL1,Ductal cell type 1,Macrophage cell,0.6208137,0.0,Ligand,Receptor,MDK,SORL1,0.6208137
+2394,CD99,PILRA,Stellate cell,Macrophage cell,0.6201462,0.0,Ligand,Receptor,CD99,PILRA,0.6201462
+2397,LAMA2,DAG1,Fibroblast cell,Endocrine cell,0.61940366,0.0,Ligand,Receptor,LAMA2,DAG1,0.61940366
+2399,C1QB,LRP1,Acinar cell,Fibroblast cell,0.61937106,0.001,Ligand,Receptor,C1QB,LRP1,0.61937106
+2400,APP,NCSTN,Ductal cell type 1,Endocrine cell,0.61908203,0.004,Ligand,Receptor,APP,NCSTN,0.61908203
+2405,THBS1,SDC4,Fibroblast cell,Acinar cell,0.61782295,0.001,Ligand,Receptor,THBS1,SDC4,0.61782295
+2409,COL4A1,CD44,Endothelial cell,Endocrine cell,0.6164479,0.002,Ligand,Receptor,COL4A1,CD44,0.6164479
+2413,MDK,SORL1,Ductal cell type 1,Endocrine cell,0.61569273,0.0,Ligand,Receptor,MDK,SORL1,0.61569273
+2416,HSP90B1,TLR2,Macrophage cell,Macrophage cell,0.61495125,0.009,Ligand,Receptor,HSP90B1,TLR2,0.61495125
+2417,ADAM17,ITGB1,Endocrine cell,Endothelial cell,0.61467445,0.0,Ligand,Receptor,ADAM17,ITGB1,0.61467445
+2418,VTN,KDR,Ductal cell type 1,Endothelial cell,0.6144202,0.0,Ligand,Receptor,VTN,KDR,0.6144202
+2423,APP,APLP1,Ductal cell type 1,Endocrine cell,0.61330014,0.0,Ligand,Receptor,APP,APLP1,0.61330014
+2430,FN1,SDC1,Fibroblast cell,Acinar cell,0.6112946,0.0,Ligand,Receptor,FN1,SDC1,0.6112946
+2432,EFNA1,EPHB6,Endothelial cell,Stellate cell,0.61075914,0.0,Ligand,Receptor,EFNA1,EPHB6,0.61075914
+2433,ADAM9,ITGA6,Acinar cell,Endothelial cell,0.61054844,0.0,Ligand,Receptor,ADAM9,ITGA6,0.61054844
+2434,CEL,CXCR4,Endocrine cell,Macrophage cell,0.61050177,0.0,Ligand,Receptor,CEL,CXCR4,0.61050177
+2435,FN1,ITGAV,Fibroblast cell,Endocrine cell,0.6100168,0.0,Ligand,Receptor,FN1,ITGAV,0.6100168
+2436,CD14,ITGB2,Macrophage cell,Macrophage cell,0.60988873,0.0,Ligand,Receptor,CD14,ITGB2,0.60988873
+2437,MDK,SDC1,Stellate cell,B cell,0.6095017,0.0,Ligand,Receptor,MDK,SDC1,0.6095017
+2438,GNAI2,ADRA2A,Macrophage cell,Endocrine cell,0.6084533,0.008,Ligand,Receptor,GNAI2,ADRA2A,0.6084533
+2441,COL18A1,KDR,Endothelial cell,Endothelial cell,0.6076258,0.0,Ligand,Receptor,COL18A1,KDR,0.6076258
+2443,PDAP1,PDGFRB,Acinar cell,Stellate cell,0.6074134,0.01,Ligand,Receptor,PDAP1,PDGFRB,0.6074134
+2444,PDGFC,PDGFRB,Acinar cell,Stellate cell,0.6074134,0.0,Ligand,Receptor,PDGFC,PDGFRB,0.6074134
+2447,APP,TSPAN12,Ductal cell type 1,Endocrine cell,0.60666686,0.002,Ligand,Receptor,APP,TSPAN12,0.60666686
+2453,ADAM9,ITGB1,Acinar cell,Endothelial cell,0.6056355,0.007,Ligand,Receptor,ADAM9,ITGB1,0.6056355
+2454,GRN,TNFRSF1B,B cell,Acinar cell,0.6053913,0.007,Ligand,Receptor,GRN,TNFRSF1B,0.6053913
+2458,COL4A2,SDC1,Endothelial cell,Acinar cell,0.60444313,0.001,Ligand,Receptor,COL4A2,SDC1,0.60444313
+2468,SPON2,ITGA5,Fibroblast cell,Endothelial cell,0.59972334,0.0,Ligand,Receptor,SPON2,ITGA5,0.59972334
+2472,COL6A1,ITGA6,Endocrine cell,Endothelial cell,0.59909886,0.0,Ligand,Receptor,COL6A1,ITGA6,0.59909886
+2473,JAM2,ITGAV,Endothelial cell,Endocrine cell,0.5987955,0.0,Ligand,Receptor,JAM2,ITGAV,0.5987955
+2474,APOE,LRP6,Macrophage cell,Acinar cell,0.59854615,0.0,Ligand,Receptor,APOE,LRP6,0.59854615
+2477,COL4A1,CD44,Endothelial cell,Macrophage cell,0.5975008,0.002,Ligand,Receptor,COL4A1,CD44,0.5975008
+2479,GNAI2,TBXA2R,Endothelial cell,Endothelial cell,0.59656376,0.0,Ligand,Receptor,GNAI2,TBXA2R,0.59656376
+2480,COL18A1,KDR,Fibroblast cell,Endothelial cell,0.59652793,0.008,Ligand,Receptor,COL18A1,KDR,0.59652793
+2482,TIMP2,CD44,Endocrine cell,Ductal cell type 1,0.5962725,0.009,Ligand,Receptor,TIMP2,CD44,0.5962725
+2483,LAMB2,CD44,Endothelial cell,Ductal cell type 1,0.5961321,0.0,Ligand,Receptor,LAMB2,CD44,0.5961321
+2485,FN1,ITGAV,Fibroblast cell,Acinar cell,0.59602416,0.002,Ligand,Receptor,FN1,ITGAV,0.59602416
+2486,FN1,ITGAV,Fibroblast cell,Acinar cell,0.59602416,0.002,Ligand,Receptor,FN1,ITGAV,0.59602416
+2487,COL6A1,SDC1,Stellate cell,B cell,0.59601927,0.0,Ligand,Receptor,COL6A1,SDC1,0.59601927
+2488,COL18A1,ITGB5,Stellate cell,Fibroblast cell,0.59599245,0.0,Ligand,Receptor,COL18A1,ITGB5,0.59599245
+2492,CALM3,MYLK,Ductal cell type 1,Stellate cell,0.59476745,0.0,Ligand,Receptor,CALM3,MYLK,0.59476745
+2498,LAMB1,DAG1,Fibroblast cell,Acinar cell,0.59239405,0.0,Ligand,Receptor,LAMB1,DAG1,0.59239405
+2503,ADCYAP1,SCTR,Endocrine cell,Endothelial cell,0.59033746,0.0,Ligand,Receptor,ADCYAP1,SCTR,0.59033746
+2504,COL4A1,SDC1,Fibroblast cell,Acinar cell,0.5902715,0.0,Ligand,Receptor,COL4A1,SDC1,0.5902715
+2509,TIMP2,ITGA3,Fibroblast cell,Acinar cell,0.58932877,0.006,Ligand,Receptor,TIMP2,ITGA3,0.58932877
+2510,COL18A1,KDR,Endocrine cell,Endothelial cell,0.5891682,0.003,Ligand,Receptor,COL18A1,KDR,0.5891682
+2511,THBS4,CD47,Fibroblast cell,Ductal cell type 1,0.5886473,0.0,Ligand,Receptor,THBS4,CD47,0.5886473
+2517,FN1,ITGA5,Fibroblast cell,Acinar cell,0.5862984,0.0,Ligand,Receptor,FN1,ITGA5,0.5862984
+2523,COL6A1,ITGA6,Acinar cell,Endothelial cell,0.58523405,0.01,Ligand,Receptor,COL6A1,ITGA6,0.58523405
+2524,LAMB1,DAG1,Fibroblast cell,Endocrine cell,0.58522373,0.0,Ligand,Receptor,LAMB1,DAG1,0.58522373
+2526,JAM2,ITGAV,Endothelial cell,Acinar cell,0.5848028,0.005,Ligand,Receptor,JAM2,ITGAV,0.5848028
+2528,APOE,SDC2,Macrophage cell,Endocrine cell,0.5831516,0.0,Ligand,Receptor,APOE,SDC2,0.5831516
+2529,CALM3,INSR,Macrophage cell,Endothelial cell,0.58305216,0.004,Ligand,Receptor,CALM3,INSR,0.58305216
+2533,COL6A1,CD44,Stellate cell,Ductal cell type 1,0.58233845,0.0,Ligand,Receptor,COL6A1,CD44,0.58233845
+2537,TFF2,CXCR4,Acinar cell,Macrophage cell,0.58204573,0.0,Ligand,Receptor,TFF2,CXCR4,0.58204573
+2538,CXCL12,CXCR4,Acinar cell,Macrophage cell,0.58204573,0.001,Ligand,Receptor,CXCL12,CXCR4,0.58204573
+2540,ICAM1,MUC1,Endothelial cell,Acinar cell,0.58118004,0.0,Ligand,Receptor,ICAM1,MUC1,0.58118004
+2543,MIA,ITGB1,Acinar cell,Endothelial cell,0.58032113,0.0,Ligand,Receptor,MIA,ITGB1,0.58032113
+2547,GNAI2,IGF1R,Endothelial cell,Ductal cell type 1,0.58030754,0.0,Ligand,Receptor,GNAI2,IGF1R,0.58030754
+2550,APOE,TREM2,Stellate cell,Macrophage cell,0.5777261,0.0,Ligand,Receptor,APOE,TREM2,0.5777261
+2551,GNAI2,C5AR1,Macrophage cell,Macrophage cell,0.5776102,0.0,Ligand,Receptor,GNAI2,C5AR1,0.5776102
+2552,SERPINF1,PLXDC2,Stellate cell,Macrophage cell,0.57714,0.0,Ligand,Receptor,SERPINF1,PLXDC2,0.57714
+2553,LAMC3,CD44,Fibroblast cell,Ductal cell type 1,0.5770805,0.0,Ligand,Receptor,LAMC3,CD44,0.5770805
+2554,ADCYAP1,GPR20,Endocrine cell,Stellate cell,0.57700866,0.0,Ligand,Receptor,ADCYAP1,GPR20,0.57700866
+2555,FN1,ITGA2,Fibroblast cell,Acinar cell,0.5768212,0.0,Ligand,Receptor,FN1,ITGA2,0.5768212
+2556,FN1,ITGA3,Fibroblast cell,Acinar cell,0.5768212,0.0,Ligand,Receptor,FN1,ITGA3,0.5768212
+2557,FN1,IL17RC,Fibroblast cell,Acinar cell,0.5768212,0.0,Ligand,Receptor,FN1,IL17RC,0.5768212
+2561,COL6A1,SDC1,Fibroblast cell,Acinar cell,0.5760368,0.0,Ligand,Receptor,COL6A1,SDC1,0.5760368
+2568,CD14,ITGB1,Macrophage cell,Ductal cell type 1,0.57440645,0.0,Ligand,Receptor,CD14,ITGB1,0.57440645
+2569,TFPI,SDC4,Fibroblast cell,Endocrine cell,0.57403475,0.0,Ligand,Receptor,TFPI,SDC4,0.57403475
+2573,COL18A1,ITGB5,Ductal cell type 1,Fibroblast cell,0.5732303,0.0,Ligand,Receptor,COL18A1,ITGB5,0.5732303
+2574,TLN1,ITGB5,Fibroblast cell,Fibroblast cell,0.5730667,0.002,Ligand,Receptor,TLN1,ITGB5,0.5730667
+2575,LGALS3,MCAM,Stellate cell,Stellate cell,0.5729402,0.0,Ligand,Receptor,LGALS3,MCAM,0.5729402
+2576,DLK1,NOTCH3,Endocrine cell,Endocrine cell,0.5729142,0.0,Ligand,Receptor,DLK1,NOTCH3,0.5729142
+2578,ZG16B,CXCR4,Acinar cell,Macrophage cell,0.57256854,0.0,Ligand,Receptor,ZG16B,CXCR4,0.57256854
+2579,CALM3,INSR,Stellate cell,Endothelial cell,0.5725148,0.0,Ligand,Receptor,CALM3,INSR,0.5725148
+2581,PTN,PTPRS,Stellate cell,Fibroblast cell,0.5720716,0.0,Ligand,Receptor,PTN,PTPRS,0.5720716
+2585,LAMA3,ITGB1,Acinar cell,Endothelial cell,0.57084394,0.0,Ligand,Receptor,LAMA3,ITGB1,0.57084394
+2588,COL18A1,ITGA1,Endothelial cell,Endothelial cell,0.5706974,0.0,Ligand,Receptor,COL18A1,ITGA1,0.5706974
+2592,COL4A2,ITGA3,Endothelial cell,Acinar cell,0.5699698,0.004,Ligand,Receptor,COL4A2,ITGA3,0.5699698
+2593,COL4A2,ITGA2,Endothelial cell,Acinar cell,0.5699698,0.0,Ligand,Receptor,COL4A2,ITGA2,0.5699698
+2595,JAG1,NOTCH4,Stellate cell,Endothelial cell,0.56972206,0.0,Ligand,Receptor,JAG1,NOTCH4,0.56972206
+2597,MDK,SDC1,Endocrine cell,B cell,0.5687921,0.001,Ligand,Receptor,MDK,SDC1,0.5687921
+2603,LAMA2,ITGB4,Fibroblast cell,Acinar cell,0.5667788,0.001,Ligand,Receptor,LAMA2,ITGB4,0.5667788
+2607,JAM2,ITGA3,Endothelial cell,Acinar cell,0.5655999,0.001,Ligand,Receptor,JAM2,ITGA3,0.5655999
+2608,GNAI2,IGF1R,Endothelial cell,Endocrine cell,0.56556666,0.0,Ligand,Receptor,GNAI2,IGF1R,0.56556666
+2610,PKM,CD44,Fibroblast cell,Ductal cell type 1,0.5645398,0.009,Ligand,Receptor,PKM,CD44,0.5645398
+2611,MFGE8,ITGAV,Fibroblast cell,Ductal cell type 1,0.56437635,0.0,Ligand,Receptor,MFGE8,ITGAV,0.56437635
+2613,BGN,LY96,Stellate cell,Fibroblast cell,0.5636472,0.0,Ligand,Receptor,BGN,LY96,0.5636472
+2614,ITGB2,THY1,Macrophage cell,Fibroblast cell,0.5636145,0.0,Ligand,Receptor,ITGB2,THY1,0.5636145
+2624,S100A9,CD68,Macrophage cell,Macrophage cell,0.5607098,0.0,Ligand,Receptor,S100A9,CD68,0.5607098
+2628,CCL2,CCR10,Endocrine cell,B cell,0.5599679,0.005,Ligand,Receptor,CCL2,CCR10,0.5599679
+2637,THBS1,SDC4,Fibroblast cell,Ductal cell type 1,0.5562386,0.0,Ligand,Receptor,THBS1,SDC4,0.5562386
+2641,COL4A1,ITGA3,Fibroblast cell,Acinar cell,0.55579805,0.006,Ligand,Receptor,COL4A1,ITGA3,0.55579805
+2642,COL4A1,ITGA2,Fibroblast cell,Acinar cell,0.55579805,0.001,Ligand,Receptor,COL4A1,ITGA2,0.55579805
+2643,MDK,SDC4,Ductal cell type 1,Ductal cell type 1,0.5554337,0.0,Ligand,Receptor,MDK,SDC4,0.5554337
+2645,ADAM10,CD44,Fibroblast cell,Ductal cell type 1,0.55521214,0.0,Ligand,Receptor,ADAM10,CD44,0.55521214
+2649,PKM,CD44,Stellate cell,Ductal cell type 1,0.5540651,0.0,Ligand,Receptor,PKM,CD44,0.5540651
+2650,COL5A2,ITGA1,Fibroblast cell,Endothelial cell,0.55364376,0.0,Ligand,Receptor,COL5A2,ITGA1,0.55364376
+2660,CALM3,MYLK,Endocrine cell,Stellate cell,0.5516749,0.006,Ligand,Receptor,CALM3,MYLK,0.5516749
+2663,GNAI2,TBXA2R,Macrophage cell,Endothelial cell,0.5511598,0.0,Ligand,Receptor,GNAI2,TBXA2R,0.5511598
+2664,PDAP1,PDGFRB,Stellate cell,Fibroblast cell,0.55090904,0.0,Ligand,Receptor,PDAP1,PDGFRB,0.55090904
+2676,CDH1,ERBB3,Acinar cell,Ductal cell type 1,0.5489668,0.002,Ligand,Receptor,CDH1,ERBB3,0.5489668
+2677,SLIT2,ROBO2,Fibroblast cell,Endocrine cell,0.54879946,0.0,Ligand,Receptor,SLIT2,ROBO2,0.54879946
+2678,LAMA5,BCAM,Ductal cell type 1,Endothelial cell,0.54864305,0.0,Ligand,Receptor,LAMA5,BCAM,0.54864305
+2683,C3,NRP1,Macrophage cell,Endothelial cell,0.5470678,0.0,Ligand,Receptor,C3,NRP1,0.5470678
+2684,SST,ADRA2A,Endocrine cell,Ductal cell type 1,0.5469277,0.0,Ligand,Receptor,SST,ADRA2A,0.5469277
+2687,HBEGF,CD44,Macrophage cell,Ductal cell type 1,0.54599404,0.0,Ligand,Receptor,HBEGF,CD44,0.54599404
+2690,LTBP1,ITGB5,Fibroblast cell,Fibroblast cell,0.54555327,0.0,Ligand,Receptor,LTBP1,ITGB5,0.54555327
+2692,LAMB2,CD44,Ductal cell type 1,Ductal cell type 1,0.5444531,0.0,Ligand,Receptor,LAMB2,CD44,0.5444531
+2694,ADCYAP1,VIPR2,Endocrine cell,Fibroblast cell,0.5442752,0.0,Ligand,Receptor,ADCYAP1,VIPR2,0.5442752
+2703,COL6A1,ITGA2,Fibroblast cell,Acinar cell,0.5415634,0.0,Ligand,Receptor,COL6A1,ITGA2,0.5415634
+2704,COL6A1,ITGA3,Fibroblast cell,Acinar cell,0.5415634,0.0,Ligand,Receptor,COL6A1,ITGA3,0.5415634
+2705,THBS1,SDC1,Acinar cell,B cell,0.54117024,0.003,Ligand,Receptor,THBS1,SDC1,0.54117024
+2706,LAMB2,CD44,Endocrine cell,Ductal cell type 1,0.54096746,0.004,Ligand,Receptor,LAMB2,CD44,0.54096746
+2715,APOE,LDLR,Macrophage cell,Acinar cell,0.5387584,0.002,Ligand,Receptor,APOE,LDLR,0.5387584
+2716,APOE,LSR,Macrophage cell,Acinar cell,0.5387584,0.005,Ligand,Receptor,APOE,LSR,0.5387584
+2717,COL4A2,ITGB5,Stellate cell,Fibroblast cell,0.5383806,0.0,Ligand,Receptor,COL4A2,ITGB5,0.5383806
+2718,ARF1,INSR,Endothelial cell,Endothelial cell,0.53831553,0.0,Ligand,Receptor,ARF1,INSR,0.53831553
+2720,ANGPTL2,TIE1,Fibroblast cell,Endothelial cell,0.5382956,0.0,Ligand,Receptor,ANGPTL2,TIE1,0.5382956
+2724,TGFB1,LPP,B cell,Stellate cell,0.5376005,0.004,Ligand,Receptor,TGFB1,LPP,0.5376005
+2728,CDH1,PTPRM,Acinar cell,Endothelial cell,0.53699267,0.002,Ligand,Receptor,CDH1,PTPRM,0.53699267
+2729,MADCAM1,CD44,Endothelial cell,Ductal cell type 1,0.53595424,0.0,Ligand,Receptor,MADCAM1,CD44,0.53595424
+2731,HEBP1,ADRA2A,Ductal cell type 1,Endocrine cell,0.53552985,0.0,Ligand,Receptor,HEBP1,ADRA2A,0.53552985
+2732,COL18A1,PTPRS,Endothelial cell,Fibroblast cell,0.5353229,0.0,Ligand,Receptor,COL18A1,PTPRS,0.5353229
+2733,TLN1,ITGB5,Stellate cell,Fibroblast cell,0.5352416,0.0,Ligand,Receptor,TLN1,ITGB5,0.5352416
+2735,TLN1,ITGB5,Macrophage cell,Fibroblast cell,0.5349374,0.0,Ligand,Receptor,TLN1,ITGB5,0.5349374
+2736,GNAI2,IGF1R,Macrophage cell,Ductal cell type 1,0.5349036,0.0,Ligand,Receptor,GNAI2,IGF1R,0.5349036
+2737,COL6A1,ITGA1,Stellate cell,Endothelial cell,0.53485155,0.0,Ligand,Receptor,COL6A1,ITGA1,0.53485155
+2738,ARF1,INSR,Macrophage cell,Endothelial cell,0.53478694,0.003,Ligand,Receptor,ARF1,INSR,0.53478694
+2740,BGN,TLR2,Stellate cell,Macrophage cell,0.53453016,0.0,Ligand,Receptor,BGN,TLR2,0.53453016
+2743,MFGE8,ITGB5,Fibroblast cell,Endocrine cell,0.5339945,0.003,Ligand,Receptor,MFGE8,ITGB5,0.5339945
+2744,MDK,NOTCH2,Ductal cell type 1,Ductal cell type 1,0.5337707,0.0,Ligand,Receptor,MDK,NOTCH2,0.5337707
+2749,LAMA2,ITGA2,Fibroblast cell,Acinar cell,0.53298783,0.0,Ligand,Receptor,LAMA2,ITGA2,0.53298783
+2750,LAMA2,ITGA3,Fibroblast cell,Acinar cell,0.53298783,0.0,Ligand,Receptor,LAMA2,ITGA3,0.53298783
+2754,LAMB1,ITGB4,Fibroblast cell,Acinar cell,0.53259885,0.002,Ligand,Receptor,LAMB1,ITGB4,0.53259885
+2755,TNFSF12,CD163,Fibroblast cell,Macrophage cell,0.53228855,0.0,Ligand,Receptor,TNFSF12,CD163,0.53228855
+2756,TGFB1,ACVRL1,B cell,Endothelial cell,0.5321223,0.0,Ligand,Receptor,TGFB1,ACVRL1,0.5321223
+2759,CCL5,ADRA2A,B cell,Ductal cell type 1,0.5311235,0.0,Ligand,Receptor,CCL5,ADRA2A,0.5311235
+2762,PLTP,ABCA1,Fibroblast cell,Fibroblast cell,0.5300655,0.0,Ligand,Receptor,PLTP,ABCA1,0.5300655
+2764,CALM3,INSR,Endothelial cell,Endothelial cell,0.5293611,0.001,Ligand,Receptor,CALM3,INSR,0.5293611
+2768,COL5A1,ITGA1,Fibroblast cell,Endothelial cell,0.52861583,0.0,Ligand,Receptor,COL5A1,ITGA1,0.52861583
+2769,PKM,CD44,Endothelial cell,Ductal cell type 1,0.5285278,0.0,Ligand,Receptor,PKM,CD44,0.5285278
+2771,VEGFA,CD44,Ductal cell type 1,Ductal cell type 1,0.52787435,0.0,Ligand,Receptor,VEGFA,CD44,0.52787435
+2786,COL4A1,CD47,Endothelial cell,Endothelial cell,0.52388155,0.0,Ligand,Receptor,COL4A1,CD47,0.52388155
+2789,IGF1,INSR,Fibroblast cell,Endothelial cell,0.5217011,0.0,Ligand,Receptor,IGF1,INSR,0.5217011
+2794,CCL4,CCR1,Macrophage cell,Macrophage cell,0.52058077,0.0,Ligand,Receptor,CCL4,CCR1,0.52058077
+2796,GNAI2,IGF1R,Macrophage cell,Endocrine cell,0.52016276,0.005,Ligand,Receptor,GNAI2,IGF1R,0.52016276
+2799,ANXA1,DYSF,Macrophage cell,Acinar cell,0.51984245,0.003,Ligand,Receptor,ANXA1,DYSF,0.51984245
+2800,JAG1,NOTCH4,Endothelial cell,Endothelial cell,0.5194398,0.0,Ligand,Receptor,JAG1,NOTCH4,0.5194398
+2801,SLIT2,SDC1,Fibroblast cell,Acinar cell,0.5193253,0.0,Ligand,Receptor,SLIT2,SDC1,0.5193253
+2803,PTN,SDC2,Stellate cell,Acinar cell,0.5184361,0.0,Ligand,Receptor,PTN,SDC2,0.5184361
+2804,COL6A2,ITGA1,Stellate cell,Fibroblast cell,0.5181004,0.002,Ligand,Receptor,COL6A2,ITGA1,0.5181004
+2807,APOE,SDC2,Stellate cell,Acinar cell,0.51758754,0.001,Ligand,Receptor,APOE,SDC2,0.51758754
+2809,COL18A1,PTPRS,Endocrine cell,Fibroblast cell,0.51686525,0.008,Ligand,Receptor,COL18A1,PTPRS,0.51686525
+2810,JAG2,NOTCH4,Endothelial cell,Endothelial cell,0.5167599,0.0,Ligand,Receptor,JAG2,NOTCH4,0.5167599
+2816,ANGPTL1,ITGA1,Fibroblast cell,Fibroblast cell,0.51256984,0.0,Ligand,Receptor,ANGPTL1,ITGA1,0.51256984
+2818,C3,ADRA2A,Macrophage cell,Ductal cell type 1,0.5120349,0.0,Ligand,Receptor,C3,ADRA2A,0.5120349
+2822,APOE,SORL1,Stellate cell,Macrophage cell,0.5111747,0.0,Ligand,Receptor,APOE,SORL1,0.5111747
+2823,LAMC1,ITGA1,Fibroblast cell,Fibroblast cell,0.51108104,0.003,Ligand,Receptor,LAMC1,ITGA1,0.51108104
+2824,CXCL2,ADRA2A,Ductal cell type 1,Ductal cell type 1,0.5110275,0.0,Ligand,Receptor,CXCL2,ADRA2A,0.5110275
+2826,LAMA5,SDC1,Ductal cell type 1,B cell,0.5108641,0.0,Ligand,Receptor,LAMA5,SDC1,0.5108641
+2828,LGALS9,CD47,Macrophage cell,Ductal cell type 1,0.51063037,0.0,Ligand,Receptor,LGALS9,CD47,0.51063037
+2831,MDK,SORL1,Ductal cell type 1,Ductal cell type 1,0.5101056,0.0,Ligand,Receptor,MDK,SORL1,0.5101056
+2836,LGALS9,SLC1A5,Macrophage cell,B cell,0.5094831,0.0,Ligand,Receptor,LGALS9,SLC1A5,0.5094831
+2839,PTN,SDC4,Stellate cell,Acinar cell,0.5082276,0.007,Ligand,Receptor,PTN,SDC4,0.5082276
+2840,CCL5,SDC1,Macrophage cell,B cell,0.50792694,0.0,Ligand,Receptor,CCL5,SDC1,0.50792694
+2841,CXCL16,ADRA2A,Macrophage cell,Endocrine cell,0.50787115,0.0,Ligand,Receptor,CXCL16,ADRA2A,0.50787115
+2843,PDAP1,PDGFRB,Ductal cell type 1,Fibroblast cell,0.5076739,0.002,Ligand,Receptor,PDAP1,PDGFRB,0.5076739
+2844,JAG1,NOTCH4,Ductal cell type 1,Endothelial cell,0.5073948,0.0,Ligand,Receptor,JAG1,NOTCH4,0.5073948
+2847,F10,F3,Stellate cell,Fibroblast cell,0.50664175,0.0,Ligand,Receptor,F10,F3,0.50664175
+2848,COL18A1,PTPRS,Stellate cell,Endocrine cell,0.5065712,0.001,Ligand,Receptor,COL18A1,PTPRS,0.5065712
+2849,ADAM17,MUC1,Endocrine cell,Acinar cell,0.50614005,0.001,Ligand,Receptor,ADAM17,MUC1,0.50614005
+2850,APOE,SORL1,Stellate cell,Endocrine cell,0.50605375,0.0,Ligand,Receptor,APOE,SORL1,0.50605375
+2851,VTN,CD47,Ductal cell type 1,Ductal cell type 1,0.50602317,0.0,Ligand,Receptor,VTN,CD47,0.50602317
+2853,TIMP2,CD44,Ductal cell type 1,Ductal cell type 1,0.50551426,0.0,Ligand,Receptor,TIMP2,CD44,0.50551426
+2857,CDH1,PTPRF,Acinar cell,Ductal cell type 1,0.5048369,0.006,Ligand,Receptor,CDH1,PTPRF,0.5048369
+2862,SERPINA1,LRP1,Ductal cell type 1,Macrophage cell,0.5045201,0.0,Ligand,Receptor,SERPINA1,LRP1,0.5045201
+2863,HLA-DMB,CD4,Endothelial cell,Macrophage cell,0.5043428,0.0,Ligand,Receptor,HLA-DMB,CD4,0.5043428
+2878,ALCAM,NRP1,Macrophage cell,Endothelial cell,0.5014866,0.0,Ligand,Receptor,ALCAM,NRP1,0.5014866
+2879,INHBA,ACTR2,Fibroblast cell,Macrophage cell,0.50118285,0.0,Ligand,Receptor,INHBA,ACTR2,0.50118285
+2881,THBS1,LRP1,Fibroblast cell,Macrophage cell,0.5009904,0.0,Ligand,Receptor,THBS1,LRP1,0.5009904
+2883,ANXA1,ADRA2A,Endothelial cell,Ductal cell type 1,0.5006918,0.0,Ligand,Receptor,ANXA1,ADRA2A,0.5006918
+2885,MDK,LRP1,Ductal cell type 1,Macrophage cell,0.5001855,0.0,Ligand,Receptor,MDK,LRP1,0.5001855
+2887,ANGPTL1,TEK,Fibroblast cell,Endothelial cell,0.49948055,0.0,Ligand,Receptor,ANGPTL1,TEK,0.49948055
+2890,COL18A1,ITGA5,Stellate cell,Endothelial cell,0.49900812,0.0,Ligand,Receptor,COL18A1,ITGA5,0.49900812
+2891,LAMB1,ITGA3,Fibroblast cell,Acinar cell,0.49880794,0.0,Ligand,Receptor,LAMB1,ITGA3,0.49880794
+2892,LAMB1,ITGA2,Fibroblast cell,Acinar cell,0.49880794,0.0,Ligand,Receptor,LAMB1,ITGA2,0.49880794
+2893,COL4A1,CD47,Endothelial cell,Endocrine cell,0.49873456,0.01,Ligand,Receptor,COL4A1,CD47,0.49873456
+2894,CALM3,PDE1C,Fibroblast cell,Endothelial cell,0.4986136,0.01,Ligand,Receptor,CALM3,PDE1C,0.4986136
+2898,LGALS3,MCAM,Endothelial cell,Endothelial cell,0.4981739,0.0,Ligand,Receptor,LGALS3,MCAM,0.4981739
+2900,PKM,CD44,Ductal cell type 1,Ductal cell type 1,0.49795672,0.0,Ligand,Receptor,PKM,CD44,0.49795672
+2901,CALM3,INSR,Ductal cell type 1,Endothelial cell,0.49778843,0.003,Ligand,Receptor,CALM3,INSR,0.49778843
+2902,PPY,ADRA2A,Endocrine cell,Ductal cell type 1,0.49769002,0.0,Ligand,Receptor,PPY,ADRA2A,0.49769002
+2904,CALM3,PDE1A,Fibroblast cell,Fibroblast cell,0.49732593,0.007,Ligand,Receptor,CALM3,PDE1A,0.49732593
+2906,LAMA5,CD44,Ductal cell type 1,Ductal cell type 1,0.49718332,0.0,Ligand,Receptor,LAMA5,CD44,0.49718332
+2910,LRPAP1,SORL1,Ductal cell type 1,Macrophage cell,0.49636135,0.0,Ligand,Receptor,LRPAP1,SORL1,0.49636135
+2913,VEGFA,CD44,Macrophage cell,Ductal cell type 1,0.49559948,0.0,Ligand,Receptor,VEGFA,CD44,0.49559948
+2916,SLIT3,ROBO4,Fibroblast cell,Endothelial cell,0.49505246,0.0,Ligand,Receptor,SLIT3,ROBO4,0.49505246
+2922,PSEN1,CD44,Macrophage cell,Ductal cell type 1,0.4934451,0.0,Ligand,Receptor,PSEN1,CD44,0.4934451
+2929,GRN,TNFRSF1A,Endothelial cell,Endothelial cell,0.49222583,0.0,Ligand,Receptor,GRN,TNFRSF1A,0.49222583
+2931,SERPINE1,ITGB5,Fibroblast cell,Fibroblast cell,0.49178773,0.0,Ligand,Receptor,SERPINE1,ITGB5,0.49178773
+2932,PDGFD,PDGFRB,Fibroblast cell,Fibroblast cell,0.49164605,0.005,Ligand,Receptor,PDGFD,PDGFRB,0.49164605
+2934,THBS1,CD47,Fibroblast cell,Endothelial cell,0.49127826,0.002,Ligand,Receptor,THBS1,CD47,0.49127826
+2935,LGALS9,PTPRC,Macrophage cell,Macrophage cell,0.49127418,0.0,Ligand,Receptor,LGALS9,PTPRC,0.49127418
+2936,LRPAP1,SORL1,Ductal cell type 1,Endocrine cell,0.49124038,0.001,Ligand,Receptor,LRPAP1,SORL1,0.49124038
+2937,MDK,SDC3,Ductal cell type 1,Endothelial cell,0.49099624,0.0,Ligand,Receptor,MDK,SDC3,0.49099624
+2939,VEGFA,CD44,Endocrine cell,Ductal cell type 1,0.4906875,0.0,Ligand,Receptor,VEGFA,CD44,0.4906875
+2941,CCL2,CCR1,Ductal cell type 1,Macrophage cell,0.4906391,0.0,Ligand,Receptor,CCL2,CCR1,0.4906391
+2942,CCL5,SDC4,B cell,Acinar cell,0.49033907,0.008,Ligand,Receptor,CCL5,SDC4,0.49033907
+2943,HSP90B1,TLR2,Ductal cell type 1,Macrophage cell,0.49001122,0.005,Ligand,Receptor,HSP90B1,TLR2,0.49001122
+2944,VCAN,CD44,Fibroblast cell,Endocrine cell,0.48997864,0.0,Ligand,Receptor,VCAN,CD44,0.48997864
+2945,LAMC1,ITGB4,Fibroblast cell,Endothelial cell,0.48988375,0.0,Ligand,Receptor,LAMC1,ITGB4,0.48988375
+2948,VCAN,ITGB1,Fibroblast cell,Ductal cell type 1,0.48907107,0.01,Ligand,Receptor,VCAN,ITGB1,0.48907107
+2958,SLPI,CD4,B cell,Macrophage cell,0.48660022,0.0,Ligand,Receptor,SLPI,CD4,0.48660022
+2959,VEGFA,FLT1,Ductal cell type 1,Endothelial cell,0.48631522,0.0,Ligand,Receptor,VEGFA,FLT1,0.48631522
+2961,COL27A1,ITGA1,Ductal cell type 1,Endothelial cell,0.4860198,0.0,Ligand,Receptor,COL27A1,ITGA1,0.4860198
+2965,SLIT2,PLXNA1,Fibroblast cell,Acinar cell,0.48485196,0.0,Ligand,Receptor,SLIT2,PLXNA1,0.48485196
+2970,ENTPD1,ADORA3,Endothelial cell,Macrophage cell,0.48419246,0.0,Ligand,Receptor,ENTPD1,ADORA3,0.48419246
+2973,COL18A1,PTPRS,Ductal cell type 1,Endocrine cell,0.48380902,0.0,Ligand,Receptor,COL18A1,PTPRS,0.48380902
+2978,PDGFD,PDGFRB,Ductal cell type 1,Fibroblast cell,0.48279452,0.003,Ligand,Receptor,PDGFD,PDGFRB,0.48279452
+2984,THBS1,LRP5,Fibroblast cell,Endothelial cell,0.48103756,0.0,Ligand,Receptor,THBS1,LRP5,0.48103756
+2990,ANXA1,FPR1,Endothelial cell,Macrophage cell,0.4800312,0.0,Ligand,Receptor,ANXA1,FPR1,0.4800312
+2994,TGFB1,ITGB5,B cell,Fibroblast cell,0.47938836,0.0,Ligand,Receptor,TGFB1,ITGB5,0.47938836
+2995,ADAM10,GPNMB,Fibroblast cell,Fibroblast cell,0.4792777,0.0,Ligand,Receptor,ADAM10,GPNMB,0.4792777
+2996,PAM,FAP,Endocrine cell,Fibroblast cell,0.47911376,0.0,Ligand,Receptor,PAM,FAP,0.47911376
+2999,ADAM10,TREM2,Fibroblast cell,Macrophage cell,0.47885367,0.0,Ligand,Receptor,ADAM10,TREM2,0.47885367
+3003,SERPINF1,PLXDC2,Stellate cell,Fibroblast cell,0.4784469,0.0,Ligand,Receptor,SERPINF1,PLXDC2,0.4784469
+3004,TNFSF12,CD163,Stellate cell,Macrophage cell,0.47834426,0.0,Ligand,Receptor,TNFSF12,CD163,0.47834426
+3007,TGFB1,SDC2,B cell,Acinar cell,0.47789538,0.002,Ligand,Receptor,TGFB1,SDC2,0.47789538
+3011,ALCAM,NRP1,Endocrine cell,Endothelial cell,0.47708648,0.0,Ligand,Receptor,ALCAM,NRP1,0.47708648
+3013,RSPO3,SDC4,Fibroblast cell,Acinar cell,0.47683784,0.005,Ligand,Receptor,RSPO3,SDC4,0.47683784
+3016,COL18A1,ITGA5,Ductal cell type 1,Endothelial cell,0.476246,0.0,Ligand,Receptor,COL18A1,ITGA5,0.476246
+3031,PDGFB,PDGFRB,Endothelial cell,Fibroblast cell,0.47339725,0.001,Ligand,Receptor,PDGFB,PDGFRB,0.47339725
+3032,PDGFD,PDGFRB,Endothelial cell,Fibroblast cell,0.47323713,0.003,Ligand,Receptor,PDGFD,PDGFRB,0.47323713
+3034,CDH1,LRP5,Acinar cell,Endothelial cell,0.47263992,0.008,Ligand,Receptor,CDH1,LRP5,0.47263992
+3036,VEGFB,FLT1,Macrophage cell,Endothelial cell,0.47225034,0.0,Ligand,Receptor,VEGFB,FLT1,0.47225034
+3040,PSEN1,NOTCH4,Macrophage cell,Endothelial cell,0.47195452,0.0,Ligand,Receptor,PSEN1,NOTCH4,0.47195452
+3043,POSTN,PTK7,Fibroblast cell,Fibroblast cell,0.471178,0.0,Ligand,Receptor,POSTN,PTK7,0.471178
+3044,VCAN,CD44,Fibroblast cell,Macrophage cell,0.47103152,0.001,Ligand,Receptor,VCAN,CD44,0.47103152
+3047,TGFB1,LPP,Macrophage cell,Stellate cell,0.47053698,0.0,Ligand,Receptor,TGFB1,LPP,0.47053698
+3048,SPON2,ITGA5,Fibroblast cell,Acinar cell,0.47041035,0.003,Ligand,Receptor,SPON2,ITGA5,0.47041035
+3053,CALR,LRP1,Macrophage cell,Macrophage cell,0.4695078,0.004,Ligand,Receptor,CALR,LRP1,0.4695078
+3054,PGF,NRP2,Stellate cell,Fibroblast cell,0.4691611,0.0,Ligand,Receptor,PGF,NRP2,0.4691611
+3057,CX3CL1,ITGAV,Endothelial cell,Ductal cell type 1,0.46873602,0.0,Ligand,Receptor,CX3CL1,ITGAV,0.46873602
+3060,GRN,TNFRSF1A,Endocrine cell,Endothelial cell,0.46844637,0.005,Ligand,Receptor,GRN,TNFRSF1A,0.46844637
+3063,PDGFA,PDGFRB,Endocrine cell,Fibroblast cell,0.4678485,0.003,Ligand,Receptor,PDGFA,PDGFRB,0.4678485
+3067,MAML2,NOTCH4,Endocrine cell,Endothelial cell,0.46635383,0.0,Ligand,Receptor,MAML2,NOTCH4,0.46635383
+3068,THBS1,CD47,Fibroblast cell,Endocrine cell,0.46613127,0.007,Ligand,Receptor,THBS1,CD47,0.46613127
+3075,TGFB1,ACVRL1,Macrophage cell,Endothelial cell,0.46505874,0.0,Ligand,Receptor,TGFB1,ACVRL1,0.46505874
+3082,CALR,ITGAV,Macrophage cell,Ductal cell type 1,0.4643377,0.005,Ligand,Receptor,CALR,ITGAV,0.4643377
+3083,GPC3,LRP1,Fibroblast cell,Macrophage cell,0.46429247,0.0,Ligand,Receptor,GPC3,LRP1,0.46429247
+3087,CCL2,CCR10,Stellate cell,B cell,0.46324918,0.003,Ligand,Receptor,CCL2,CCR10,0.46324918
+3090,EFNA1,EPHB6,Ductal cell type 1,Ductal cell type 1,0.4629631,0.0,Ligand,Receptor,EFNA1,EPHB6,0.4629631
+3091,IGF1,ITGB4,Fibroblast cell,Endothelial cell,0.4628247,0.0,Ligand,Receptor,IGF1,ITGB4,0.4628247
+3094,HEBP1,ADRA2A,Endothelial cell,Ductal cell type 1,0.46218866,0.002,Ligand,Receptor,HEBP1,ADRA2A,0.46218866
+3095,PIGF,FLT1,Ductal cell type 1,Endothelial cell,0.46181148,0.0,Ligand,Receptor,PIGF,FLT1,0.46181148
+3098,COL4A1,SDC1,Endothelial cell,Acinar cell,0.46082658,0.004,Ligand,Receptor,COL4A1,SDC1,0.46082658
+3106,APOE,TREM2,Endocrine cell,Macrophage cell,0.45939952,0.003,Ligand,Receptor,APOE,TREM2,0.45939952
+3108,IGF1,INSR,B cell,Endothelial cell,0.45930156,0.0,Ligand,Receptor,IGF1,INSR,0.45930156
+3115,COL6A1,SDC1,Endocrine cell,B cell,0.45779377,0.001,Ligand,Receptor,COL6A1,SDC1,0.45779377
+3116,LAMC1,ITGA7,Fibroblast cell,Stellate cell,0.4575459,0.0,Ligand,Receptor,LAMC1,ITGA7,0.4575459
+3117,VEGFA,NRP1,Ductal cell type 1,Endothelial cell,0.4569862,0.0,Ligand,Receptor,VEGFA,NRP1,0.4569862
+3118,CALM3,PDE1C,Macrophage cell,Endothelial cell,0.45686334,0.004,Ligand,Receptor,CALM3,PDE1C,0.45686334
+3119,CALR,LRP1,Endothelial cell,Macrophage cell,0.45663136,0.0,Ligand,Receptor,CALR,LRP1,0.45663136
+3124,CALM3,PDE1A,Macrophage cell,Fibroblast cell,0.45557567,0.006,Ligand,Receptor,CALM3,PDE1A,0.45557567
+3128,PGF,NRP1,Stellate cell,Fibroblast cell,0.455203,0.0,Ligand,Receptor,PGF,NRP1,0.455203
+3133,VEGFA,FLT1,Macrophage cell,Endothelial cell,0.45404038,0.0,Ligand,Receptor,VEGFA,FLT1,0.45404038
+3137,ANGPTL1,ITGA1,Ductal cell type 1,Endothelial cell,0.4530385,0.0,Ligand,Receptor,ANGPTL1,ITGA1,0.4530385
+3146,CALR,ITGAV,Endothelial cell,Ductal cell type 1,0.4514613,0.0,Ligand,Receptor,CALR,ITGAV,0.4514613
+3148,SLPI,CD4,Ductal cell type 1,Macrophage cell,0.4513107,0.0,Ligand,Receptor,SLPI,CD4,0.4513107
+3156,VEGFA,FLT1,Endocrine cell,Endothelial cell,0.4491284,0.0,Ligand,Receptor,VEGFA,FLT1,0.4491284
+3158,LGALS9,CD44,Macrophage cell,Endocrine cell,0.44890207,0.009,Ligand,Receptor,LGALS9,CD44,0.44890207
+3168,C3,CD46,Macrophage cell,Endothelial cell,0.44676936,0.0,Ligand,Receptor,C3,CD46,0.44676936
+3169,PTN,SDC4,Stellate cell,Ductal cell type 1,0.4466432,0.0,Ligand,Receptor,PTN,SDC4,0.4466432
+3173,CALM3,PDE1C,Stellate cell,Endothelial cell,0.44632596,0.001,Ligand,Receptor,CALM3,PDE1C,0.44632596
+3177,PDGFA,PDGFRB,Ductal cell type 1,Fibroblast cell,0.446036,0.003,Ligand,Receptor,PDGFA,PDGFRB,0.446036
+3184,CALM3,PDE1A,Stellate cell,Fibroblast cell,0.4450383,0.0,Ligand,Receptor,CALM3,PDE1A,0.4450383
+3189,COL6A1,CD44,Endocrine cell,Ductal cell type 1,0.444113,0.006,Ligand,Receptor,COL6A1,CD44,0.444113
+3190,TNFSF12,CD163,Endothelial cell,Macrophage cell,0.44409338,0.0,Ligand,Receptor,TNFSF12,CD163,0.44409338
+3193,TGFB1,LPP,Endothelial cell,Stellate cell,0.44375956,0.0,Ligand,Receptor,TGFB1,LPP,0.44375956
+3194,COL5A2,ITGA1,Fibroblast cell,Fibroblast cell,0.44366783,0.004,Ligand,Receptor,COL5A2,ITGA1,0.44366783
+3197,VEGFB,NRP1,Macrophage cell,Endothelial cell,0.4429213,0.0,Ligand,Receptor,VEGFB,NRP1,0.4429213
+3201,LRPAP1,SORL1,Stellate cell,Macrophage cell,0.4424017,0.008,Ligand,Receptor,LRPAP1,SORL1,0.4424017
+3203,LGALS3,MCAM,Ductal cell type 1,Stellate cell,0.44222808,0.004,Ligand,Receptor,LGALS3,MCAM,0.44222808
+3209,ITGAV,THY1,Ductal cell type 1,Fibroblast cell,0.44101536,0.0,Ligand,Receptor,ITGAV,THY1,0.44101536
+3219,TGFB1,ACVRL1,Endothelial cell,Endothelial cell,0.4382813,0.0,Ligand,Receptor,TGFB1,ACVRL1,0.4382813
+3220,THBS1,SDC4,Fibroblast cell,Endocrine cell,0.43827927,0.0,Ligand,Receptor,THBS1,SDC4,0.43827927
+3224,IGF1,INSR,Fibroblast cell,Endocrine cell,0.43768132,0.001,Ligand,Receptor,IGF1,INSR,0.43768132
+3226,MDK,SDC2,Ductal cell type 1,Endocrine cell,0.43733826,0.0,Ligand,Receptor,MDK,SDC2,0.43733826
+3228,LGALS9,PTPRK,Macrophage cell,Ductal cell type 1,0.43638265,0.0,Ligand,Receptor,LGALS9,PTPRK,0.43638265
+3230,TGFB1,ACVRL1,B cell,Fibroblast cell,0.43575478,0.004,Ligand,Receptor,TGFB1,ACVRL1,0.43575478
+3233,SERPINE1,PLAUR,Fibroblast cell,Macrophage cell,0.43550244,0.0,Ligand,Receptor,SERPINE1,PLAUR,0.43550244
+3242,TNXB,SDC1,Acinar cell,B cell,0.43445176,0.0,Ligand,Receptor,TNXB,SDC1,0.43445176
+3244,COL9A3,SDC1,Acinar cell,B cell,0.43445176,0.0,Ligand,Receptor,COL9A3,SDC1,0.43445176
+3245,THBS4,CD47,Fibroblast cell,Endothelial cell,0.43435264,0.0,Ligand,Receptor,THBS4,CD47,0.43435264
+3249,PSEN1,NOTCH4,Acinar cell,Endothelial cell,0.4337538,0.0,Ligand,Receptor,PSEN1,NOTCH4,0.4337538
+3250,NAMPT,INSR,Ductal cell type 1,Endothelial cell,0.4337453,0.0,Ligand,Receptor,NAMPT,INSR,0.4337453
+3251,VTN,PLAUR,Ductal cell type 1,Macrophage cell,0.43368942,0.0,Ligand,Receptor,VTN,PLAUR,0.43368942
+3262,TNFSF10,RIPK1,Endothelial cell,Acinar cell,0.43091333,0.001,Ligand,Receptor,TNFSF10,RIPK1,0.43091333
+3263,TNFSF10,TNFRSF10B,Endothelial cell,Acinar cell,0.43091333,0.0,Ligand,Receptor,TNFSF10,TNFRSF10B,0.43091333
+3268,PTN,PTPRS,Stellate cell,Endocrine cell,0.43050775,0.0,Ligand,Receptor,PTN,PTPRS,0.43050775
+3270,GNAI2,FPR1,Stellate cell,Macrophage cell,0.4303564,0.0,Ligand,Receptor,GNAI2,FPR1,0.4303564
+3273,LGALS9,CD44,Macrophage cell,Macrophage cell,0.42995495,0.01,Ligand,Receptor,LGALS9,CD44,0.42995495
+3275,VEGFB,FLT1,Endocrine cell,Endothelial cell,0.42973804,0.0,Ligand,Receptor,VEGFB,FLT1,0.42973804
+3279,EGF,NRP1,Acinar cell,Endothelial cell,0.42887354,0.0,Ligand,Receptor,EGF,NRP1,0.42887354
+3282,CCL5,SDC4,B cell,Ductal cell type 1,0.42875472,0.0,Ligand,Receptor,CCL5,SDC4,0.42875472
+3286,C3,C3AR1,Macrophage cell,Macrophage cell,0.4282456,0.0,Ligand,Receptor,C3,C3AR1,0.4282456
+3287,THBS1,SDC1,Fibroblast cell,Acinar cell,0.4282233,0.002,Ligand,Receptor,THBS1,SDC1,0.4282233
+3292,GPC3,IGF1R,Fibroblast cell,Ductal cell type 1,0.4274471,0.0,Ligand,Receptor,GPC3,IGF1R,0.4274471
+3299,C3,NRP1,Endocrine cell,Endothelial cell,0.4263628,0.0,Ligand,Receptor,C3,NRP1,0.4263628
+3301,COL4A1,ITGA2,Endothelial cell,Acinar cell,0.42635322,0.001,Ligand,Receptor,COL4A1,ITGA2,0.42635322
+3302,PRSS3,F2R,Ductal cell type 1,Fibroblast cell,0.42634892,0.0,Ligand,Receptor,PRSS3,F2R,0.42634892
+3306,VCAN,TLR2,Fibroblast cell,Macrophage cell,0.42567283,0.0,Ligand,Receptor,VCAN,TLR2,0.42567283
+3310,COL6A1,ITGA1,Stellate cell,Fibroblast cell,0.42487562,0.008,Ligand,Receptor,COL6A1,ITGA1,0.42487562
+3311,VEGFA,NRP1,Macrophage cell,Endothelial cell,0.42471135,0.0,Ligand,Receptor,VEGFA,NRP1,0.42471135
+3315,PRSS3,F2RL3,Ductal cell type 1,Endothelial cell,0.4233001,0.0,Ligand,Receptor,PRSS3,F2RL3,0.4233001
+3317,EFNB1,EPHB6,Endothelial cell,Ductal cell type 1,0.42284313,0.0,Ligand,Receptor,EFNB1,EPHB6,0.42284313
+3321,GNAI2,F2R,Stellate cell,Fibroblast cell,0.42126784,0.001,Ligand,Receptor,GNAI2,F2R,0.42126784
+3326,LAMA3,CD44,Acinar cell,Ductal cell type 1,0.42077097,0.0,Ligand,Receptor,LAMA3,CD44,0.42077097
+3327,COL9A3,CD44,Acinar cell,Ductal cell type 1,0.42077097,0.001,Ligand,Receptor,COL9A3,CD44,0.42077097
+3332,JAG1,CD46,Stellate cell,Endothelial cell,0.42002606,0.0,Ligand,Receptor,JAG1,CD46,0.42002606
+3334,VEGFA,NRP1,Endocrine cell,Endothelial cell,0.41979933,0.0,Ligand,Receptor,VEGFA,NRP1,0.41979933
+3337,COL5A1,ITGA1,Fibroblast cell,Fibroblast cell,0.41863984,0.005,Ligand,Receptor,COL5A1,ITGA1,0.41863984
+3341,LAMB2,ITGB4,Endothelial cell,Endothelial cell,0.41747195,0.0,Ligand,Receptor,LAMB2,ITGB4,0.41747195
+3344,EFNA1,EPHA4,Endothelial cell,Acinar cell,0.41704795,0.01,Ligand,Receptor,EFNA1,EPHA4,0.41704795
+3346,FGF7,NRP1,Acinar cell,Endothelial cell,0.41667166,0.0,Ligand,Receptor,FGF7,NRP1,0.41667166
+3352,ANGPTL2,ITGA5,Fibroblast cell,Endothelial cell,0.4157231,0.0,Ligand,Receptor,ANGPTL2,ITGA5,0.4157231
+3356,RSPO3,SDC4,Fibroblast cell,Ductal cell type 1,0.4152535,0.0,Ligand,Receptor,RSPO3,SDC4,0.4152535
+3359,VCL,ITGB5,Fibroblast cell,Fibroblast cell,0.41468012,0.002,Ligand,Receptor,VCL,ITGB5,0.41468012
+3363,FGF7,FGFR1,Acinar cell,Fibroblast cell,0.41343454,0.0,Ligand,Receptor,FGF7,FGFR1,0.41343454
+3369,GPC3,IGF1R,Fibroblast cell,Endocrine cell,0.41270626,0.0,Ligand,Receptor,GPC3,IGF1R,0.41270626
+3370,TGFB1,ITGB5,Macrophage cell,Fibroblast cell,0.4123248,0.0,Ligand,Receptor,TGFB1,ITGB5,0.4123248
+3374,CDH1,ERBB3,Ductal cell type 1,Ductal cell type 1,0.4114729,0.0,Ligand,Receptor,CDH1,ERBB3,0.4114729
+3378,TGFB1,SDC2,Macrophage cell,Acinar cell,0.41083184,0.002,Ligand,Receptor,TGFB1,SDC2,0.41083184
+3382,PDGFC,KDR,Acinar cell,Endothelial cell,0.41021237,0.003,Ligand,Receptor,PDGFC,KDR,0.41021237
+3383,SCUBE2,KDR,Acinar cell,Endothelial cell,0.41021237,0.0,Ligand,Receptor,SCUBE2,KDR,0.41021237
+3388,THBS4,CD47,Fibroblast cell,Endocrine cell,0.40920565,0.003,Ligand,Receptor,THBS4,CD47,0.40920565
+3402,CXCL1,ADRA2A,Ductal cell type 1,Ductal cell type 1,0.40751845,0.0,Ligand,Receptor,CXCL1,ADRA2A,0.40751845
+3409,PRSS3,F2R,Endocrine cell,Fibroblast cell,0.4051867,0.007,Ligand,Receptor,PRSS3,F2R,0.4051867
+3411,IGF2,INSR,Fibroblast cell,Endothelial cell,0.40485513,0.0,Ligand,Receptor,IGF2,INSR,0.40485513
+3412,TFPI,F3,Stellate cell,Fibroblast cell,0.40475032,0.0,Ligand,Receptor,TFPI,F3,0.40475032
+3416,NUCB2,ERAP1,Endothelial cell,Acinar cell,0.4039073,0.004,Ligand,Receptor,NUCB2,ERAP1,0.4039073
+3419,CALM3,PDE1C,Endothelial cell,Endothelial cell,0.4031723,0.001,Ligand,Receptor,CALM3,PDE1C,0.4031723
+3426,CALM3,PDE1A,Endothelial cell,Fibroblast cell,0.40188468,0.002,Ligand,Receptor,CALM3,PDE1A,0.40188468
+3432,TLN1,ITGB5,Endothelial cell,Fibroblast cell,0.40121305,0.008,Ligand,Receptor,TLN1,ITGB5,0.40121305
+3436,APOE,SORL1,Stellate cell,Ductal cell type 1,0.40046656,0.0,Ligand,Receptor,APOE,SORL1,0.40046656
+3437,CXCL2,ADRA2A,Macrophage cell,Ductal cell type 1,0.40045908,0.007,Ligand,Receptor,CXCL2,ADRA2A,0.40045908
+3438,IGF1,ITGB4,B cell,Endothelial cell,0.40042517,0.0,Ligand,Receptor,IGF1,ITGB4,0.40042517
+3439,VEGFB,NRP1,Endocrine cell,Endothelial cell,0.40040898,0.0,Ligand,Receptor,VEGFB,NRP1,0.40040898
+3441,APOE,ABCA1,Stellate cell,Fibroblast cell,0.40011257,0.0,Ligand,Receptor,APOE,ABCA1,0.40011257
+3443,CX3CL1,ITGAV,Endothelial cell,Endocrine cell,0.39986128,0.0,Ligand,Receptor,CX3CL1,ITGAV,0.39986128
+3445,CDH1,PTPRM,Ductal cell type 1,Endothelial cell,0.3994987,0.0,Ligand,Receptor,CDH1,PTPRM,0.3994987
+3454,F10,F3,Stellate cell,Acinar cell,0.39847076,0.0,Ligand,Receptor,F10,F3,0.39847076
+3455,LAMC3,ITGB4,Fibroblast cell,Endothelial cell,0.39842033,0.0,Ligand,Receptor,LAMC3,ITGB4,0.39842033
+3458,MXRA5,PILRA,Fibroblast cell,Macrophage cell,0.39692175,0.0,Ligand,Receptor,MXRA5,PILRA,0.39692175
+3462,COL6A1,ITGA1,Endocrine cell,Endothelial cell,0.39662606,0.001,Ligand,Receptor,COL6A1,ITGA1,0.39662606
+3469,CXCL3,ADRA2A,Ductal cell type 1,Ductal cell type 1,0.39607617,0.0,Ligand,Receptor,CXCL3,ADRA2A,0.39607617
+3476,PGF,NRP1,Stellate cell,Endocrine cell,0.39535227,0.001,Ligand,Receptor,PGF,NRP1,0.39535227
+3486,THBS1,ITGA3,Fibroblast cell,Acinar cell,0.39374992,0.008,Ligand,Receptor,THBS1,ITGA3,0.39374992
+3491,VTN,ITGA5,Ductal cell type 1,Endothelial cell,0.39299035,0.0,Ligand,Receptor,VTN,ITGA5,0.39299035
+3497,FGF14,FGFR1,Endocrine cell,Fibroblast cell,0.39198613,0.0,Ligand,Receptor,FGF14,FGFR1,0.39198613
+3499,IGF1,IGF2R,Fibroblast cell,Fibroblast cell,0.39180845,0.0,Ligand,Receptor,IGF1,IGF2R,0.39180845
+3501,ADAM10,GPNMB,Fibroblast cell,Macrophage cell,0.39149243,0.0,Ligand,Receptor,ADAM10,GPNMB,0.39149243
+3504,C3,ADRA2A,Endocrine cell,Ductal cell type 1,0.39132982,0.006,Ligand,Receptor,C3,ADRA2A,0.39132982
+3506,LTBP3,ITGB5,Endothelial cell,Fibroblast cell,0.39062667,0.001,Ligand,Receptor,LTBP3,ITGB5,0.39062667
+3508,APOE,LRP1,Stellate cell,Macrophage cell,0.39054644,0.001,Ligand,Receptor,APOE,LRP1,0.39054644
+3509,EFNB2,EPHB6,Endothelial cell,Ductal cell type 1,0.3902366,0.0,Ligand,Receptor,EFNB2,EPHB6,0.3902366
+3511,GRN,TNFRSF1B,Endothelial cell,Macrophage cell,0.39011794,0.0,Ligand,Receptor,GRN,TNFRSF1B,0.39011794
+3516,PLAU,ITGB5,Endothelial cell,Fibroblast cell,0.38990986,0.0,Ligand,Receptor,PLAU,ITGB5,0.38990986
+3520,CCL5,ADRA2A,Macrophage cell,Ductal cell type 1,0.3883251,0.0,Ligand,Receptor,CCL5,ADRA2A,0.3883251
+3537,LRPAP1,SORL1,Ductal cell type 1,Ductal cell type 1,0.3856532,0.0,Ligand,Receptor,LRPAP1,SORL1,0.3856532
+3539,TGFB1,ITGB5,Endothelial cell,Fibroblast cell,0.38554734,0.0,Ligand,Receptor,TGFB1,ITGB5,0.38554734
+3541,CD14,RIPK1,Macrophage cell,Acinar cell,0.38521928,0.0,Ligand,Receptor,CD14,RIPK1,0.38521928
+3543,LAMB2,ITGA7,Endothelial cell,Stellate cell,0.3851341,0.0,Ligand,Receptor,LAMB2,ITGA7,0.3851341
+3545,AREG,ERBB3,Macrophage cell,Ductal cell type 1,0.38501337,0.0,Ligand,Receptor,AREG,ERBB3,0.38501337
+3548,LAMC1,DAG1,Fibroblast cell,Endocrine cell,0.3841811,0.001,Ligand,Receptor,LAMC1,DAG1,0.3841811
+3550,TGFB1,SDC2,Endothelial cell,Acinar cell,0.38405442,0.002,Ligand,Receptor,TGFB1,SDC2,0.38405442
+3554,HLA-F,LILRB2,Endothelial cell,Acinar cell,0.38349617,0.0,Ligand,Receptor,HLA-F,LILRB2,0.38349617
+3556,ITGB3BP,ITGB5,Ductal cell type 1,Fibroblast cell,0.38293433,0.0,Ligand,Receptor,ITGB3BP,ITGB5,0.38293433
+3566,PTN,SDC3,Stellate cell,Endothelial cell,0.38220575,0.0,Ligand,Receptor,PTN,SDC3,0.38220575
+3572,LTBP1,ITGB5,Fibroblast cell,Endocrine cell,0.3814673,0.0,Ligand,Receptor,LTBP1,ITGB5,0.3814673
+3581,ADAM15,ITGA5,Endothelial cell,Endothelial cell,0.37992495,0.0,Ligand,Receptor,ADAM15,ITGA5,0.37992495
+3582,PTN,PLXNB2,Stellate cell,Endothelial cell,0.37980673,0.0,Ligand,Receptor,PTN,PLXNB2,0.37980673
+3586,ADAM10,GPNMB,Acinar cell,Fibroblast cell,0.37930995,0.004,Ligand,Receptor,ADAM10,GPNMB,0.37930995
+3587,PDGFC,FLT1,Acinar cell,Endothelial cell,0.37921187,0.007,Ligand,Receptor,PDGFC,FLT1,0.37921187
+3590,ADAM10,TREM2,Acinar cell,Macrophage cell,0.37888592,0.001,Ligand,Receptor,ADAM10,TREM2,0.37888592
+3594,IGF1,INSR,Fibroblast cell,Ductal cell type 1,0.37752226,0.0,Ligand,Receptor,IGF1,INSR,0.37752226
+3604,GPC3,IGF1R,Fibroblast cell,Acinar cell,0.37625495,0.008,Ligand,Receptor,GPC3,IGF1R,0.37625495
+3608,LRPAP1,LRP1,Ductal cell type 1,Macrophage cell,0.37573308,0.003,Ligand,Receptor,LRPAP1,LRP1,0.37573308
+3609,EFNB1,EPHB6,Endothelial cell,Stellate cell,0.37549144,0.0,Ligand,Receptor,EFNB1,EPHB6,0.37549144
+3616,TGFB1,TGFBR3,B cell,Endothelial cell,0.37495154,0.005,Ligand,Receptor,TGFB1,TGFBR3,0.37495154
+3628,COL9A3,ITGA1,Acinar cell,Endothelial cell,0.37328404,0.0,Ligand,Receptor,COL9A3,ITGA1,0.37328404
+3632,PTN,PLXNB2,Stellate cell,Ductal cell type 1,0.372234,0.0,Ligand,Receptor,PTN,PLXNB2,0.372234
+3633,ITGAV,THY1,Endocrine cell,Fibroblast cell,0.3721406,0.0,Ligand,Receptor,ITGAV,THY1,0.3721406
+3638,ADAM10,CADM1,Fibroblast cell,Ductal cell type 1,0.3720224,0.0,Ligand,Receptor,ADAM10,CADM1,0.3720224
+3640,CALM3,PDE1C,Ductal cell type 1,Endothelial cell,0.3715996,0.0,Ligand,Receptor,CALM3,PDE1C,0.3715996
+3642,THBS4,SDC1,Fibroblast cell,Acinar cell,0.37129766,0.005,Ligand,Receptor,THBS4,SDC1,0.37129766
+3644,TLN1,ITGB5,Stellate cell,Endocrine cell,0.37115565,0.009,Ligand,Receptor,TLN1,ITGB5,0.37115565
+3652,FAM3B,LRP5,Ductal cell type 1,Endothelial cell,0.37075698,0.0,Ligand,Receptor,FAM3B,LRP5,0.37075698
+3656,APOE,LRP5,Stellate cell,Endothelial cell,0.37059367,0.0,Ligand,Receptor,APOE,LRP5,0.37059367
+3658,CALM3,PDE1A,Ductal cell type 1,Fibroblast cell,0.37031195,0.006,Ligand,Receptor,CALM3,PDE1A,0.37031195
+3661,JAG1,CD46,Endothelial cell,Endothelial cell,0.36974382,0.003,Ligand,Receptor,JAG1,CD46,0.36974382
+3666,TFPI,F3,Ductal cell type 1,Fibroblast cell,0.36914957,0.0,Ligand,Receptor,TFPI,F3,0.36914957
+3669,TGFB1,ACVRL1,Macrophage cell,Fibroblast cell,0.36869124,0.006,Ligand,Receptor,TGFB1,ACVRL1,0.36869124
+3677,CDH1,PTPRF,Ductal cell type 1,Ductal cell type 1,0.36734295,0.0,Ligand,Receptor,CDH1,PTPRF,0.36734295
+3679,NPY,ADRA2A,Endocrine cell,Ductal cell type 1,0.3672733,0.0,Ligand,Receptor,NPY,ADRA2A,0.3672733
+3688,LAMC3,ITGA7,Fibroblast cell,Stellate cell,0.3660825,0.0,Ligand,Receptor,LAMC3,ITGA7,0.3660825
+3689,LGALS9,LRP1,Macrophage cell,Macrophage cell,0.36604783,0.0,Ligand,Receptor,LGALS9,LRP1,0.36604783
+3691,LAMB2,ITGB4,Ductal cell type 1,Endothelial cell,0.36579293,0.0,Ligand,Receptor,LAMB2,ITGB4,0.36579293
+3714,SERPINE1,LRP1,Fibroblast cell,Macrophage cell,0.36325365,0.0,Ligand,Receptor,SERPINE1,LRP1,0.36325365
+3724,S100A9,ITGB2,Macrophage cell,Macrophage cell,0.3619318,0.0,Ligand,Receptor,S100A9,ITGB2,0.3619318
+3731,JAG1,NOTCH2,Stellate cell,Ductal cell type 1,0.3612597,0.0,Ligand,Receptor,JAG1,NOTCH2,0.3612597
+3738,LTBP3,ITGB5,Ductal cell type 1,Fibroblast cell,0.36003295,0.001,Ligand,Receptor,LTBP3,ITGB5,0.36003295
+3739,PAM,FAP,Acinar cell,Fibroblast cell,0.35986942,0.01,Ligand,Receptor,PAM,FAP,0.35986942
+3748,TGFB1,TGFBR3,B cell,Fibroblast cell,0.35792464,0.005,Ligand,Receptor,TGFB1,TGFBR3,0.35792464
+3752,JAG1,CD46,Ductal cell type 1,Endothelial cell,0.35769874,0.0,Ligand,Receptor,JAG1,CD46,0.35769874
+3762,LGALS9,CD47,Macrophage cell,Endothelial cell,0.3563357,0.001,Ligand,Receptor,LGALS9,CD47,0.3563357
+3764,VTN,ITGAV,Ductal cell type 1,Ductal cell type 1,0.35627055,0.0,Ligand,Receptor,VTN,ITGAV,0.35627055
+3774,IGF1,IGF2R,Fibroblast cell,Macrophage cell,0.35521072,0.0,Ligand,Receptor,IGF1,IGF2R,0.35521072
+3775,PTN,PLXNB2,Stellate cell,Endocrine cell,0.35496163,0.005,Ligand,Receptor,PTN,PLXNB2,0.35496163
+3777,C3,LRP1,Macrophage cell,Macrophage cell,0.3544178,0.0,Ligand,Receptor,C3,LRP1,0.3544178
+3783,CCL5,CCR1,B cell,Macrophage cell,0.3534018,0.0,Ligand,Receptor,CCL5,CCR1,0.3534018
+3791,TGFB1,LPP,Macrophage cell,Ductal cell type 1,0.3523578,0.006,Ligand,Receptor,TGFB1,LPP,0.3523578
+3795,VTN,CD47,Ductal cell type 1,Endothelial cell,0.3517285,0.002,Ligand,Receptor,VTN,CD47,0.3517285
+3797,EDN1,EDNRB,Ductal cell type 1,Fibroblast cell,0.35159838,0.0,Ligand,Receptor,EDN1,EDNRB,0.35159838
+3800,ADAM10,TSPAN14,Fibroblast cell,Endothelial cell,0.3509031,0.0,Ligand,Receptor,ADAM10,TSPAN14,0.3509031
+3806,LGALS9,HAVCR2,Macrophage cell,Macrophage cell,0.3502211,0.0,Ligand,Receptor,LGALS9,HAVCR2,0.3502211
+3826,FGF12,FGFR1,Acinar cell,Fibroblast cell,0.3466457,0.002,Ligand,Receptor,FGF12,FGFR1,0.3466457
+3829,TFPI,SDC4,Stellate cell,Ductal cell type 1,0.3464273,0.0,Ligand,Receptor,TFPI,SDC4,0.3464273
+3836,IGF2,ITGB4,Fibroblast cell,Endothelial cell,0.34597874,0.0,Ligand,Receptor,IGF2,ITGB4,0.34597874
+3842,SPTAN1,PTPRA,Endothelial cell,Endothelial cell,0.34539336,0.001,Ligand,Receptor,SPTAN1,PTPRA,0.34539336
+3849,ENTPD1,ADORA3,Macrophage cell,Macrophage cell,0.34423912,0.0,Ligand,Receptor,ENTPD1,ADORA3,0.34423912
+3853,ADAM15,ITGAV,Endothelial cell,Ductal cell type 1,0.34320515,0.0,Ligand,Receptor,ADAM15,ITGAV,0.34320515
+3857,CCL14,CCR1,Endothelial cell,Macrophage cell,0.34296662,0.0,Ligand,Receptor,CCL14,CCR1,0.34296662
+3858,EFNB2,EPHB6,Endothelial cell,Stellate cell,0.3428849,0.0,Ligand,Receptor,EFNB2,EPHB6,0.3428849
+3861,C3,CD46,Macrophage cell,Ductal cell type 1,0.34266773,0.002,Ligand,Receptor,C3,CD46,0.34266773
+3862,AGRN,LRP1,Ductal cell type 1,Macrophage cell,0.34247643,0.001,Ligand,Receptor,AGRN,LRP1,0.34247643
+3865,LCN2,FCGR2A,Acinar cell,Macrophage cell,0.3420171,0.002,Ligand,Receptor,LCN2,FCGR2A,0.3420171
+3872,IGF1,IGF1R,Fibroblast cell,Ductal cell type 1,0.3411014,0.0,Ligand,Receptor,IGF1,IGF1R,0.3411014
+3880,TFF3,ACKR3,Endothelial cell,Acinar cell,0.33968928,0.001,Ligand,Receptor,TFF3,ACKR3,0.33968928
+3885,FGF7,FGFR3,Acinar cell,Ductal cell type 1,0.33887506,0.0,Ligand,Receptor,FGF7,FGFR3,0.33887506
+3886,IL1B,SIGIRR,Macrophage cell,Ductal cell type 1,0.33887288,0.0,Ligand,Receptor,IL1B,SIGIRR,0.33887288
+3903,EFNB1,EPHB4,Endothelial cell,Endothelial cell,0.3367608,0.0,Ligand,Receptor,EFNB1,EPHB4,0.3367608
+3913,CDH1,LRP5,Ductal cell type 1,Endothelial cell,0.33514598,0.0,Ligand,Receptor,CDH1,LRP5,0.33514598
+3914,INHBA,ACTR2,Fibroblast cell,Endothelial cell,0.33501452,0.0,Ligand,Receptor,INHBA,ACTR2,0.33501452
+3917,APOD,LEPR,Endothelial cell,Endothelial cell,0.3342855,0.008,Ligand,Receptor,APOD,LEPR,0.3342855
+3920,IL1B,SIGIRR,Macrophage cell,Endothelial cell,0.3336678,0.0,Ligand,Receptor,IL1B,SIGIRR,0.3336678
+3921,PLAU,PLAUR,Endothelial cell,Macrophage cell,0.3336246,0.0,Ligand,Receptor,PLAU,PLAUR,0.3336246
+3922,LAMB2,ITGA7,Ductal cell type 1,Stellate cell,0.3334551,0.0,Ligand,Receptor,LAMB2,ITGA7,0.3334551
+3934,ECM1,ITGB4,Fibroblast cell,Endothelial cell,0.33205032,0.0,Ligand,Receptor,ECM1,ITGB4,0.33205032
+3935,POSTN,PTK7,Fibroblast cell,Acinar cell,0.33204275,0.003,Ligand,Receptor,POSTN,PTK7,0.33204275
+3936,INHBA,TGFBR3,Fibroblast cell,Endothelial cell,0.33174765,0.0,Ligand,Receptor,INHBA,TGFBR3,0.33174765
+3949,ANGPTL1,TEK,Ductal cell type 1,Endothelial cell,0.32997322,0.0,Ligand,Receptor,ANGPTL1,TEK,0.32997322
+3957,IGF1,IGF2R,B cell,Fibroblast cell,0.3294089,0.004,Ligand,Receptor,IGF1,IGF2R,0.3294089
+3967,PTN,SDC2,Stellate cell,Endocrine cell,0.32854778,0.0,Ligand,Receptor,PTN,SDC2,0.32854778
+3972,SERPINE1,ITGB5,Fibroblast cell,Endocrine cell,0.32770178,0.0,Ligand,Receptor,SERPINE1,ITGB5,0.32770178
+3973,APOE,SDC2,Stellate cell,Endocrine cell,0.32769924,0.002,Ligand,Receptor,APOE,SDC2,0.32769924
+3981,IGF1,IGF1R,Fibroblast cell,Endocrine cell,0.32636055,0.0,Ligand,Receptor,IGF1,IGF1R,0.32636055
+3988,TGFB1,LPP,Endothelial cell,Ductal cell type 1,0.3255804,0.001,Ligand,Receptor,TGFB1,LPP,0.3255804
+3989,ADAM10,NOTCH2,Fibroblast cell,Ductal cell type 1,0.32525915,0.001,Ligand,Receptor,ADAM10,NOTCH2,0.32525915
+3991,PPY,NPY1R,Endocrine cell,Ductal cell type 1,0.3248567,0.0,Ligand,Receptor,PPY,NPY1R,0.3248567
+4012,AGRN,DAG1,Ductal cell type 1,Endocrine cell,0.32165176,0.005,Ligand,Receptor,AGRN,DAG1,0.32165176
+4013,NAMPT,ITGA5,Ductal cell type 1,Endothelial cell,0.32154065,0.0,Ligand,Receptor,NAMPT,ITGA5,0.32154065
+4021,ADAM9,ITGB5,Acinar cell,Fibroblast cell,0.3205585,0.008,Ligand,Receptor,ADAM9,ITGB5,0.3205585
+4028,PAM,FAP,Endothelial cell,Fibroblast cell,0.31947035,0.0,Ligand,Receptor,PAM,FAP,0.31947035
+4041,LAMA5,ITGB4,Ductal cell type 1,Endothelial cell,0.31852317,0.0,Ligand,Receptor,LAMA5,ITGB4,0.31852317
+4043,CDH1,IGF1R,Ductal cell type 1,Ductal cell type 1,0.31825346,0.0,Ligand,Receptor,CDH1,IGF1R,0.31825346
+4065,C5,ADRA2A,Acinar cell,Ductal cell type 1,0.31484988,0.0,Ligand,Receptor,C5,ADRA2A,0.31484988
+4069,INHBA,TGFBR3,Fibroblast cell,Fibroblast cell,0.3147208,0.0,Ligand,Receptor,INHBA,TGFBR3,0.3147208
+4070,DCN,TLR2,Stellate cell,Macrophage cell,0.31428915,0.0,Ligand,Receptor,DCN,TLR2,0.31428915
+4071,SLPI,PLSCR1,Ductal cell type 1,Ductal cell type 1,0.31408697,0.0,Ligand,Receptor,SLPI,PLSCR1,0.31408697
+4075,COL5A2,DDR1,Fibroblast cell,Ductal cell type 1,0.3132445,0.0,Ligand,Receptor,COL5A2,DDR1,0.3132445
+4078,RSPO3,LRP6,Fibroblast cell,Acinar cell,0.3125526,0.004,Ligand,Receptor,RSPO3,LRP6,0.3125526
+4089,JAG1,NOTCH2,Endothelial cell,Ductal cell type 1,0.31097746,0.001,Ligand,Receptor,JAG1,NOTCH2,0.31097746
+4091,TFPI,SDC4,Ductal cell type 1,Ductal cell type 1,0.31082654,0.0,Ligand,Receptor,TFPI,SDC4,0.31082654
+4098,TNFSF13B,CD40,Fibroblast cell,Endothelial cell,0.3099704,0.0,Ligand,Receptor,TNFSF13B,CD40,0.3099704
+4107,ANGPTL1,LILRB2,Fibroblast cell,Acinar cell,0.30873132,0.003,Ligand,Receptor,ANGPTL1,LILRB2,0.30873132
+4109,IL1B,SIGIRR,Macrophage cell,Stellate cell,0.30862248,0.0,Ligand,Receptor,IL1B,SIGIRR,0.30862248
+4110,LTB,TNFRSF1A,Acinar cell,Endothelial cell,0.30837104,0.002,Ligand,Receptor,LTB,TNFRSF1A,0.30837104
+4111,JAG2,NOTCH2,Endothelial cell,Ductal cell type 1,0.30829746,0.0,Ligand,Receptor,JAG2,NOTCH2,0.30829746
+4113,TGFB1,TGFBR3,Macrophage cell,Endothelial cell,0.30788797,0.0,Ligand,Receptor,TGFB1,TGFBR3,0.30788797
+4116,C3,C3AR1,Endocrine cell,Macrophage cell,0.30754057,0.0,Ligand,Receptor,C3,C3AR1,0.30754057
+4133,CNTN1,NOTCH2,Acinar cell,Ductal cell type 1,0.30551657,0.001,Ligand,Receptor,CNTN1,NOTCH2,0.30551657
+4137,TNFSF13B,CD40,Fibroblast cell,Fibroblast cell,0.30510566,0.0,Ligand,Receptor,TNFSF13B,CD40,0.30510566
+4140,COL6A2,ITGA2,Stellate cell,Acinar cell,0.30478466,0.01,Ligand,Receptor,COL6A2,ITGA2,0.30478466
+4145,EFNB2,EPHB4,Endothelial cell,Endothelial cell,0.30415425,0.0,Ligand,Receptor,EFNB2,EPHB4,0.30415425
+4148,CDH1,IGF1R,Ductal cell type 1,Endocrine cell,0.3035126,0.004,Ligand,Receptor,CDH1,IGF1R,0.3035126
+4151,COL5A1,SDC3,Fibroblast cell,Endothelial cell,0.30337536,0.0,Ligand,Receptor,COL5A1,SDC3,0.30337536
+4179,JAG1,NOTCH2,Ductal cell type 1,Ductal cell type 1,0.29893237,0.0,Ligand,Receptor,JAG1,NOTCH2,0.29893237
+4192,LAMC1,ITGA2,Fibroblast cell,Acinar cell,0.2977653,0.008,Ligand,Receptor,LAMC1,ITGA2,0.2977653
+4198,RSPO3,SDC4,Fibroblast cell,Endocrine cell,0.29729417,0.005,Ligand,Receptor,RSPO3,SDC4,0.29729417
+4206,CDH1,PTPRF,Ductal cell type 1,Endocrine cell,0.2960634,0.01,Ligand,Receptor,CDH1,PTPRF,0.2960634
+4227,PLAU,ITGA5,Endothelial cell,Endothelial cell,0.29292554,0.0,Ligand,Receptor,PLAU,ITGA5,0.29292554
+4228,IGF1,IGF2R,B cell,Macrophage cell,0.29281116,0.003,Ligand,Receptor,IGF1,IGF2R,0.29281116
+4230,LAMC3,DAG1,Fibroblast cell,Endocrine cell,0.2927177,0.0,Ligand,Receptor,LAMC3,DAG1,0.2927177
+4231,EGF,ERBB3,Acinar cell,Ductal cell type 1,0.29259765,0.0,Ligand,Receptor,EGF,ERBB3,0.29259765
+4239,TFPI,LRP1,Stellate cell,Macrophage cell,0.29117906,0.008,Ligand,Receptor,TFPI,LRP1,0.29117906
+4242,TGFB1,TGFBR3,Macrophage cell,Fibroblast cell,0.2908611,0.003,Ligand,Receptor,TGFB1,TGFBR3,0.2908611
+4253,ADAM10,TSPAN12,Fibroblast cell,Endothelial cell,0.2887345,0.0,Ligand,Receptor,ADAM10,TSPAN12,0.2887345
+4254,VTN,ITGB6,Ductal cell type 1,Acinar cell,0.28867355,0.006,Ligand,Receptor,VTN,ITGB6,0.28867355
+4261,RSPO3,LGR4,Fibroblast cell,Acinar cell,0.2875564,0.009,Ligand,Receptor,RSPO3,LGR4,0.2875564
+4276,ANGPTL2,LILRB2,Fibroblast cell,Acinar cell,0.2864101,0.0,Ligand,Receptor,ANGPTL2,LILRB2,0.2864101
+4278,LAMA5,ITGA7,Ductal cell type 1,Stellate cell,0.28618532,0.0,Ligand,Receptor,LAMA5,ITGA7,0.28618532
+4282,CCL5,SDC4,Macrophage cell,Ductal cell type 1,0.28595626,0.001,Ligand,Receptor,CCL5,SDC4,0.28595626
+4290,LAMA3,SDC2,Acinar cell,Acinar cell,0.28427395,0.008,Ligand,Receptor,LAMA3,SDC2,0.28427395
+4296,LIPH,LPAR2,Ductal cell type 1,Acinar cell,0.2836242,0.005,Ligand,Receptor,LIPH,LPAR2,0.2836242
+4318,TGFB1,TGFBR3,Endothelial cell,Endothelial cell,0.28111053,0.0,Ligand,Receptor,TGFB1,TGFBR3,0.28111053
+4331,IGF1,IGF1R,B cell,Ductal cell type 1,0.27870184,0.01,Ligand,Receptor,IGF1,IGF1R,0.27870184
+4333,PLTP,ABCA1,Macrophage cell,Fibroblast cell,0.2781461,0.0,Ligand,Receptor,PLTP,ABCA1,0.2781461
+4339,NID1,PTPRF,Fibroblast cell,Ductal cell type 1,0.277171,0.0,Ligand,Receptor,NID1,PTPRF,0.277171
+4350,PLAU,IGF2R,Endothelial cell,Fibroblast cell,0.27523756,0.001,Ligand,Receptor,PLAU,IGF2R,0.27523756
+4355,IGF2,IGF2R,Fibroblast cell,Fibroblast cell,0.27496248,0.002,Ligand,Receptor,IGF2,IGF2R,0.27496248
+4360,ADAM15,ITGAV,Endothelial cell,Endocrine cell,0.27433038,0.009,Ligand,Receptor,ADAM15,ITGAV,0.27433038
+4367,ADCYAP1,GPR20,Acinar cell,Stellate cell,0.27370846,0.006,Ligand,Receptor,ADCYAP1,GPR20,0.27370846
+4389,COL5A2,DDR1,Fibroblast cell,Endocrine cell,0.2718361,0.002,Ligand,Receptor,COL5A2,DDR1,0.2718361
+4394,POSTN,ITGAV,Fibroblast cell,Endocrine cell,0.2709772,0.003,Ligand,Receptor,POSTN,ITGAV,0.2709772
+4399,PRSS3,F2RL1,Ductal cell type 1,Ductal cell type 1,0.27008444,0.003,Ligand,Receptor,PRSS3,F2RL1,0.27008444
+4400,AREG,ERBB3,Macrophage cell,Endocrine cell,0.2700566,0.002,Ligand,Receptor,AREG,ERBB3,0.2700566
+4441,PDGFB,LRP1,Endothelial cell,Macrophage cell,0.2642824,0.0,Ligand,Receptor,PDGFB,LRP1,0.2642824
+4443,TGFB1,TGFBR3,Endothelial cell,Fibroblast cell,0.26408368,0.003,Ligand,Receptor,TGFB1,TGFBR3,0.26408368
+4451,PSEN1,NOTCH2,Macrophage cell,Ductal cell type 1,0.26349217,0.001,Ligand,Receptor,PSEN1,NOTCH2,0.26349217
+4467,NPY,FAP,Endocrine cell,Fibroblast cell,0.26172075,0.0,Ligand,Receptor,NPY,FAP,0.26172075
+4469,PPY,NPY1R,Endocrine cell,Endocrine cell,0.26139784,0.008,Ligand,Receptor,PPY,NPY1R,0.26139784
+4470,PLAU,LRP1,Endothelial cell,Macrophage cell,0.2613758,0.0,Ligand,Receptor,PLAU,LRP1,0.2613758
+4472,VEGFA,NRP2,Ductal cell type 1,Fibroblast cell,0.26099336,0.0,Ligand,Receptor,VEGFA,NRP2,0.26099336
+4484,NID1,ITGAV,Fibroblast cell,Ductal cell type 1,0.2597567,0.001,Ligand,Receptor,NID1,ITGAV,0.2597567
+4488,VEGFA,ITGAV,Ductal cell type 1,Ductal cell type 1,0.2591661,0.0,Ligand,Receptor,VEGFA,ITGAV,0.2591661
+4490,PDGFB,ITGAV,Endothelial cell,Ductal cell type 1,0.2591123,0.0,Ligand,Receptor,PDGFB,ITGAV,0.2591123
+4491,SLPI,PLSCR1,Ductal cell type 1,Endothelial cell,0.25883228,0.004,Ligand,Receptor,SLPI,PLSCR1,0.25883228
+4508,EFNB1,ERBB2,Endothelial cell,Ductal cell type 1,0.25578547,0.0,Ligand,Receptor,EFNB1,ERBB2,0.25578547
+4557,SPINT1,ST14,Endocrine cell,Ductal cell type 1,0.25018597,0.002,Ligand,Receptor,SPINT1,ST14,0.25018597
+4587,ARF6,PLD1,Endothelial cell,Ductal cell type 1,0.24704468,0.0,Ligand,Receptor,ARF6,PLD1,0.24704468
+4609,ARF6,SMAP1,Endothelial cell,Ductal cell type 1,0.2446335,0.004,Ligand,Receptor,ARF6,SMAP1,0.2446335
+4617,SLIT3,ROBO2,Fibroblast cell,Endocrine cell,0.24336748,0.0,Ligand,Receptor,SLIT3,ROBO2,0.24336748
+4627,LAMA3,ITGB4,Acinar cell,Endothelial cell,0.24211082,0.001,Ligand,Receptor,LAMA3,ITGB4,0.24211082
+4635,ADCYAP1,VIPR2,Acinar cell,Fibroblast cell,0.24097504,0.01,Ligand,Receptor,ADCYAP1,VIPR2,0.24097504
+4650,PLAU,IGF2R,Endothelial cell,Macrophage cell,0.2386398,0.0,Ligand,Receptor,PLAU,IGF2R,0.2386398
+4653,IGF2,IGF2R,Fibroblast cell,Macrophage cell,0.23836476,0.001,Ligand,Receptor,IGF2,IGF2R,0.23836476
+4654,LIN7C,ABCA1,Endocrine cell,Fibroblast cell,0.2382954,0.0,Ligand,Receptor,LIN7C,ABCA1,0.2382954
+4673,NPTX2,NPTXR,Endocrine cell,Acinar cell,0.23525347,0.007,Ligand,Receptor,NPTX2,NPTXR,0.23525347
+4688,PLAU,ST14,Endothelial cell,Ductal cell type 1,0.23268384,0.0,Ligand,Receptor,PLAU,ST14,0.23268384
+4690,ADAM17,ITGA5,Endocrine cell,Endothelial cell,0.23261303,0.002,Ligand,Receptor,ADAM17,ITGA5,0.23261303
+4703,COL5A2,ITGA2,Fibroblast cell,Acinar cell,0.23035212,0.008,Ligand,Receptor,COL5A2,ITGA2,0.23035212
+4732,FGF7,FGFR2,Acinar cell,Ductal cell type 1,0.22614399,0.005,Ligand,Receptor,FGF7,FGFR2,0.22614399
+4733,PLAU,ITGB5,Endothelial cell,Endocrine cell,0.22582391,0.008,Ligand,Receptor,PLAU,ITGB5,0.22582391
+4747,IGF2,IGF1R,Fibroblast cell,Ductal cell type 1,0.22425544,0.004,Ligand,Receptor,IGF2,IGF1R,0.22425544
+4782,TGFB1,SDC2,Macrophage cell,Endocrine cell,0.22094351,0.002,Ligand,Receptor,TGFB1,SDC2,0.22094351
+4824,ADAM10,IL6R,Fibroblast cell,Endocrine cell,0.21329296,0.01,Ligand,Receptor,ADAM10,IL6R,0.21329296
+4836,LILRB4,LAIR1,Macrophage cell,Macrophage cell,0.21165249,0.0,Ligand,Receptor,LILRB4,LAIR1,0.21165249
+4847,CCL5,CCR1,Macrophage cell,Macrophage cell,0.21060334,0.0,Ligand,Receptor,CCL5,CCR1,0.21060334
+4850,HBEGF,ERBB4,Macrophage cell,Acinar cell,0.21000707,0.007,Ligand,Receptor,HBEGF,ERBB4,0.21000707
+4852,SPINT1,ST14,Ductal cell type 1,Ductal cell type 1,0.20979582,0.0,Ligand,Receptor,SPINT1,ST14,0.20979582
+4856,LAMA3,ITGA7,Acinar cell,Stellate cell,0.20977297,0.0,Ligand,Receptor,LAMA3,ITGA7,0.20977297
+4879,LAMC3,ITGA2,Fibroblast cell,Acinar cell,0.2063019,0.005,Ligand,Receptor,LAMC3,ITGA2,0.2063019
+4893,FGF14,FGFR2,Endocrine cell,Ductal cell type 1,0.20469557,0.0,Ligand,Receptor,FGF14,FGFR2,0.20469557
+4936,CNTN1,NRCAM,Acinar cell,Acinar cell,0.19848183,0.004,Ligand,Receptor,CNTN1,NRCAM,0.19848183
+4937,MIA,ITGA5,Acinar cell,Endothelial cell,0.19825974,0.0,Ligand,Receptor,MIA,ITGA5,0.19825974
+4959,NPY,NPY1R,Endocrine cell,Ductal cell type 1,0.19443995,0.0,Ligand,Receptor,NPY,NPY1R,0.19443995
+4961,TGFB1,SDC2,Endothelial cell,Endocrine cell,0.19416606,0.001,Ligand,Receptor,TGFB1,SDC2,0.19416606
+4978,EFNB1,EPHB2,Endothelial cell,Acinar cell,0.19125743,0.002,Ligand,Receptor,EFNB1,EPHB2,0.19125743
+4993,PLAU,ST14,Endothelial cell,Endocrine cell,0.18946078,0.003,Ligand,Receptor,PLAU,ST14,0.18946078
+5040,SEMA5A,PLXNA1,Endocrine cell,Acinar cell,0.17925817,0.009,Ligand,Receptor,SEMA5A,PLXNA1,0.17925817
+5065,ZG16B,TLR2,Acinar cell,Macrophage cell,0.17578128,0.0,Ligand,Receptor,ZG16B,TLR2,0.17578128
+5123,EGF,ERBB4,Acinar cell,Acinar cell,0.16377468,0.006,Ligand,Receptor,EGF,ERBB4,0.16377468
+5127,C5,C5AR1,Acinar cell,Macrophage cell,0.1630941,0.001,Ligand,Receptor,C5,C5AR1,0.1630941
+5200,OLFM2,ROBO2,Endocrine cell,Endocrine cell,0.1476861,0.0,Ligand,Receptor,OLFM2,ROBO2,0.1476861

@@ -33,6 +33,8 @@ caption: Tutorials and Examples
 notebooks/Global_Local_Comparison.ipynb
 notebooks/CCI.ipynb
 notebooks/PDAC-Learning-distances-and-Clustering.ipynb
+notebooks/LRSurvival.ipynb
+
 ```
 
 

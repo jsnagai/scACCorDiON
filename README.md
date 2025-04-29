@@ -2,6 +2,7 @@
 
 Welcome to scACCorDiON's documentation!
 =====================================
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15267648.svg)](https://doi.org/10.5281/zenodo.15267648)
 
 we present scACCorDiON$$^{1,2}$$ (single-cell Analysis of Cell-Cell Communication in Disease clusters using Optimal transport
 in Directed Networks), an optimal transport algorithm exploring node distances on the Markov Chain as the ground metric between

@@ -8,11 +8,13 @@ include = [
     { path = "data/"},
 ]
 
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
 
 [tool.poetry.dependencies]
-python = "^3.10"
 scikit-learn = "1.5.2"
-matplotlib = "^3.9.1"
+matplotlib = "^3.9.1i"
 seaborn = "0.13.2"
 pot = "^0.9.4"
 rpy2 = "3.5.10"
@@ -22,7 +24,7 @@ tqdm = "4.66.5"
 tables = "^3.9.1"
 skimpy = "^0.0.14"
 phate = "^1.0.11"
-conorm = "^1.2.0"
+conorm = "1.2.0"
 scipy = "^1.6.0"
 numpy="^1.24"
 genieclust="1.1.5"

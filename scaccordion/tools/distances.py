@@ -174,7 +174,7 @@ def normalizeAdj(G, axis):
         row_sums = np.array(G.sum(axis=1)).flatten()
         row_sums[row_sums == 0] = 1
         G = G.multiply(1 / row_sums[:, np.newaxis])
-    elif normalize and axis==0:
+    elif axis==0:
         sparse_matrix = G.tocsc()
         # Compute column sums
         sums = np.array(sparse_matrix.sum(axis=0)).flatten()

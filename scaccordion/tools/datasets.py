@@ -25,11 +25,11 @@ def load_peng2019_metadata():
     # stream.read()
     import pandas as pd
     stream = importlib.resources.files("scaccordion.data")/ 'Peng_PDAC_metaacc.h5ad'
-    return pd.read_hdf(stream.locate())
+    return pd.read_hdf(stream)
 
 
 def make_gl_ciclic_graph():
    import pandas as pd
    import networkx as nx
    stream = importlib.resources.files("scaccordion.data")/ 'glexample.hdf'
-   return (nx.from_pandas_edgelist(pd.read_hdf(stream.locate()),create_using=nx.DiGraph, edge_attr=True))
+   return (nx.from_pandas_edgelist(pd.read_hdf(stream),create_using=nx.DiGraph, edge_attr=True))

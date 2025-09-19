@@ -70,7 +70,7 @@ def getGRD(G,weight='weight',normalize=False, degnorm=False, axis=1):
     """
     cond1 = type(G) is not nx.DiGraph
     cond2 = isspmatrix(G)!=True
-    assert(cond1 or cond2, "Please make sure you have the correct input")
+    #assert(cond1 or cond2, "Please make sure you have the correct input")
     if isspmatrix(G)==False:
         G = nx.to_scipy_sparse_array(G)
     X = directed_res(G,weight,normalize,axis)[0]
